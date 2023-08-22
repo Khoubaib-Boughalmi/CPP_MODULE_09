@@ -16,8 +16,6 @@ std::string strTrim(char * passedStr) {
 }
 
 void parseSingleLine(std::map<std::string, std::string> &uMap, std::string line) {
-    // char *date = NULL;
-    // char *value = NULL;
     (void)uMap;
     if(!strcmp(strTrim(const_cast<char *>(line.c_str())).c_str(), "|"))
     {
@@ -30,8 +28,6 @@ void parseSingleLine(std::map<std::string, std::string> &uMap, std::string line)
         return ;
     }
     char *token = std::strtok(const_cast<char *>(line.c_str()), "|");
-    // date = token;
-
     if(token && token[0])
     {
         if(!strTrim(token)[0])
@@ -43,9 +39,7 @@ void parseSingleLine(std::map<std::string, std::string> &uMap, std::string line)
             std::cout << token << " | ";
     }
     else if(!token || !token[0] || token[0] == '\n')
-    {
         return ;
-    }
     std::string str;
     if(!strTrim(token).empty())
     {
