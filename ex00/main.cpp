@@ -19,13 +19,34 @@ void parseSingleLine(std::map<std::string, std::string> &uMap, std::string line)
     // char *date = NULL;
     // char *value = NULL;
     (void)uMap;
+    if(!strcmp(strTrim(const_cast<char *>(line.c_str())).c_str(), "|"))
+    {
+        std::cout << "missing data\n";
+        return ;
+    }
+    if(strTrim(const_cast<char *>(line.c_str()))[0] == '|')
+    {
+        std::cout << "missing data\n";
+        return ;
+    }
     char *token = std::strtok(const_cast<char *>(line.c_str()), "|");
     // date = token;
-    if(token)
-        std::cout << token <<" ";
-    // while(token)
-    // {
-        std::string str;
+
+    if(token && token[0])
+    {
+        if(!strTrim(token)[0])
+        {
+            std::cout << "first Half Empty\n";
+            return ;
+        }
+        else
+            std::cout << token << " | ";
+    }
+    else if(!token || !token[0] || token[0] == '\n')
+    {
+        return ;
+    }
+    std::string str;
     if(!strTrim(token).empty())
     {
         token = std::strtok(NULL, "|");
@@ -33,9 +54,6 @@ void parseSingleLine(std::map<std::string, std::string> &uMap, std::string line)
             std::cout << token << std::endl;
         else
             std::cout << "NULL" << std::endl;
-    //     token = std::strtok(NULL, "|");
-    //     std::cout << token << std::endl;
-    // }
     }
 }
 
