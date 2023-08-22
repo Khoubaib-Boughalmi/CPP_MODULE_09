@@ -12,6 +12,29 @@ std::string strTrim(char * passedStr) {
     return str.substr(start, end - start + 1);
 }
 
+int parseFirstLine(std::string str)
+{
+    int counter = 0;
+    char *token = std::strtok(const_cast<char *>(str.c_str()), "|");
+    while(token)
+    {
+        switch (counter)
+        {
+            case 0:
+                if (strcmp(strTrim(token).c_str(), "date")) return (0);
+                break;
+            case 1:
+                if (strcmp(strTrim(token).c_str(), "value")) return (0);
+                break;
+            default:
+                return (0);
+        }
+        token = std::strtok(NULL, "|");
+        counter++;
+    }
+    return (1);
+}
+
 int main(int argc, char **argv)
 {
     (void)argv;
@@ -20,12 +43,30 @@ int main(int argc, char **argv)
         std::cout << "Error: could not open file." << std::endl;
         return (1);
     }
-    std::string str = " hello    sadsad |123";
-    char *token = std::strtok(const_cast<char *>(str.c_str()), "|");
-    while(token)
+    // std::string str = " hello   | sadsad |123|||a";
+    // char *token = std::strtok(const_cast<char *>(str.c_str()), "|");
+    // while(token)
+    // {
+    //     std::cout << strTrim(token) << std::endl;
+    //     token = std::strtok(NULL, "|");
+    // }
+    std::ifstream inputFile("input.txt");
+    if(!inputFile.is_open())
+        return (1);
+    std::string line;
+    int firstLine = 1;
+    while (std::getline(inputFile, line))
     {
-        std::cout << strTrim(token) << std::endl;
-        token = std::strtok(NULL, "|");
+        if(firstLine)
+        {
+            firstLine = 0;
+            if(!parseFirstLine(line))
+            {
+                std::cout << "failed first line\n";
+                return (1);
+            }
+        }
     }
+    
     return (0);
 }
