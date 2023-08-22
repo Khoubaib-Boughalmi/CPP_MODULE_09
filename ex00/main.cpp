@@ -15,45 +15,58 @@ std::string strTrim(char * passedStr) {
     return str.substr(start, end - start + 1);
 }
 
+int checkNumberOccurrences(std::string str) {
+    int count = 0;
+    for (size_t i = 0; i < str.length(); i++)
+    {
+        if(str[i] == '|')
+            count++;
+    }
+    return (count);
+}
+
 void parseSingleLine(std::map<std::string, std::string> &uMap, std::string line) {
-    (void)uMap;
+    char *token = NULL;
+    char *key = const_cast<char*>("");
+    char *value = const_cast<char*>("");
+    int setErr = 0;
+    if(checkNumberOccurrences(line) > 1)
+        setErr = 1;
     if(!strcmp(strTrim(const_cast<char *>(line.c_str())).c_str(), "|"))
-    {
-        std::cout << "missing data\n";
-        return ;
-    }
+        setErr = 1;
     if(strTrim(const_cast<char *>(line.c_str()))[0] == '|')
+        setErr = 1;
+    if(!setErr)
     {
-        std::cout << "missing data\n";
-        return ;
-    }
-    char *token = std::strtok(const_cast<char *>(line.c_str()), "|");
-    if(token && token[0])
-    {
-        if(!strTrim(token)[0])
-        {
-            std::cout << "first Half Empty\n";
+        token = std::strtok(const_cast<char *>(line.c_str()), "|");
+        if(token && token[0])
+            key = token;
+        else
             return ;
+        std::string str;
+        if(!strTrim(token).empty())
+        {
+            token = std::strtok(NULL, "|");
+            if(token)
+                value = token;
+            else
+                value = const_cast<char*>("\0");
         }
-        else
-            std::cout << token << " | ";
+        uMap[key] = value;
     }
-    else if(!token || !token[0] || token[0] == '\n')
-        return ;
-    std::string str;
-    if(!strTrim(token).empty())
-    {
-        token = std::strtok(NULL, "|");
-        if(token)
-            std::cout << token << std::endl;
-        else
-            std::cout << "NULL" << std::endl;
-    }
+    else
+        uMap[const_cast<char*>("\0")] = const_cast<char*>("\0");
 }
 
 void parseInput(std::string line) {
     std::map<std::string, std::string>uMap;
     parseSingleLine(uMap, line);
+    std::map<std::string, std::string>::iterator it;
+    for (it = uMap.begin();  it != uMap.end(); it++)
+    {
+        std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
+    }
+    
 }
 
 int parseFirstLine(std::string str) {
