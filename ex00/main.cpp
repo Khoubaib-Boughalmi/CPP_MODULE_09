@@ -58,13 +58,42 @@ void parseSingleLine(std::map<std::string, std::string> &uMap, std::string line)
         uMap[const_cast<char*>("\0")] = const_cast<char*>("\0");
 }
 
+int validateData(std::map<std::string, std::string> &uMap) {
+    (void)uMap;
+    std::map<std::string, std::string>::iterator it;
+    it = uMap.begin();
+    if(!it->first[0] || !it->second[0])
+        return (0);
+    return (1);
+}
+
+int validateDate(std::map<std::string, std::string> &uMap) {
+    (void)uMap;
+    // std::map<std::string, std::string>::iterator it;
+    // if(!it->first[0] || !it->second[0])
+    //     return (0);
+    return (1);
+}
+
+int validateValues(std::map<std::string, std::string> &uMap) {
+    (void)uMap;
+    // std::map<std::string, std::string>::iterator it;
+    // if(!it->first[0] || !it->second[0])
+    //     return (0);
+    return (1);
+}
+
 void parseInput(std::string line) {
     std::map<std::string, std::string>uMap;
     parseSingleLine(uMap, line);
     std::map<std::string, std::string>::iterator it;
     for (it = uMap.begin();  it != uMap.end(); it++)
     {
-        std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
+        if(validateData(uMap) && validateDate(uMap) && validateValues(uMap))
+            std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
+        else
+            std::cout << "Error with input data" << std::endl;
+
     }
     
 }
