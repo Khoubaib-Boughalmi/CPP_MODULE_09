@@ -1,6 +1,6 @@
 #include "BitcoinExchange.h"
 
-std::map<std::string, std::string>fInputMap;
+// std::map<t_date, double>fInputMap;
 
 std::string strTrim(char * passedStr) {
     size_t start; 
@@ -151,11 +151,11 @@ int validateValues(std::map<std::string, std::string> &uMap) {
     std::map<std::string, std::string>::iterator it;
     it = uMap.begin();
     // std::cout << "last :" << it->second << std::endl;
-    long dayVal;
+    double dayVal;
     char *ptr;
 
     value = strTrim(const_cast<char *>(it->second.c_str()));
-    dayVal = std::strtol(value.c_str(), &ptr, 10);
+    dayVal = std::strtod(value.c_str(), &ptr);
     if(*ptr != '\0')
     {
         std::cout << "Error: Value is incorrect" << std::endl;
@@ -169,6 +169,40 @@ int validateValues(std::map<std::string, std::string> &uMap) {
     return (1);
 }
 
+void populateYear(std::string year) {
+    long yearVal;
+
+    std::map<t_date, double>::iterator it;
+    it = fInputMap.begin();
+    year = strTrim(const_cast<char *>(year.c_str()));
+    yearVal = std::strtol(year.c_str(), NULL, 10);
+    const_cast<char *>(it)->first.year = yearVal;
+}
+
+void populateFInputMap(std::string date, std::string value) {
+    (void)value;
+    int counter = 0;
+    std::istringstream iss(date);
+    std::string token;
+    while (std::getline(iss, token, '-'))
+    {
+        switch (counter) {
+            case 0:
+                populateYear(token);
+                break ;
+            case 1:
+                populateYear(token);
+                break;
+            case 2:
+                populateYear(token);
+                break;
+            default:
+                return ;
+        }
+        counter++;
+    }
+}
+
 void parseInput(std::string line) {
     std::map<std::string, std::string>uMap;
     parseSingleLine(uMap, line);
@@ -177,7 +211,8 @@ void parseInput(std::string line) {
     {
         if(validateData(uMap) && validateDate(uMap) && validateValues(uMap))
         {
-            fInputMap[it->first] = it->second;
+            // fInputMap[it->first] = it->second;
+            populateFInputMap(it->first, it->second);
             std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
         }
     }
@@ -185,19 +220,19 @@ void parseInput(std::string line) {
 
 int parseFirstLine(std::string str) {
     int counter = 0;
-    char *token = std::strtok(const_cast<char *>(str.c_str()), "|");
-    while(token) {
+    std::istringstream iss(str);
+    std::string token;
+    while(std::getline(iss, token, '|')) {
         switch (counter) {
             case 0:
-                if (strcmp(strTrim(token).c_str(), "date")) return (0);
+                if (strcmp(strTrim(const_cast<char *>(token.c_str())).c_str(), "date")) return (0);
                 break;
             case 1:
-                if (strcmp(strTrim(token).c_str(), "value")) return (0);
+                if (strcmp(strTrim(const_cast<char *>(token.c_str())).c_str(), "value")) return (0);
                 break;
             default:
                 return (0);
         }
-        token = std::strtok(NULL, "|");
         counter++;
     }
     return (1);
@@ -228,14 +263,14 @@ int main(int argc, char **argv)
         }
     }
     std::cout << "-------------------------\n";
-    std::map<std::string, std::string>::iterator it;
-    for (it = fInputMap.begin();  it != fInputMap.end(); it++)
-    {
-        if(validateData(fInputMap) && validateDate(fInputMap) && validateValues(fInputMap))
-        {
-            fInputMap[it->first] = it->second;
-            std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
-        }
-    }
+    // std::map<std::string, std::string>::iterator it;
+    // for (it = fInputMap.begin();  it != fInputMap.end(); it++)
+    // {
+    //     if(validateData(fInputMap) && validateDate(fInputMap) && validateValues(fInputMap))
+    //     {
+    //         fInputMap[it->first] = it->second;
+    //         std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
+    //     }
+    // }
     return (0);
 }
