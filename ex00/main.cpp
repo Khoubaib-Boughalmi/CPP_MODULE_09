@@ -1,6 +1,6 @@
 #include "BitcoinExchange.h"
 
-// std::map<t_date, double>fInputMap;
+std::map<s_date, double>fInputMap;
 
 std::string strTrim(char * passedStr) {
     size_t start; 
@@ -169,14 +169,20 @@ int validateValues(std::map<std::string, std::string> &uMap) {
     return (1);
 }
 
-void populateYear(std::string year) {
+long populateYear(std::string year) {
     long yearVal;
 
-    std::map<t_date, double>::iterator it;
-    it = fInputMap.begin();
     year = strTrim(const_cast<char *>(year.c_str()));
     yearVal = std::strtol(year.c_str(), NULL, 10);
-    const_cast<char *>(it)->first.year = yearVal;
+    return yearVal;
+}
+
+double pulateValue(std::string value) {
+    double valueVal;
+
+    value = strTrim(const_cast<char *>(value.c_str()));
+    valueVal = std::strtod(value.c_str(), NULL);
+    return valueVal;
 }
 
 void populateFInputMap(std::string date, std::string value) {
@@ -184,23 +190,23 @@ void populateFInputMap(std::string date, std::string value) {
     int counter = 0;
     std::istringstream iss(date);
     std::string token;
+    s_date dt;
     while (std::getline(iss, token, '-'))
     {
         switch (counter) {
             case 0:
-                populateYear(token);
+                dt.year = populateYear(token);
                 break ;
             case 1:
-                populateYear(token);
+                dt.month = populateYear(token);
                 break;
             case 2:
-                populateYear(token);
+                dt.day = populateYear(token);
                 break;
-            default:
-                return ;
         }
         counter++;
     }
+    fInputMap[dt] = pulateValue(value);
 }
 
 void parseInput(std::string line) {
@@ -211,7 +217,6 @@ void parseInput(std::string line) {
     {
         if(validateData(uMap) && validateDate(uMap) && validateValues(uMap))
         {
-            // fInputMap[it->first] = it->second;
             populateFInputMap(it->first, it->second);
             std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
         }
@@ -263,14 +268,10 @@ int main(int argc, char **argv)
         }
     }
     std::cout << "-------------------------\n";
-    // std::map<std::string, std::string>::iterator it;
-    // for (it = fInputMap.begin();  it != fInputMap.end(); it++)
-    // {
-    //     if(validateData(fInputMap) && validateDate(fInputMap) && validateValues(fInputMap))
-    //     {
-    //         fInputMap[it->first] = it->second;
-    //         std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
-    //     }
-    // }
+    std::map<s_date, double>::iterator it;
+    for (it = fInputMap.begin();  it != fInputMap.end(); it++)
+    {
+            std::cout << "key: " << it->first.year << "-" << it->first.month << "-" << it->first.day << " | value: " << it->second << std::endl;
+    }
     return (0);
 }
