@@ -1,6 +1,5 @@
 #include "BitcoinExchange.h"
 
-//!!!!!!!!!! RETURN OF STRTRIM SHOULD BE FREED
 std::string strTrim(char * passedStr) {
     size_t start; 
     size_t end;
@@ -146,10 +145,25 @@ int validateDate(std::map<std::string, std::string> &uMap) {
 }
 
 int validateValues(std::map<std::string, std::string> &uMap) {
-    (void)uMap;
-    // std::map<std::string, std::string>::iterator it;
-    // if(!it->first[0] || !it->second[0])
-    //     return (0);
+    std::string value;
+    std::map<std::string, std::string>::iterator it;
+    it = uMap.begin();
+    // std::cout << "last :" << it->second << std::endl;
+    long dayVal;
+    char *ptr;
+
+    value = strTrim(const_cast<char *>(it->second.c_str()));
+    dayVal = std::strtol(value.c_str(), &ptr, 10);
+    if(*ptr != '\0')
+    {
+        std::cout << "Error: Value is incorrect" << std::endl;
+        return (0);
+    }
+    if(dayVal < 0 || dayVal > 1000)
+    {
+        std::cout << "Error: Value is too large or too small" << std::endl;
+        return (0);
+    }
     return (1);
 }
 
