@@ -63,22 +63,57 @@ int validateData(std::map<std::string, std::string> &uMap) {
     std::map<std::string, std::string>::iterator it;
     it = uMap.begin();
     if(!it->first[0] || !it->second[0])
+    {
+        std::cout << "Error with input data" << std::endl;
+        return (0);
+    }
+    return (1);
+}
+
+int checkYear(std::string year) {
+    long yearVal;
+    char *ptr;
+
+    year = strTrim(const_cast<char *>(year.c_str()));
+    if(std::strlen(year.c_str()) != 4)
+        return (0);
+    yearVal = std::strtol(year.c_str(), &ptr, 10);
+    if(*ptr != '\0')
+        return (0);
+    if(yearVal < 1970 || yearVal > 2069)
         return (0);
     return (1);
 }
 
-int checkYear(char *year) {
-    long yearVal;
+int checkMonth(std::string month) {
+    long monthVal;
     char *ptr;
 
-    yearVal = std::strtol(year, &ptr, 10);
-    // if(*ptr != '-')
-    //     return (0);
-    std::cout << "UearVal: " << yearVal << std::endl;
+    month = strTrim(const_cast<char *>(month.c_str()));
+    if(std::strlen(month.c_str()) != 2)
+        return (0);
+    monthVal = std::strtol(month.c_str(), &ptr, 10);
+    if(*ptr != '\0')
+        return (0);
+    if(monthVal < 1 || monthVal > 12)
+        return (0);
     return (1);
 }
-int checkMonth(char *year) {(void) year; return (1);}
-int checkDay(char *year) {(void) year; return (1);}
+
+int checkDay(std::string day) {
+    long dayVal;
+    char *ptr;
+
+    day = strTrim(const_cast<char *>(day.c_str()));
+    if(std::strlen(strTrim(const_cast<char *>(day.c_str())).c_str()) != 2)
+        return (0);
+    dayVal = std::strtol(day.c_str(), &ptr, 10);
+    if(*ptr != '\0')
+        return (0);
+    if(dayVal < 1 || dayVal > 31)
+        return (0);
+    return (1);
+}
 
 int validateDate(std::map<std::string, std::string> &uMap) {
     int counter = 0;
@@ -93,22 +128,20 @@ int validateDate(std::map<std::string, std::string> &uMap) {
     {
         switch (counter) {
             case 0:
-                if (!checkYear(token)) return (0);
+                if (!checkYear(token)) { std::cout << "Error: Year value is incorrect" << std::endl; return (0);}
                 break ;
             case 1:
-                if (!checkMonth(token)) return (0);
+                if (!checkMonth(token)){ std::cout << "Error: Month value is incorrect" << std::endl; return (0);}
                 break;
             case 2:
-                if (!checkDay(token)) return (0);
+                if (!checkDay(token)){ std::cout << "Error: Day value is incorrect" << std::endl; return (0);}
                 break;
             default:
                 return (0);
         }
-        std::cout << token << " " ;
         token = std::strtok(NULL, "-");
         counter++;
     }
-    std::cout << std::endl;
     return (1);
 }
 
@@ -126,11 +159,8 @@ void parseInput(std::string line) {
     std::map<std::string, std::string>::iterator it;
     for (it = uMap.begin();  it != uMap.end(); it++)
     {
-        if(validateData(uMap) && validateDate(uMap) && validateValues(uMap)) {}
-            // std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
-        // else
-            // std::cout << "Error with input data" << std::endl;
-
+        if(validateData(uMap) && validateDate(uMap) && validateValues(uMap))
+            std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
     }
     
 }
