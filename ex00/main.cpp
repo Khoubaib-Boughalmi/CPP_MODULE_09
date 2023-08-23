@@ -1,5 +1,7 @@
 #include "BitcoinExchange.h"
 
+std::map<std::string, std::string>fInputMap;
+
 std::string strTrim(char * passedStr) {
     size_t start; 
     size_t end;
@@ -174,9 +176,11 @@ void parseInput(std::string line) {
     for (it = uMap.begin();  it != uMap.end(); it++)
     {
         if(validateData(uMap) && validateDate(uMap) && validateValues(uMap))
+        {
+            fInputMap[it->first] = it->second;
             std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
+        }
     }
-    
 }
 
 int parseFirstLine(std::string str) {
@@ -223,6 +227,15 @@ int main(int argc, char **argv)
             parseInput(line);
         }
     }
-    
+    std::cout << "-------------------------\n";
+    std::map<std::string, std::string>::iterator it;
+    for (it = fInputMap.begin();  it != fInputMap.end(); it++)
+    {
+        if(validateData(fInputMap) && validateDate(fInputMap) && validateValues(fInputMap))
+        {
+            fInputMap[it->first] = it->second;
+            std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
+        }
+    }
     return (0);
 }
