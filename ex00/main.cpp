@@ -24,20 +24,21 @@ int checkNumberOccurrences(std::string str, char c) {
     return (count);
 }
 
-void parseSingleLine(std::map<std::string, std::string> &uMap, std::string line) {
+void parseSingleLine(std::map<std::string, std::string> &uMap, std::string line, char sep) {
     char *token = NULL;
     char *key = const_cast<char*>("");
     char *value = const_cast<char*>("");
     int setErr = 0;
-    if(checkNumberOccurrences(line, '|') > 1)
+    char strSep[2] = {sep, '\0'};
+    if(checkNumberOccurrences(line, sep) > 1)
         setErr = 1;
-    if(!strcmp(strTrim(const_cast<char *>(line.c_str())).c_str(), "|"))
+    if(!strcmp(strTrim(const_cast<char *>(line.c_str())).c_str(), strSep))
         setErr = 1;
-    if(strTrim(const_cast<char *>(line.c_str()))[0] == '|')
+    if(strTrim(const_cast<char *>(line.c_str()))[0] == sep)
         setErr = 1;
     if(!setErr)
     {
-        token = std::strtok(const_cast<char *>(line.c_str()), "|");
+        token = std::strtok(const_cast<char *>(line.c_str()), strSep);
         if(token && token[0])
             key = token;
         else
@@ -58,7 +59,6 @@ void parseSingleLine(std::map<std::string, std::string> &uMap, std::string line)
 }
 
 int validateData(std::map<std::string, std::string> &uMap) {
-    (void)uMap;
     std::map<std::string, std::string>::iterator it;
     it = uMap.begin();
     if(!it->first[0] || !it->second[0])
@@ -144,7 +144,7 @@ int validateDate(std::map<std::string, std::string> &uMap) {
     return (1);
 }
 
-int validateValues(std::map<std::string, std::string> &uMap) {
+int validateValues(std::map<std::string, std::string> &uMap, bool isInputData) {
     std::string value;
     std::map<std::string, std::string>::iterator it;
     it = uMap.begin();
@@ -159,7 +159,7 @@ int validateValues(std::map<std::string, std::string> &uMap) {
         std::cout << "Error: Value is incorrect" << std::endl;
         return (0);
     }
-    if(dayVal < 0 || dayVal > 1000)
+    if(isInputData && (dayVal < 0 || dayVal > 1000))
     {
         std::cout << "Error: Value is too large or too small" << std::endl;
         return (0);
@@ -207,31 +207,32 @@ void populateFInputMap(std::string date, std::string value, std::map<s_date, dou
     fInputMap[dt] = pulateValue(value);
 }
 
-void parseInput(std::string line, std::map<s_date, double> &fInputMap) {
+void parseInput(std::string line, std::map<s_date, double> &fMap, char sep) {
     std::map<std::string, std::string>uMap;
-    parseSingleLine(uMap, line);
+    parseSingleLine(uMap, line, sep);
     std::map<std::string, std::string>::iterator it;
     for (it = uMap.begin();  it != uMap.end(); it++)
     {
-        if(validateData(uMap) && validateDate(uMap) && validateValues(uMap))
+        if(validateData(uMap) && validateDate(uMap) && validateValues(uMap, sep == '|' ? 1 : 0))
         {
-            populateFInputMap(it->first, it->second, fInputMap);
+            populateFInputMap(it->first, it->second, fMap);
             std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
         }
     }
 }
 
-int parseFirstLine(std::string str) {
+int parseFirstLine(std::string str, const char *val1, const char *val2, char sep) {
+    (void)sep;
     int counter = 0;
     std::istringstream iss(str);
     std::string token;
-    while(std::getline(iss, token, '|')) {
+    while(std::getline(iss, token, sep)) {
         switch (counter) {
             case 0:
-                if (strcmp(strTrim(const_cast<char *>(token.c_str())).c_str(), "date")) return (0);
+                if (strcmp(strTrim(const_cast<char *>(token.c_str())).c_str(), val1)) return (0);
                 break;
             case 1:
-                if (strcmp(strTrim(const_cast<char *>(token.c_str())).c_str(), "value")) return (0);
+                if (strcmp(strTrim(const_cast<char *>(token.c_str())).c_str(), val2)) return (0);
                 break;
             default:
                 return (0);
@@ -245,26 +246,31 @@ int main(int argc, char **argv)
 {
     (void)argv;
     std::map<s_date, double>fInputMap;
+    std::map<s_date, double>fDataMap;
 
     if(argc != 2) {
         std::cout << "Error: could not open file." << std::endl;
         return (1);
     }
+    //MAKE SURE THIS CHANGES TO argv[1]
     std::ifstream inputFile("input.txt");
     if(!inputFile.is_open())
+    {
+        std::cout << "Error: could not open file." << std::endl;
         return (1);
+    }
     std::string line;
     int firstLine = 1;
     while (std::getline(inputFile, line)) {
         if(firstLine) {
             firstLine = 0;
-            if(!parseFirstLine(line)) {
+            if(!parseFirstLine(line, "date", "value", '|')) {
                 std::cout << "failed first line\n";
                 return (1);
             }
         }
         else {
-            parseInput(line, fInputMap);
+            parseInput(line, fInputMap, '|');
         }
     }
     std::cout << "-------------------------\n";
@@ -274,5 +280,30 @@ int main(int argc, char **argv)
             std::cout << "key: " << it->first.year << "-" << it->first.month << "-" << it->first.day << " | value: " << it->second << std::endl;
     }
     std::cout << "-------------------------\n";
+    std::ifstream dataFile("data.csv");
+    if(!dataFile.is_open())
+    {
+        std::cout << "Error: could not open file." << std::endl;
+        return (1);
+    }
+    firstLine = 1;
+    std::string dataLine;
+    while (std::getline(dataFile, dataLine)) {
+        if(firstLine) {
+            firstLine = 0;
+            if(!parseFirstLine(dataLine, "date", "exchange_rate", ',')) {
+                std::cout << "failed first line\n";
+                return (1);
+            }
+        }
+        else {
+            parseInput(dataLine, fDataMap, ',');
+        }
+    }
+    for (it = fDataMap.begin();  it != fDataMap.end(); it++)
+    {
+            std::cout << "key: " << it->first.year << "-" << it->first.month << "-" << it->first.day << ",value: " << it->second << std::endl;
+    }
+    std::cout << "TEEEEEEST" << std::endl;
     return (0);
 }

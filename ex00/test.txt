@@ -1,0 +1,3244 @@
+Error with input data
+Error with input data
+Error with input data
+Error: Day value is incorrect
+Error: Year value is incorrect
+Error with input data
+key: 2013-01-09  | value:  6.2
+Error: Value is too large or too small
+Error with input data
+key: 2014-01-11  | value:  1
+key: 2014-01-14  | value:  1000
+Error with input data
+Error with input data
+Error: Value is too large or too small
+-------------------------
+key: 2013-1-9 | value: 6.2
+key: 2014-1-11 | value: 1
+key: 2014-1-14 | value: 1000
+-------------------------
+key: 2009-01-02 | value: 0
+key: 2009-01-05 | value: 0
+key: 2009-01-08 | value: 0
+key: 2009-01-11 | value: 0
+key: 2009-01-14 | value: 0
+key: 2009-01-17 | value: 0
+key: 2009-01-20 | value: 0
+key: 2009-01-23 | value: 0
+key: 2009-01-26 | value: 0
+key: 2009-01-29 | value: 0
+key: 2009-02-01 | value: 0
+key: 2009-02-04 | value: 0
+key: 2009-02-07 | value: 0
+key: 2009-02-10 | value: 0
+key: 2009-02-13 | value: 0
+key: 2009-02-16 | value: 0
+key: 2009-02-19 | value: 0
+key: 2009-02-22 | value: 0
+key: 2009-02-25 | value: 0
+key: 2009-02-28 | value: 0
+key: 2009-03-03 | value: 0
+key: 2009-03-06 | value: 0
+key: 2009-03-09 | value: 0
+key: 2009-03-12 | value: 0
+key: 2009-03-15 | value: 0
+key: 2009-03-18 | value: 0
+key: 2009-03-21 | value: 0
+key: 2009-03-24 | value: 0
+key: 2009-03-27 | value: 0
+key: 2009-03-31 | value: 0
+key: 2009-04-03 | value: 0
+key: 2009-04-06 | value: 0
+key: 2009-04-09 | value: 0
+key: 2009-04-12 | value: 0
+key: 2009-04-15 | value: 0
+key: 2009-04-18 | value: 0
+key: 2009-04-21 | value: 0
+key: 2009-04-24 | value: 0
+key: 2009-04-27 | value: 0
+key: 2009-04-30 | value: 0
+key: 2009-05-03 | value: 0
+key: 2009-05-06 | value: 0
+key: 2009-05-09 | value: 0
+key: 2009-05-12 | value: 0
+key: 2009-05-15 | value: 0
+key: 2009-05-18 | value: 0
+key: 2009-05-21 | value: 0
+key: 2009-05-24 | value: 0
+key: 2009-05-27 | value: 0
+key: 2009-05-30 | value: 0
+key: 2009-06-02 | value: 0
+key: 2009-06-05 | value: 0
+key: 2009-06-08 | value: 0
+key: 2009-06-11 | value: 0
+key: 2009-06-14 | value: 0
+key: 2009-06-17 | value: 0
+key: 2009-06-20 | value: 0
+key: 2009-06-23 | value: 0
+key: 2009-06-26 | value: 0
+key: 2009-06-29 | value: 0
+key: 2009-07-02 | value: 0
+key: 2009-07-05 | value: 0
+key: 2009-07-08 | value: 0
+key: 2009-07-11 | value: 0
+key: 2009-07-14 | value: 0
+key: 2009-07-17 | value: 0
+key: 2009-07-20 | value: 0
+key: 2009-07-23 | value: 0
+key: 2009-07-26 | value: 0
+key: 2009-07-29 | value: 0
+key: 2009-08-01 | value: 0
+key: 2009-08-04 | value: 0
+key: 2009-08-07 | value: 0
+key: 2009-08-10 | value: 0
+key: 2009-08-13 | value: 0
+key: 2009-08-16 | value: 0
+key: 2009-08-19 | value: 0
+key: 2009-08-22 | value: 0
+key: 2009-08-25 | value: 0
+key: 2009-08-28 | value: 0
+key: 2009-08-31 | value: 0
+key: 2009-09-03 | value: 0
+key: 2009-09-06 | value: 0
+key: 2009-09-09 | value: 0
+key: 2009-09-12 | value: 0
+key: 2009-09-15 | value: 0
+key: 2009-09-18 | value: 0
+key: 2009-09-21 | value: 0
+key: 2009-09-24 | value: 0
+key: 2009-09-27 | value: 0
+key: 2009-09-30 | value: 0
+key: 2009-10-03 | value: 0
+key: 2009-10-06 | value: 0
+key: 2009-10-09 | value: 0
+key: 2009-10-12 | value: 0
+key: 2009-10-15 | value: 0
+key: 2009-10-18 | value: 0
+key: 2009-10-21 | value: 0
+key: 2009-10-24 | value: 0
+key: 2009-10-26 | value: 0
+key: 2009-10-29 | value: 0
+key: 2009-11-01 | value: 0
+key: 2009-11-04 | value: 0
+key: 2009-11-07 | value: 0
+key: 2009-11-10 | value: 0
+key: 2009-11-13 | value: 0
+key: 2009-11-16 | value: 0
+key: 2009-11-19 | value: 0
+key: 2009-11-22 | value: 0
+key: 2009-11-25 | value: 0
+key: 2009-11-28 | value: 0
+key: 2009-12-01 | value: 0
+key: 2009-12-04 | value: 0
+key: 2009-12-07 | value: 0
+key: 2009-12-10 | value: 0
+key: 2009-12-13 | value: 0
+key: 2009-12-16 | value: 0
+key: 2009-12-19 | value: 0
+key: 2009-12-22 | value: 0
+key: 2009-12-25 | value: 0
+key: 2009-12-28 | value: 0
+key: 2009-12-31 | value: 0
+key: 2010-01-03 | value: 0
+key: 2010-01-06 | value: 0
+key: 2010-01-09 | value: 0
+key: 2010-01-12 | value: 0
+key: 2010-01-15 | value: 0
+key: 2010-01-18 | value: 0
+key: 2010-01-21 | value: 0
+key: 2010-01-24 | value: 0
+key: 2010-01-27 | value: 0
+key: 2010-01-30 | value: 0
+key: 2010-02-02 | value: 0
+key: 2010-02-05 | value: 0
+key: 2010-02-08 | value: 0
+key: 2010-02-11 | value: 0
+key: 2010-02-14 | value: 0
+key: 2010-02-17 | value: 0
+key: 2010-02-20 | value: 0
+key: 2010-02-23 | value: 0
+key: 2010-02-26 | value: 0
+key: 2010-03-01 | value: 0
+key: 2010-03-04 | value: 0
+key: 2010-03-07 | value: 0
+key: 2010-03-10 | value: 0
+key: 2010-03-13 | value: 0
+key: 2010-03-16 | value: 0
+key: 2010-03-19 | value: 0
+key: 2010-03-22 | value: 0
+key: 2010-03-25 | value: 0
+key: 2010-03-29 | value: 0
+key: 2010-04-01 | value: 0
+key: 2010-04-04 | value: 0
+key: 2010-04-07 | value: 0
+key: 2010-04-10 | value: 0
+key: 2010-04-13 | value: 0
+key: 2010-04-16 | value: 0
+key: 2010-04-19 | value: 0
+key: 2010-04-22 | value: 0
+key: 2010-04-25 | value: 0
+key: 2010-04-28 | value: 0
+key: 2010-05-01 | value: 0
+key: 2010-05-04 | value: 0
+key: 2010-05-07 | value: 0
+key: 2010-05-10 | value: 0
+key: 2010-05-13 | value: 0
+key: 2010-05-16 | value: 0
+key: 2010-05-19 | value: 0
+key: 2010-05-22 | value: 0
+key: 2010-05-25 | value: 0
+key: 2010-05-28 | value: 0
+key: 2010-05-31 | value: 0
+key: 2010-06-03 | value: 0
+key: 2010-06-06 | value: 0
+key: 2010-06-09 | value: 0
+key: 2010-06-12 | value: 0
+key: 2010-06-15 | value: 0
+key: 2010-06-18 | value: 0
+key: 2010-06-21 | value: 0
+key: 2010-06-24 | value: 0
+key: 2010-06-27 | value: 0
+key: 2010-06-30 | value: 0
+key: 2010-07-03 | value: 0
+key: 2010-07-06 | value: 0
+key: 2010-07-09 | value: 0
+key: 2010-07-12 | value: 0
+key: 2010-07-15 | value: 0
+key: 2010-07-18 | value: 0
+key: 2010-07-21 | value: 0
+key: 2010-07-24 | value: 0
+key: 2010-07-27 | value: 0
+key: 2010-07-30 | value: 0
+key: 2010-08-02 | value: 0
+key: 2010-08-05 | value: 0
+key: 2010-08-08 | value: 0
+key: 2010-08-11 | value: 0
+key: 2010-08-14 | value: 0
+key: 2010-08-17 | value: 0
+key: 2010-08-20 | value: 0.07
+key: 2010-08-23 | value: 0.07
+key: 2010-08-26 | value: 0.07
+key: 2010-08-29 | value: 0.06
+key: 2010-09-01 | value: 0.06
+key: 2010-09-04 | value: 0.06
+key: 2010-09-07 | value: 0.06
+key: 2010-09-10 | value: 0.06
+key: 2010-09-13 | value: 0.06
+key: 2010-09-16 | value: 0.15
+key: 2010-09-19 | value: 0.06
+key: 2010-09-22 | value: 0.06
+key: 2010-09-25 | value: 0.06
+key: 2010-09-28 | value: 0.06
+key: 2010-10-01 | value: 0.06
+key: 2010-10-04 | value: 0.06
+key: 2010-10-07 | value: 0.06
+key: 2010-10-10 | value: 0.12
+key: 2010-10-13 | value: 0.1
+key: 2010-10-16 | value: 0.12
+key: 2010-10-19 | value: 0.1
+key: 2010-10-22 | value: 0.11
+key: 2010-10-25 | value: 0.18
+key: 2010-10-28 | value: 0.19
+key: 2010-10-31 | value: 0.19
+key: 2010-11-02 | value: 0.21
+key: 2010-11-05 | value: 0.25
+key: 2010-11-08 | value: 0.36
+key: 2010-11-11 | value: 0.24
+key: 2010-11-14 | value: 0.3
+key: 2010-11-17 | value: 0.28
+key: 2010-11-20 | value: 0.29
+key: 2010-11-23 | value: 0.29
+key: 2010-11-26 | value: 0.29
+key: 2010-11-29 | value: 0.28
+key: 2010-12-02 | value: 0.25
+key: 2010-12-05 | value: 0.23
+key: 2010-12-08 | value: 0.25
+key: 2010-12-11 | value: 0.23
+key: 2010-12-14 | value: 0.23
+key: 2010-12-17 | value: 0.25
+key: 2010-12-20 | value: 0.27
+key: 2010-12-23 | value: 0.25
+key: 2010-12-26 | value: 0.27
+key: 2010-12-29 | value: 0.3
+key: 2011-01-02 | value: 0.3
+key: 2011-01-04 | value: 0.3
+key: 2011-01-07 | value: 0.32
+key: 2011-01-10 | value: 0.33
+key: 2011-01-13 | value: 0.42
+key: 2011-01-16 | value: 0.4
+key: 2011-01-19 | value: 0.35
+key: 2011-01-22 | value: 0.43
+key: 2011-01-25 | value: 0.43
+key: 2011-01-28 | value: 0.45
+key: 2011-01-31 | value: 0.61
+key: 2011-02-03 | value: 0.78
+key: 2011-02-06 | value: 0.92
+key: 2011-02-09 | value: 0.97
+key: 2011-02-12 | value: 1.09
+key: 2011-02-15 | value: 1.08
+key: 2011-02-18 | value: 1.04
+key: 2011-02-21 | value: 0.88
+key: 2011-02-24 | value: 0.96
+key: 2011-02-27 | value: 0.96
+key: 2011-03-02 | value: 0.95
+key: 2011-03-05 | value: 0.92
+key: 2011-03-08 | value: 0.9
+key: 2011-03-11 | value: 0.93
+key: 2011-03-14 | value: 0.9
+key: 2011-03-17 | value: 0.87
+key: 2011-03-20 | value: 0.79
+key: 2011-03-23 | value: 0.86
+key: 2011-03-26 | value: 0.9
+key: 2011-03-30 | value: 0.8
+key: 2011-04-02 | value: 0.8
+key: 2011-04-05 | value: 0.77
+key: 2011-04-08 | value: 0.78
+key: 2011-04-11 | value: 0.76
+key: 2011-04-14 | value: 0.99
+key: 2011-04-17 | value: 1.09
+key: 2011-04-20 | value: 1.19
+key: 2011-04-23 | value: 1.38
+key: 2011-04-26 | value: 1.71
+key: 2011-04-29 | value: 2.66
+key: 2011-05-02 | value: 3.95
+key: 2011-05-05 | value: 3.56
+key: 2011-05-08 | value: 3.75
+key: 2011-05-11 | value: 5.41
+key: 2011-05-14 | value: 8.56
+key: 2011-05-17 | value: 8.47
+key: 2011-05-20 | value: 7.28
+key: 2011-05-23 | value: 6.81
+key: 2011-05-26 | value: 7.95
+key: 2011-05-29 | value: 8.68
+key: 2011-06-01 | value: 9.47
+key: 2011-06-04 | value: 15.05
+key: 2011-06-07 | value: 19.19
+key: 2011-06-10 | value: 32.34
+key: 2011-06-13 | value: 24.87
+key: 2011-06-16 | value: 19.99
+key: 2011-06-19 | value: 17.6
+key: 2011-06-22 | value: 15.39
+key: 2011-06-25 | value: 16.95
+key: 2011-06-28 | value: 17.89
+key: 2011-07-01 | value: 17.38
+key: 2011-07-04 | value: 15.74
+key: 2011-07-07 | value: 16.44
+key: 2011-07-10 | value: 15.16
+key: 2011-07-13 | value: 14.52
+key: 2011-07-16 | value: 14.25
+key: 2011-07-19 | value: 13.93
+key: 2011-07-22 | value: 13.94
+key: 2011-07-25 | value: 14.16
+key: 2011-07-28 | value: 14.1
+key: 2011-07-31 | value: 14.06
+key: 2011-08-03 | value: 13.37
+key: 2011-08-06 | value: 11.42
+key: 2011-08-09 | value: 9.66
+key: 2011-08-12 | value: 10.35
+key: 2011-08-15 | value: 11.4
+key: 2011-08-18 | value: 11.39
+key: 2011-08-21 | value: 11.75
+key: 2011-08-24 | value: 11.47
+key: 2011-08-27 | value: 10.01
+key: 2011-08-30 | value: 9.4
+key: 2011-09-02 | value: 8.46
+key: 2011-09-05 | value: 8.56
+key: 2011-09-08 | value: 7.53
+key: 2011-09-11 | value: 6.49
+key: 2011-09-14 | value: 6.19
+key: 2011-09-17 | value: 5.18
+key: 2011-09-20 | value: 5.89
+key: 2011-09-23 | value: 5.8
+key: 2011-09-26 | value: 5.49
+key: 2011-09-29 | value: 4.95
+key: 2011-10-02 | value: 5.27
+key: 2011-10-05 | value: 5.03
+key: 2011-10-08 | value: 4.79
+key: 2011-10-11 | value: 4.23
+key: 2011-10-14 | value: 4.37
+key: 2011-10-17 | value: 3.87
+key: 2011-10-20 | value: 2.59
+key: 2011-10-23 | value: 3.31
+key: 2011-10-26 | value: 3
+key: 2011-10-29 | value: 3.39
+key: 2011-10-31 | value: 3.38
+key: 2011-11-03 | value: 3.28
+key: 2011-11-06 | value: 3.04
+key: 2011-11-09 | value: 3.09
+key: 2011-11-12 | value: 3.11
+key: 2011-11-15 | value: 2.67
+key: 2011-11-18 | value: 2.37
+key: 2011-11-21 | value: 2.3
+key: 2011-11-24 | value: 2.48
+key: 2011-11-27 | value: 2.51
+key: 2011-11-30 | value: 3
+key: 2011-12-03 | value: 3.1
+key: 2011-12-06 | value: 3.06
+key: 2011-12-09 | value: 3.04
+key: 2011-12-12 | value: 3.33
+key: 2011-12-15 | value: 3.2
+key: 2011-12-18 | value: 3.36
+key: 2011-12-21 | value: 4.08
+key: 2011-12-24 | value: 4.06
+key: 2011-12-27 | value: 4.09
+key: 2011-12-30 | value: 4.47
+key: 2012-01-02 | value: 5.45
+key: 2012-01-05 | value: 6.6
+key: 2012-01-08 | value: 7.2
+key: 2012-01-11 | value: 7.1
+key: 2012-01-14 | value: 6.81
+key: 2012-01-17 | value: 6.97
+key: 2012-01-20 | value: 6.57
+key: 2012-01-23 | value: 6.47
+key: 2012-01-26 | value: 6.08
+key: 2012-01-29 | value: 5.72
+key: 2012-02-01 | value: 5.77
+key: 2012-02-04 | value: 5.99
+key: 2012-02-07 | value: 5.74
+key: 2012-02-10 | value: 5.94
+key: 2012-02-13 | value: 5.69
+key: 2012-02-16 | value: 4.74
+key: 2012-02-19 | value: 4.38
+key: 2012-02-22 | value: 4.63
+key: 2012-02-25 | value: 5.05
+key: 2012-02-28 | value: 4.98
+key: 2012-03-02 | value: 4.94
+key: 2012-03-05 | value: 5.04
+key: 2012-03-08 | value: 4.99
+key: 2012-03-11 | value: 4.98
+key: 2012-03-14 | value: 5.45
+key: 2012-03-17 | value: 5.4
+key: 2012-03-20 | value: 4.95
+key: 2012-03-23 | value: 4.81
+key: 2012-03-27 | value: 4.74
+key: 2012-03-30 | value: 4.85
+key: 2012-04-02 | value: 4.97
+key: 2012-04-05 | value: 4.96
+key: 2012-04-08 | value: 4.94
+key: 2012-04-11 | value: 4.9
+key: 2012-04-14 | value: 4.97
+key: 2012-04-17 | value: 4.99
+key: 2012-04-20 | value: 5.19
+key: 2012-04-23 | value: 5.3
+key: 2012-04-26 | value: 5.16
+key: 2012-04-29 | value: 5.09
+key: 2012-05-02 | value: 5.04
+key: 2012-05-05 | value: 5.15
+key: 2012-05-08 | value: 5.1
+key: 2012-05-11 | value: 5.1
+key: 2012-05-14 | value: 5.01
+key: 2012-05-17 | value: 5.1
+key: 2012-05-20 | value: 5.14
+key: 2012-05-23 | value: 5.13
+key: 2012-05-26 | value: 5.15
+key: 2012-05-29 | value: 5.16
+key: 2012-06-01 | value: 5.21
+key: 2012-06-04 | value: 5.27
+key: 2012-06-07 | value: 5.48
+key: 2012-06-10 | value: 5.68
+key: 2012-06-13 | value: 5.76
+key: 2012-06-16 | value: 6.27
+key: 2012-06-19 | value: 6.48
+key: 2012-06-22 | value: 6.8
+key: 2012-06-25 | value: 6.56
+key: 2012-06-28 | value: 6.58
+key: 2012-07-01 | value: 6.69
+key: 2012-07-04 | value: 6.71
+key: 2012-07-07 | value: 6.74
+key: 2012-07-10 | value: 6.98
+key: 2012-07-13 | value: 7.46
+key: 2012-07-16 | value: 7.8
+key: 2012-07-19 | value: 9.37
+key: 2012-07-22 | value: 9.53
+key: 2012-07-25 | value: 8.91
+key: 2012-07-28 | value: 8.95
+key: 2012-07-31 | value: 9.22
+key: 2012-08-03 | value: 10.12
+key: 2012-08-06 | value: 11.21
+key: 2012-08-09 | value: 11.35
+key: 2012-08-12 | value: 11.64
+key: 2012-08-15 | value: 12.3
+key: 2012-08-18 | value: 15.37
+key: 2012-08-21 | value: 10.45
+key: 2012-08-24 | value: 10.25
+key: 2012-08-27 | value: 10.99
+key: 2012-08-30 | value: 11.14
+key: 2012-09-02 | value: 10.36
+key: 2012-09-05 | value: 10.59
+key: 2012-09-08 | value: 11.27
+key: 2012-09-11 | value: 11.14
+key: 2012-09-14 | value: 11.48
+key: 2012-09-17 | value: 11.98
+key: 2012-09-20 | value: 12.63
+key: 2012-09-23 | value: 12.4
+key: 2012-09-26 | value: 12.24
+key: 2012-09-29 | value: 12.46
+key: 2012-10-02 | value: 12.58
+key: 2012-10-05 | value: 13.07
+key: 2012-10-08 | value: 12.58
+key: 2012-10-11 | value: 12.16
+key: 2012-10-14 | value: 12.1
+key: 2012-10-17 | value: 11.99
+key: 2012-10-20 | value: 11.94
+key: 2012-10-23 | value: 11.86
+key: 2012-10-26 | value: 11.56
+key: 2012-10-28 | value: 10.69
+key: 2012-10-31 | value: 11.17
+key: 2012-11-03 | value: 10.62
+key: 2012-11-06 | value: 10.97
+key: 2012-11-09 | value: 11.04
+key: 2012-11-12 | value: 11.17
+key: 2012-11-15 | value: 11.28
+key: 2012-11-18 | value: 11.82
+key: 2012-11-21 | value: 11.9
+key: 2012-11-24 | value: 12.46
+key: 2012-11-27 | value: 12.5
+key: 2012-11-30 | value: 12.66
+key: 2012-12-03 | value: 12.75
+key: 2012-12-06 | value: 13.69
+key: 2012-12-09 | value: 13.53
+key: 2012-12-12 | value: 13.8
+key: 2012-12-15 | value: 13.75
+key: 2012-12-18 | value: 13.4
+key: 2012-12-21 | value: 13.63
+key: 2012-12-24 | value: 13.45
+key: 2012-12-27 | value: 13.51
+key: 2012-12-30 | value: 13.57
+key: 2013-01-02 | value: 13.42
+key: 2013-01-05 | value: 13.54
+key: 2013-01-08 | value: 13.84
+key: 2013-01-11 | value: 14.31
+key: 2013-01-14 | value: 14.34
+key: 2013-01-17 | value: 15.53
+key: 2013-01-20 | value: 16.15
+key: 2013-01-23 | value: 17.97
+key: 2013-01-26 | value: 17.71
+key: 2013-01-29 | value: 19.78
+key: 2013-02-01 | value: 21.25
+key: 2013-02-04 | value: 20.99
+key: 2013-02-07 | value: 22.15
+key: 2013-02-10 | value: 23.97
+key: 2013-02-13 | value: 24.3
+key: 2013-02-16 | value: 27.39
+key: 2013-02-19 | value: 29.48
+key: 2013-02-22 | value: 30.52
+key: 2013-02-25 | value: 30.4
+key: 2013-02-28 | value: 33.36
+key: 2013-03-03 | value: 34.25
+key: 2013-03-06 | value: 42
+key: 2013-03-09 | value: 46.93
+key: 2013-03-12 | value: 44.32
+key: 2013-03-15 | value: 46.9
+key: 2013-03-18 | value: 52.12
+key: 2013-03-21 | value: 70.25
+key: 2013-03-24 | value: 71.93
+key: 2013-03-27 | value: 88.8
+key: 2013-03-30 | value: 92.5
+key: 2013-04-03 | value: 117.34
+key: 2013-04-06 | value: 142.1
+key: 2013-04-09 | value: 186.96
+key: 2013-04-12 | value: 124.9
+key: 2013-04-15 | value: 100
+key: 2013-04-18 | value: 93.9
+key: 2013-04-21 | value: 127.5
+key: 2013-04-24 | value: 142.5
+key: 2013-04-27 | value: 137
+key: 2013-04-30 | value: 144.54
+key: 2013-05-03 | value: 103.3
+key: 2013-05-06 | value: 115.98
+key: 2013-05-09 | value: 113.35
+key: 2013-05-12 | value: 115.68
+key: 2013-05-15 | value: 112
+key: 2013-05-18 | value: 123.32
+key: 2013-05-21 | value: 122.02
+key: 2013-05-24 | value: 126.7
+key: 2013-05-27 | value: 133.5
+key: 2013-05-30 | value: 132.3
+key: 2013-06-02 | value: 129.3
+key: 2013-06-05 | value: 121.42
+key: 2013-06-08 | value: 111.5
+key: 2013-06-11 | value: 106.1
+key: 2013-06-14 | value: 103.9
+key: 2013-06-17 | value: 99.9
+key: 2013-06-20 | value: 107.68
+key: 2013-06-23 | value: 108.35
+key: 2013-06-26 | value: 103.89
+key: 2013-06-29 | value: 94.65
+key: 2013-07-02 | value: 87
+key: 2013-07-05 | value: 80.04
+key: 2013-07-08 | value: 75
+key: 2013-07-11 | value: 87.9
+key: 2013-07-14 | value: 98
+key: 2013-07-17 | value: 97.05
+key: 2013-07-20 | value: 92
+key: 2013-07-23 | value: 91.99
+key: 2013-07-26 | value: 97
+key: 2013-07-29 | value: 98.7
+key: 2013-08-01 | value: 106.2
+key: 2013-08-04 | value: 104.95
+key: 2013-08-07 | value: 106.56
+key: 2013-08-10 | value: 102.8
+key: 2013-08-13 | value: 106.64
+key: 2013-08-16 | value: 98.08
+key: 2013-08-19 | value: 99.3
+key: 2013-08-22 | value: 110.43
+key: 2013-08-25 | value: 109.04
+key: 2013-08-28 | value: 117.72
+key: 2013-08-31 | value: 124.84
+key: 2013-09-03 | value: 130.09
+key: 2013-09-06 | value: 122.63
+key: 2013-09-09 | value: 118.18
+key: 2013-09-12 | value: 126.54
+key: 2013-09-15 | value: 124.05
+key: 2013-09-18 | value: 139.15
+key: 2013-09-21 | value: 123.04
+key: 2013-09-24 | value: 122.65
+key: 2013-09-27 | value: 124.65
+key: 2013-09-30 | value: 127.01
+key: 2013-10-03 | value: 103.85
+key: 2013-10-06 | value: 121.2
+key: 2013-10-09 | value: 124.12
+key: 2013-10-12 | value: 127.41
+key: 2013-10-15 | value: 135.17
+key: 2013-10-18 | value: 143.94
+key: 2013-10-21 | value: 186.12
+key: 2013-10-24 | value: 203.7
+key: 2013-10-27 | value: 179.56
+key: 2013-10-29 | value: 216
+key: 2013-11-01 | value: 203
+key: 2013-11-04 | value: 229.95
+key: 2013-11-07 | value: 291.02
+key: 2013-11-10 | value: 328
+key: 2013-11-13 | value: 393
+key: 2013-11-16 | value: 437.24
+key: 2013-11-19 | value: 547
+key: 2013-11-22 | value: 795
+key: 2013-11-25 | value: 814.56
+key: 2013-11-28 | value: 1014.1
+key: 2013-12-01 | value: 955.01
+key: 2013-12-04 | value: 1136.9
+key: 2013-12-07 | value: 705.91
+key: 2013-12-10 | value: 978.76
+key: 2013-12-13 | value: 885
+key: 2013-12-16 | value: 690
+key: 2013-12-19 | value: 685.3
+key: 2013-12-22 | value: 614.11
+key: 2013-12-25 | value: 679.02
+key: 2013-12-28 | value: 715
+key: 2013-12-31 | value: 732
+key: 2014-01-03 | value: 807.39
+key: 2014-01-06 | value: 915.69
+key: 2014-01-09 | value: 826.28
+key: 2014-01-12 | value: 844.04
+key: 2014-01-15 | value: 841.83
+key: 2014-01-18 | value: 811.2
+key: 2014-01-21 | value: 824.78
+key: 2014-01-24 | value: 780.02
+key: 2014-01-27 | value: 747.57
+key: 2014-01-30 | value: 800
+key: 2014-02-02 | value: 814.34
+key: 2014-02-05 | value: 781
+key: 2014-02-08 | value: 680.8
+key: 2014-02-11 | value: 675.1
+key: 2014-02-14 | value: 670.29
+key: 2014-02-17 | value: 629.96
+key: 2014-02-20 | value: 563
+key: 2014-02-23 | value: 611.05
+key: 2014-02-26 | value: 585.21
+key: 2014-03-01 | value: 567.48
+key: 2014-03-04 | value: 673.28
+key: 2014-03-07 | value: 631.99
+key: 2014-03-10 | value: 629.33
+key: 2014-03-13 | value: 641.01
+key: 2014-03-16 | value: 634.99
+key: 2014-03-19 | value: 611.2
+key: 2014-03-22 | value: 563.01
+key: 2014-03-25 | value: 585.79
+key: 2014-03-28 | value: 499.6
+key: 2014-04-01 | value: 457.49
+key: 2014-04-04 | value: 448.72
+key: 2014-04-07 | value: 458
+key: 2014-04-10 | value: 441.93
+key: 2014-04-13 | value: 423.37
+key: 2014-04-16 | value: 523
+key: 2014-04-19 | value: 482.11
+key: 2014-04-22 | value: 498.38
+key: 2014-04-25 | value: 502.15
+key: 2014-04-28 | value: 438.8
+key: 2014-05-01 | value: 452.03
+key: 2014-05-04 | value: 440
+key: 2014-05-07 | value: 428.01
+key: 2014-05-10 | value: 449
+key: 2014-05-13 | value: 442.45
+key: 2014-05-16 | value: 446.53
+key: 2014-05-19 | value: 446.89
+key: 2014-05-22 | value: 493.97
+key: 2014-05-25 | value: 527.91
+key: 2014-05-28 | value: 572.7
+key: 2014-05-31 | value: 621.3
+key: 2014-06-03 | value: 662
+key: 2014-06-06 | value: 661.48
+key: 2014-06-09 | value: 657.11
+key: 2014-06-12 | value: 624.97
+key: 2014-06-15 | value: 572.28
+key: 2014-06-18 | value: 608
+key: 2014-06-21 | value: 593.48
+key: 2014-06-24 | value: 588.25
+key: 2014-06-27 | value: 577.34
+key: 2014-06-30 | value: 599.99
+key: 2014-07-03 | value: 650.49
+key: 2014-07-06 | value: 631
+key: 2014-07-09 | value: 624.97
+key: 2014-07-12 | value: 634
+key: 2014-07-15 | value: 621.21
+key: 2014-07-18 | value: 625.8
+key: 2014-07-21 | value: 627
+key: 2014-07-24 | value: 620.43
+key: 2014-07-27 | value: 595.9
+key: 2014-07-30 | value: 585.5
+key: 2014-08-02 | value: 595.76
+key: 2014-08-05 | value: 588.5
+key: 2014-08-08 | value: 585.02
+key: 2014-08-11 | value: 590.74
+key: 2014-08-14 | value: 549.98
+key: 2014-08-17 | value: 523.88
+key: 2014-08-20 | value: 490
+key: 2014-08-23 | value: 515.69
+key: 2014-08-26 | value: 501.55
+key: 2014-08-29 | value: 506.61
+key: 2014-09-01 | value: 478.87
+key: 2014-09-04 | value: 474.5
+key: 2014-09-07 | value: 479.59
+key: 2014-09-10 | value: 473.35
+key: 2014-09-13 | value: 474.62
+key: 2014-09-16 | value: 470.83
+key: 2014-09-19 | value: 425.56
+key: 2014-09-22 | value: 401.15
+key: 2014-09-25 | value: 423.68
+key: 2014-09-28 | value: 400.39
+key: 2014-10-01 | value: 390.18
+key: 2014-10-04 | value: 358.9
+key: 2014-10-07 | value: 327.61
+key: 2014-10-10 | value: 363.61
+key: 2014-10-13 | value: 380.8
+key: 2014-10-16 | value: 394.84
+key: 2014-10-19 | value: 391
+key: 2014-10-22 | value: 385.89
+key: 2014-10-25 | value: 358.49
+key: 2014-10-27 | value: 350.9
+key: 2014-10-30 | value: 345.3
+key: 2014-11-02 | value: 324.36
+key: 2014-11-05 | value: 338.63
+key: 2014-11-08 | value: 346.94
+key: 2014-11-11 | value: 369.41
+key: 2014-11-14 | value: 399.11
+key: 2014-11-17 | value: 388.87
+key: 2014-11-20 | value: 356.47
+key: 2014-11-23 | value: 367.12
+key: 2014-11-26 | value: 366.86
+key: 2014-11-29 | value: 375.59
+key: 2014-12-02 | value: 379.62
+key: 2014-12-05 | value: 376
+key: 2014-12-08 | value: 362.99
+key: 2014-12-11 | value: 348.97
+key: 2014-12-14 | value: 357.8
+key: 2014-12-17 | value: 321.34
+key: 2014-12-20 | value: 331.52
+key: 2014-12-23 | value: 336.95
+key: 2014-12-26 | value: 329.94
+key: 2014-12-29 | value: 313.4
+key: 2015-01-01 | value: 314.81
+key: 2015-01-04 | value: 263.17
+key: 2015-01-07 | value: 297.99
+key: 2015-01-10 | value: 275.97
+key: 2015-01-13 | value: 222
+key: 2015-01-16 | value: 208.13
+key: 2015-01-19 | value: 216.01
+key: 2015-01-22 | value: 233.51
+key: 2015-01-25 | value: 254.32
+key: 2015-01-28 | value: 236.2
+key: 2015-01-31 | value: 219.25
+key: 2015-02-03 | value: 227.53
+key: 2015-02-06 | value: 222.36
+key: 2015-02-09 | value: 219.93
+key: 2015-02-12 | value: 222.33
+key: 2015-02-15 | value: 234.18
+key: 2015-02-18 | value: 237.44
+key: 2015-02-21 | value: 245.41
+key: 2015-02-24 | value: 239.94
+key: 2015-02-27 | value: 252.11
+key: 2015-03-02 | value: 275.87
+key: 2015-03-05 | value: 273.11
+key: 2015-03-08 | value: 275
+key: 2015-03-11 | value: 296.56
+key: 2015-03-14 | value: 282.2
+key: 2015-03-17 | value: 284.48
+key: 2015-03-20 | value: 262.1
+key: 2015-03-23 | value: 265.99
+key: 2015-03-26 | value: 249.23
+key: 2015-03-30 | value: 242.34
+key: 2015-04-02 | value: 246.49
+key: 2015-04-05 | value: 253.67
+key: 2015-04-08 | value: 253.9
+key: 2015-04-11 | value: 236
+key: 2015-04-14 | value: 223.01
+key: 2015-04-17 | value: 227.5
+key: 2015-04-20 | value: 222.61
+key: 2015-04-23 | value: 233.59
+key: 2015-04-26 | value: 226.29
+key: 2015-04-29 | value: 225.2
+key: 2015-05-02 | value: 230.97
+key: 2015-05-05 | value: 238.25
+key: 2015-05-08 | value: 237.16
+key: 2015-05-11 | value: 239.11
+key: 2015-05-14 | value: 235.97
+key: 2015-05-17 | value: 236.63
+key: 2015-05-20 | value: 231.4
+key: 2015-05-23 | value: 238.8
+key: 2015-05-26 | value: 235.59
+key: 2015-05-29 | value: 236.44
+key: 2015-06-01 | value: 228.34
+key: 2015-06-04 | value: 225.4
+key: 2015-06-07 | value: 224.99
+key: 2015-06-10 | value: 228.88
+key: 2015-06-13 | value: 229.6
+key: 2015-06-16 | value: 236
+key: 2015-06-19 | value: 248.26
+key: 2015-06-22 | value: 243.55
+key: 2015-06-25 | value: 240.2
+key: 2015-06-28 | value: 251.21
+key: 2015-07-01 | value: 262.43
+key: 2015-07-04 | value: 256.12
+key: 2015-07-07 | value: 268.53
+key: 2015-07-10 | value: 269
+key: 2015-07-13 | value: 310.55
+key: 2015-07-16 | value: 285.66
+key: 2015-07-19 | value: 276.74
+key: 2015-07-22 | value: 276.76
+key: 2015-07-25 | value: 289
+key: 2015-07-28 | value: 293.93
+key: 2015-07-31 | value: 288.45
+key: 2015-08-03 | value: 282.26
+key: 2015-08-06 | value: 281
+key: 2015-08-09 | value: 262.22
+key: 2015-08-12 | value: 270.98
+key: 2015-08-15 | value: 265.93
+key: 2015-08-18 | value: 256.66
+key: 2015-08-21 | value: 235.31
+key: 2015-08-24 | value: 228.14
+key: 2015-08-27 | value: 225.04
+key: 2015-08-30 | value: 229.63
+key: 2015-09-02 | value: 227.97
+key: 2015-09-05 | value: 230.73
+key: 2015-09-08 | value: 240.47
+key: 2015-09-11 | value: 238.81
+key: 2015-09-14 | value: 230
+key: 2015-09-17 | value: 228.33
+key: 2015-09-20 | value: 230.25
+key: 2015-09-23 | value: 230.42
+key: 2015-09-26 | value: 235.22
+key: 2015-09-29 | value: 239.14
+key: 2015-10-02 | value: 238.03
+key: 2015-10-05 | value: 238.4
+key: 2015-10-08 | value: 243.01
+key: 2015-10-11 | value: 245.72
+key: 2015-10-14 | value: 249.98
+key: 2015-10-17 | value: 262.26
+key: 2015-10-20 | value: 263.59
+key: 2015-10-23 | value: 274.35
+key: 2015-10-25 | value: 282.8
+key: 2015-10-28 | value: 304.79
+key: 2015-10-31 | value: 310.18
+key: 2015-11-03 | value: 404.5
+key: 2015-11-06 | value: 373.69
+key: 2015-11-09 | value: 380.62
+key: 2015-11-12 | value: 340.81
+key: 2015-11-15 | value: 318.97
+key: 2015-11-18 | value: 333.66
+key: 2015-11-21 | value: 326.31
+key: 2015-11-24 | value: 319.64
+key: 2015-11-27 | value: 358
+key: 2015-11-30 | value: 377.27
+key: 2015-12-03 | value: 361.47
+key: 2015-12-06 | value: 387.3
+key: 2015-12-09 | value: 416.49
+key: 2015-12-12 | value: 436.2
+key: 2015-12-15 | value: 463.98
+key: 2015-12-18 | value: 463
+key: 2015-12-21 | value: 438.35
+key: 2015-12-24 | value: 456
+key: 2015-12-27 | value: 422.42
+key: 2015-12-30 | value: 428.23
+key: 2016-01-02 | value: 432.76
+key: 2016-01-05 | value: 432.43
+key: 2016-01-08 | value: 452.64
+key: 2016-01-11 | value: 447.98
+key: 2016-01-14 | value: 429.55
+key: 2016-01-17 | value: 380.16
+key: 2016-01-20 | value: 420.35
+key: 2016-01-23 | value: 385.09
+key: 2016-01-26 | value: 391.66
+key: 2016-01-29 | value: 378.18
+key: 2016-02-01 | value: 371.99
+key: 2016-02-04 | value: 388
+key: 2016-02-07 | value: 375
+key: 2016-02-10 | value: 379.14
+key: 2016-02-13 | value: 389.88
+key: 2016-02-16 | value: 407
+key: 2016-02-19 | value: 419.98
+key: 2016-02-22 | value: 436.76
+key: 2016-02-25 | value: 423.46
+key: 2016-02-28 | value: 431.89
+key: 2016-03-02 | value: 422.5
+key: 2016-03-05 | value: 399.17
+key: 2016-03-08 | value: 412.15
+key: 2016-03-11 | value: 420.11
+key: 2016-03-14 | value: 414.99
+key: 2016-03-17 | value: 418.49
+key: 2016-03-20 | value: 411.81
+key: 2016-03-23 | value: 417.96
+key: 2016-03-26 | value: 416.96
+key: 2016-03-30 | value: 415.83
+key: 2016-04-02 | value: 416.31
+key: 2016-04-05 | value: 419.71
+key: 2016-04-08 | value: 419.95
+key: 2016-04-11 | value: 420.75
+key: 2016-04-14 | value: 423.87
+key: 2016-04-17 | value: 430.58
+key: 2016-04-20 | value: 435.95
+key: 2016-04-23 | value: 447.7
+key: 2016-04-26 | value: 462.5
+key: 2016-04-29 | value: 449.98
+key: 2016-05-02 | value: 453
+key: 2016-05-05 | value: 446.84
+key: 2016-05-08 | value: 459.02
+key: 2016-05-11 | value: 450.78
+key: 2016-05-14 | value: 455.82
+key: 2016-05-17 | value: 454
+key: 2016-05-20 | value: 436.05
+key: 2016-05-23 | value: 438.47
+key: 2016-05-26 | value: 448.7
+key: 2016-05-29 | value: 526.64
+key: 2016-06-01 | value: 531.97
+key: 2016-06-04 | value: 567.88
+key: 2016-06-07 | value: 583.72
+key: 2016-06-10 | value: 574.32
+key: 2016-06-13 | value: 665.85
+key: 2016-06-16 | value: 693.88
+key: 2016-06-19 | value: 751.96
+key: 2016-06-22 | value: 664.46
+key: 2016-06-25 | value: 665
+key: 2016-06-28 | value: 651.85
+key: 2016-07-01 | value: 667.95
+key: 2016-07-04 | value: 656.97
+key: 2016-07-07 | value: 673.76
+key: 2016-07-10 | value: 647.41
+key: 2016-07-13 | value: 664.5
+key: 2016-07-16 | value: 663.19
+key: 2016-07-19 | value: 673.46
+key: 2016-07-22 | value: 664
+key: 2016-07-25 | value: 661.48
+key: 2016-07-28 | value: 655.37
+key: 2016-07-31 | value: 654.68
+key: 2016-08-03 | value: 530.74
+key: 2016-08-06 | value: 572.72
+key: 2016-08-09 | value: 591.69
+key: 2016-08-12 | value: 586.01
+key: 2016-08-15 | value: 567.34
+key: 2016-08-18 | value: 570.92
+key: 2016-08-21 | value: 577.52
+key: 2016-08-24 | value: 581.98
+key: 2016-08-27 | value: 577.77
+key: 2016-08-30 | value: 571.5
+key: 2016-09-02 | value: 571
+key: 2016-09-05 | value: 603.95
+key: 2016-09-08 | value: 615.33
+key: 2016-09-11 | value: 621.65
+key: 2016-09-14 | value: 608.82
+key: 2016-09-17 | value: 607.04
+key: 2016-09-20 | value: 608.66
+key: 2016-09-23 | value: 594.08
+key: 2016-09-26 | value: 598.98
+key: 2016-09-29 | value: 603.85
+key: 2016-10-02 | value: 612.98
+key: 2016-10-05 | value: 607.18
+key: 2016-10-08 | value: 614.74
+key: 2016-10-11 | value: 614.77
+key: 2016-10-14 | value: 634.02
+key: 2016-10-17 | value: 638.97
+key: 2016-10-20 | value: 627.72
+key: 2016-10-23 | value: 653.25
+key: 2016-10-26 | value: 651.45
+key: 2016-10-29 | value: 685.91
+key: 2016-10-31 | value: 697.01
+key: 2016-11-03 | value: 683.69
+key: 2016-11-06 | value: 709.96
+key: 2016-11-09 | value: 721.5
+key: 2016-11-12 | value: 702.28
+key: 2016-11-15 | value: 711.73
+key: 2016-11-18 | value: 748.98
+key: 2016-11-21 | value: 736.97
+key: 2016-11-24 | value: 735.64
+key: 2016-11-27 | value: 727.31
+key: 2016-11-30 | value: 742.05
+key: 2016-12-03 | value: 762.97
+key: 2016-12-06 | value: 758.99
+key: 2016-12-09 | value: 769.08
+key: 2016-12-12 | value: 777.99
+key: 2016-12-15 | value: 775.88
+key: 2016-12-18 | value: 788.67
+key: 2016-12-21 | value: 834.97
+key: 2016-12-24 | value: 892.6
+key: 2016-12-27 | value: 930.34
+key: 2016-12-30 | value: 958.12
+key: 2017-01-02 | value: 1013.42
+key: 2017-01-05 | value: 999.65
+key: 2017-01-08 | value: 910.49
+key: 2017-01-11 | value: 780.92
+key: 2017-01-14 | value: 819.55
+key: 2017-01-17 | value: 906.6
+key: 2017-01-20 | value: 895.64
+key: 2017-01-23 | value: 919.97
+key: 2017-01-26 | value: 915.05
+key: 2017-01-29 | value: 912.19
+key: 2017-02-01 | value: 983.42
+key: 2017-02-04 | value: 1034.07
+key: 2017-02-07 | value: 1052.84
+key: 2017-02-10 | value: 997.59
+key: 2017-02-13 | value: 1001.2
+key: 2017-02-16 | value: 1035.2
+key: 2017-02-19 | value: 1050.87
+key: 2017-02-22 | value: 1130.01
+key: 2017-02-25 | value: 1150.37
+key: 2017-02-28 | value: 1190.89
+key: 2017-03-03 | value: 1287
+key: 2017-03-06 | value: 1279.5
+key: 2017-03-09 | value: 1192.09
+key: 2017-03-12 | value: 1227.68
+key: 2017-03-15 | value: 1257
+key: 2017-03-18 | value: 967.69
+key: 2017-03-21 | value: 1113
+key: 2017-03-24 | value: 927.93
+key: 2017-03-28 | value: 1041.04
+key: 2017-03-31 | value: 1034.74
+key: 2017-04-03 | value: 1079.99
+key: 2017-04-06 | value: 1133.53
+key: 2017-04-09 | value: 1184.03
+key: 2017-04-12 | value: 1219.09
+key: 2017-04-15 | value: 1170.36
+key: 2017-04-18 | value: 1176.97
+key: 2017-04-21 | value: 1236.63
+key: 2017-04-24 | value: 1240.84
+key: 2017-04-27 | value: 1288.02
+key: 2017-04-30 | value: 1333
+key: 2017-05-03 | value: 1447.55
+key: 2017-05-06 | value: 1518.75
+key: 2017-05-09 | value: 1651.1
+key: 2017-05-12 | value: 1829
+key: 2017-05-15 | value: 1780
+key: 2017-05-18 | value: 1783.98
+key: 2017-05-21 | value: 2008.84
+key: 2017-05-24 | value: 2256.32
+key: 2017-05-27 | value: 2279.82
+key: 2017-05-30 | value: 2290.02
+key: 2017-06-02 | value: 2409.93
+key: 2017-06-05 | value: 2529.53
+key: 2017-06-08 | value: 2683.03
+key: 2017-06-11 | value: 2898.63
+key: 2017-06-14 | value: 2706
+key: 2017-06-17 | value: 2477.94
+key: 2017-06-20 | value: 2600
+key: 2017-06-23 | value: 2713.48
+key: 2017-06-26 | value: 2502.03
+key: 2017-06-29 | value: 2558.3
+key: 2017-07-02 | value: 2421.26
+key: 2017-07-05 | value: 2598.89
+key: 2017-07-08 | value: 2502.86
+key: 2017-07-11 | value: 2327.09
+key: 2017-07-14 | value: 2338.49
+key: 2017-07-17 | value: 1910.96
+key: 2017-07-20 | value: 2265.21
+key: 2017-07-23 | value: 2825.51
+key: 2017-07-26 | value: 2564.3
+key: 2017-07-29 | value: 2784.8
+key: 2017-08-01 | value: 2862.9
+key: 2017-08-04 | value: 2790
+key: 2017-08-07 | value: 3210.2
+key: 2017-08-10 | value: 3340.28
+key: 2017-08-13 | value: 3868.52
+key: 2017-08-16 | value: 4179.97
+key: 2017-08-19 | value: 4104.71
+key: 2017-08-22 | value: 3986.28
+key: 2017-08-25 | value: 4331.77
+key: 2017-08-28 | value: 4339.05
+key: 2017-08-31 | value: 4582.52
+key: 2017-09-03 | value: 4585.57
+key: 2017-09-06 | value: 4385.02
+key: 2017-09-09 | value: 4312.26
+key: 2017-09-12 | value: 4198.59
+key: 2017-09-15 | value: 3216.43
+key: 2017-09-18 | value: 3678.53
+key: 2017-09-21 | value: 3894.48
+key: 2017-09-24 | value: 3777.62
+key: 2017-09-27 | value: 3881
+key: 2017-09-30 | value: 4164.27
+key: 2017-10-03 | value: 4394.07
+key: 2017-10-06 | value: 4318.58
+key: 2017-10-09 | value: 4605.66
+key: 2017-10-12 | value: 4822.17
+key: 2017-10-15 | value: 5825.99
+key: 2017-10-18 | value: 5594.66
+key: 2017-10-21 | value: 5986.44
+key: 2017-10-24 | value: 5900.59
+key: 2017-10-27 | value: 5889.82
+key: 2017-10-29 | value: 6136.49
+key: 2017-11-01 | value: 6751.98
+key: 2017-11-04 | value: 7365.99
+key: 2017-11-07 | value: 7128.64
+key: 2017-11-10 | value: 6569.22
+key: 2017-11-13 | value: 6493.63
+key: 2017-11-16 | value: 7868.77
+key: 2017-11-19 | value: 8049.72
+key: 2017-11-22 | value: 8236.72
+key: 2017-11-25 | value: 8768.8
+key: 2017-11-28 | value: 9919
+key: 2017-12-01 | value: 10879.88
+key: 2017-12-04 | value: 11591.22
+key: 2017-12-07 | value: 16860.88
+key: 2017-12-10 | value: 15068.95
+key: 2017-12-13 | value: 16252.31
+key: 2017-12-16 | value: 19279.9
+key: 2017-12-19 | value: 17382.94
+key: 2017-12-22 | value: 13776.61
+key: 2017-12-25 | value: 13740.94
+key: 2017-12-28 | value: 14214.01
+key: 2017-12-31 | value: 13796
+key: 2018-01-03 | value: 15039.24
+key: 2018-01-06 | value: 17155.95
+key: 2018-01-09 | value: 14437.42
+key: 2018-01-12 | value: 13791.19
+key: 2018-01-15 | value: 13554.14
+key: 2018-01-18 | value: 11174.82
+key: 2018-01-21 | value: 11513.42
+key: 2018-01-24 | value: 11392.03
+key: 2018-01-27 | value: 11431.37
+key: 2018-01-30 | value: 10082.52
+key: 2018-02-02 | value: 8852.73
+key: 2018-02-05 | value: 6925.46
+key: 2018-02-08 | value: 8245.08
+key: 2018-02-11 | value: 8068.02
+key: 2018-02-14 | value: 9471.64
+key: 2018-02-17 | value: 11085.83
+key: 2018-02-20 | value: 11245.98
+key: 2018-02-23 | value: 10171.3
+key: 2018-02-26 | value: 10319.46
+key: 2018-03-01 | value: 10931.12
+key: 2018-03-04 | value: 11516.83
+key: 2018-03-07 | value: 9920.46
+key: 2018-03-10 | value: 8777.37
+key: 2018-03-13 | value: 9153.54
+key: 2018-03-16 | value: 8297.89
+key: 2018-03-19 | value: 8605.64
+key: 2018-03-22 | value: 8725.37
+key: 2018-03-26 | value: 8457.96
+key: 2018-03-29 | value: 7950.61
+key: 2018-04-01 | value: 6937.56
+key: 2018-04-04 | value: 7426.48
+key: 2018-04-07 | value: 6634.68
+key: 2018-04-10 | value: 6784.41
+key: 2018-04-13 | value: 7941.46
+key: 2018-04-16 | value: 8368.1
+key: 2018-04-19 | value: 8175.96
+key: 2018-04-22 | value: 8930.6
+key: 2018-04-25 | value: 9658.11
+key: 2018-04-28 | value: 8928.55
+key: 2018-05-01 | value: 9239.55
+key: 2018-05-04 | value: 9753.35
+key: 2018-05-07 | value: 9631.44
+key: 2018-05-10 | value: 9310.37
+key: 2018-05-13 | value: 8463.52
+key: 2018-05-16 | value: 8471.06
+key: 2018-05-19 | value: 8239.08
+key: 2018-05-22 | value: 8396.63
+key: 2018-05-25 | value: 7576.78
+key: 2018-05-28 | value: 7344.56
+key: 2018-05-31 | value: 7386.72
+key: 2018-06-03 | value: 7637.14
+key: 2018-06-06 | value: 7619.43
+key: 2018-06-09 | value: 7615.54
+key: 2018-06-12 | value: 6879.31
+key: 2018-06-15 | value: 6637.41
+key: 2018-06-18 | value: 6445.79
+key: 2018-06-21 | value: 6760.83
+key: 2018-06-24 | value: 6170.46
+key: 2018-06-27 | value: 6097.46
+key: 2018-06-30 | value: 6223.28
+key: 2018-07-03 | value: 6626.44
+key: 2018-07-06 | value: 6555.51
+key: 2018-07-09 | value: 6724.04
+key: 2018-07-12 | value: 6403.18
+key: 2018-07-15 | value: 6248.84
+key: 2018-07-18 | value: 7321.62
+key: 2018-07-21 | value: 7334.99
+key: 2018-07-24 | value: 7715.1
+key: 2018-07-27 | value: 7939.81
+key: 2018-07-30 | value: 8220.91
+key: 2018-08-02 | value: 7607.7
+key: 2018-08-05 | value: 7011.28
+key: 2018-08-08 | value: 6718.23
+key: 2018-08-11 | value: 6138.96
+key: 2018-08-14 | value: 6252.13
+key: 2018-08-17 | value: 6312.75
+key: 2018-08-20 | value: 6486.58
+key: 2018-08-23 | value: 6354.57
+key: 2018-08-26 | value: 6738.27
+key: 2018-08-29 | value: 7078.19
+key: 2018-09-01 | value: 7018.78
+key: 2018-09-04 | value: 7265.08
+key: 2018-09-07 | value: 6501.19
+key: 2018-09-10 | value: 6240.98
+key: 2018-09-13 | value: 6326.04
+key: 2018-09-16 | value: 6522.39
+key: 2018-09-19 | value: 6342.39
+key: 2018-09-22 | value: 6756.12
+key: 2018-09-25 | value: 6583.45
+key: 2018-09-28 | value: 6686.08
+key: 2018-10-01 | value: 6611.02
+key: 2018-10-04 | value: 6483.73
+key: 2018-10-07 | value: 6573.62
+key: 2018-10-10 | value: 6626.85
+key: 2018-10-13 | value: 6247
+key: 2018-10-16 | value: 6599.17
+key: 2018-10-19 | value: 6509.61
+key: 2018-10-22 | value: 6504.78
+key: 2018-10-25 | value: 6489.77
+key: 2018-10-28 | value: 6457.21
+key: 2018-10-30 | value: 6301.61
+key: 2018-11-02 | value: 6390.42
+key: 2018-11-05 | value: 6437.76
+key: 2018-11-08 | value: 6444.97
+key: 2018-11-11 | value: 6408.53
+key: 2018-11-14 | value: 5756.77
+key: 2018-11-17 | value: 5572.44
+key: 2018-11-20 | value: 4491.98
+key: 2018-11-23 | value: 4352.98
+key: 2018-11-26 | value: 3793.35
+key: 2018-11-29 | value: 4278.77
+key: 2018-12-02 | value: 4140.6
+key: 2018-12-05 | value: 3744.98
+key: 2018-12-08 | value: 3453.66
+key: 2018-12-11 | value: 3407.28
+key: 2018-12-14 | value: 3242.42
+key: 2018-12-17 | value: 3556.54
+key: 2018-12-20 | value: 4135.19
+key: 2018-12-23 | value: 3995.17
+key: 2018-12-26 | value: 3848.21
+key: 2018-12-29 | value: 3770.36
+key: 2019-01-01 | value: 3855.88
+key: 2019-01-04 | value: 3856.62
+key: 2019-01-07 | value: 4032.25
+key: 2019-01-10 | value: 3646.25
+key: 2019-01-13 | value: 3531.96
+key: 2019-01-16 | value: 3621.43
+key: 2019-01-19 | value: 3703.98
+key: 2019-01-22 | value: 3587.35
+key: 2019-01-25 | value: 3577.79
+key: 2019-01-28 | value: 3448.58
+key: 2019-01-31 | value: 3444.81
+key: 2019-02-03 | value: 3456.02
+key: 2019-02-06 | value: 3405.7
+key: 2019-02-09 | value: 3664.38
+key: 2019-02-12 | value: 3632.42
+key: 2019-02-15 | value: 3608.2
+key: 2019-02-18 | value: 3910.8
+key: 2019-02-21 | value: 3944.88
+key: 2019-02-24 | value: 3766.89
+key: 2019-02-27 | value: 3833.23
+key: 2019-03-02 | value: 3831.44
+key: 2019-03-05 | value: 3872.25
+key: 2019-03-08 | value: 3875.96
+key: 2019-03-11 | value: 3881.09
+key: 2019-03-14 | value: 3885.21
+key: 2019-03-17 | value: 3994.92
+key: 2019-03-20 | value: 4056.4
+key: 2019-03-23 | value: 4011.92
+key: 2019-03-26 | value: 3947.74
+key: 2019-03-29 | value: 4115.55
+key: 2019-04-02 | value: 4152.53
+key: 2019-04-05 | value: 4911.24
+key: 2019-04-08 | value: 5189.39
+key: 2019-04-11 | value: 5310.18
+key: 2019-04-14 | value: 5064.62
+key: 2019-04-17 | value: 5196.65
+key: 2019-04-20 | value: 5277.04
+key: 2019-04-23 | value: 5377.19
+key: 2019-04-26 | value: 5195.61
+key: 2019-04-29 | value: 5301.29
+key: 2019-05-02 | value: 5326.67
+key: 2019-05-05 | value: 5771.08
+key: 2019-05-08 | value: 5755.72
+key: 2019-05-11 | value: 6348.02
+key: 2019-05-14 | value: 7823.11
+key: 2019-05-17 | value: 7885.96
+key: 2019-05-20 | value: 8193.7
+key: 2019-05-23 | value: 7625.93
+key: 2019-05-26 | value: 8071.45
+key: 2019-05-29 | value: 8719.88
+key: 2019-06-01 | value: 8553.81
+key: 2019-06-04 | value: 8134.92
+key: 2019-06-07 | value: 7803.23
+key: 2019-06-10 | value: 7640.61
+key: 2019-06-13 | value: 8173.06
+key: 2019-06-16 | value: 8859.47
+key: 2019-06-19 | value: 9076.18
+key: 2019-06-22 | value: 10209.38
+key: 2019-06-25 | value: 11017.5
+key: 2019-06-28 | value: 11132.85
+key: 2019-07-01 | value: 10737.73
+key: 2019-07-04 | value: 11984.76
+key: 2019-07-07 | value: 11232.04
+key: 2019-07-10 | value: 12586.78
+key: 2019-07-13 | value: 11803.97
+key: 2019-07-16 | value: 10873.5
+key: 2019-07-19 | value: 10638.56
+key: 2019-07-22 | value: 10587.41
+key: 2019-07-25 | value: 9772.17
+key: 2019-07-28 | value: 9473.99
+key: 2019-07-31 | value: 9589.13
+key: 2019-08-03 | value: 10529.55
+key: 2019-08-06 | value: 11787.99
+key: 2019-08-09 | value: 11996.41
+key: 2019-08-12 | value: 11566.84
+key: 2019-08-15 | value: 10016.96
+key: 2019-08-18 | value: 10214.52
+key: 2019-08-21 | value: 10760.56
+key: 2019-08-24 | value: 10405.81
+key: 2019-08-27 | value: 10360.28
+key: 2019-08-30 | value: 9484.55
+key: 2019-09-02 | value: 9769.79
+key: 2019-09-05 | value: 10584.16
+key: 2019-09-08 | value: 10487.21
+key: 2019-09-11 | value: 10101.03
+key: 2019-09-14 | value: 10363.9
+key: 2019-09-17 | value: 10265.63
+key: 2019-09-20 | value: 10275.88
+key: 2019-09-23 | value: 10033.05
+key: 2019-09-26 | value: 8432.23
+key: 2019-09-29 | value: 8225
+key: 2019-10-02 | value: 8322.92
+key: 2019-10-05 | value: 8155.48
+key: 2019-10-08 | value: 8212.02
+key: 2019-10-11 | value: 8586.9
+key: 2019-10-14 | value: 8283.76
+key: 2019-10-17 | value: 8002.51
+key: 2019-10-20 | value: 7960.04
+key: 2019-10-23 | value: 8026.76
+key: 2019-10-26 | value: 8666.79
+key: 2019-10-28 | value: 9218.76
+key: 2019-10-31 | value: 9147.98
+key: 2019-11-03 | value: 9206.16
+key: 2019-11-06 | value: 9343.34
+key: 2019-11-09 | value: 8809.41
+key: 2019-11-12 | value: 8801.52
+key: 2019-11-15 | value: 8457.69
+key: 2019-11-18 | value: 8175.99
+key: 2019-11-21 | value: 7617.07
+key: 2019-11-24 | value: 6907.4
+key: 2019-11-27 | value: 7523.83
+key: 2019-11-30 | value: 7557.72
+key: 2019-12-03 | value: 7296.77
+key: 2019-12-06 | value: 7547.19
+key: 2019-12-09 | value: 7337.42
+key: 2019-12-12 | value: 7189.16
+key: 2019-12-15 | value: 7111.14
+key: 2019-12-18 | value: 7284.29
+key: 2019-12-21 | value: 7143.2
+key: 2019-12-24 | value: 7250.69
+key: 2019-12-27 | value: 7243.93
+key: 2019-12-30 | value: 7219.6
+key: 2020-01-02 | value: 6944.33
+key: 2020-01-05 | value: 7351.57
+key: 2020-01-08 | value: 8042.65
+key: 2020-01-11 | value: 8021.49
+key: 2020-01-14 | value: 8842.42
+key: 2020-01-17 | value: 8900.34
+key: 2020-01-20 | value: 8626.47
+key: 2020-01-23 | value: 8388.11
+key: 2020-01-26 | value: 8588.42
+key: 2020-01-29 | value: 9279.81
+key: 2020-02-01 | value: 9378.09
+key: 2020-02-04 | value: 9162.14
+key: 2020-02-07 | value: 9807.54
+key: 2020-02-10 | value: 9854.79
+key: 2020-02-13 | value: 10242.43
+key: 2020-02-16 | value: 9937.67
+key: 2020-02-19 | value: 9604.72
+key: 2020-02-22 | value: 9669.63
+key: 2020-02-25 | value: 9309.15
+key: 2020-02-28 | value: 8712.35
+key: 2020-03-02 | value: 8912.82
+key: 2020-03-05 | value: 9067.39
+key: 2020-03-08 | value: 8039.38
+key: 2020-03-11 | value: 7936.65
+key: 2020-03-14 | value: 5166.26
+key: 2020-03-17 | value: 5357.61
+key: 2020-03-20 | value: 6226.44
+key: 2020-03-23 | value: 6502.16
+key: 2020-03-26 | value: 6763.75
+key: 2020-03-30 | value: 5885.41
+key: 2020-04-02 | value: 6652.87
+key: 2020-04-05 | value: 6871.69
+key: 2020-04-08 | value: 7205.55
+key: 2020-04-11 | value: 6873.24
+key: 2020-04-14 | value: 6857.66
+key: 2020-04-17 | value: 7112.27
+key: 2020-04-20 | value: 7130.04
+key: 2020-04-23 | value: 7130.99
+key: 2020-04-26 | value: 7549.52
+key: 2020-04-29 | value: 7765.33
+key: 2020-05-02 | value: 8824.66
+key: 2020-05-05 | value: 8885.93
+key: 2020-05-08 | value: 10002.48
+key: 2020-05-11 | value: 8754.46
+key: 2020-05-14 | value: 9305.93
+key: 2020-05-17 | value: 9385.7
+key: 2020-05-20 | value: 9785.74
+key: 2020-05-23 | value: 9167.26
+key: 2020-05-26 | value: 8899.66
+key: 2020-05-29 | value: 9569.21
+key: 2020-06-01 | value: 9450.84
+key: 2020-06-04 | value: 9658.04
+key: 2020-06-07 | value: 9670.43
+key: 2020-06-10 | value: 9775.15
+key: 2020-06-13 | value: 9459.97
+key: 2020-06-16 | value: 9426.7
+key: 2020-06-19 | value: 9380.03
+key: 2020-06-22 | value: 9284.78
+key: 2020-06-25 | value: 9276.58
+key: 2020-06-28 | value: 9004.23
+key: 2020-07-01 | value: 9133.97
+key: 2020-07-04 | value: 9072.42
+key: 2020-07-07 | value: 9348.91
+key: 2020-07-10 | value: 9238.04
+key: 2020-07-13 | value: 9295.9
+key: 2020-07-16 | value: 9193.51
+key: 2020-07-19 | value: 9174.71
+key: 2020-07-22 | value: 9392.66
+key: 2020-07-25 | value: 9551.28
+key: 2020-07-28 | value: 11042.4
+key: 2020-07-31 | value: 11114.93
+key: 2020-08-03 | value: 11077.77
+key: 2020-08-06 | value: 11750.28
+key: 2020-08-09 | value: 11767.6
+key: 2020-08-12 | value: 11392.43
+key: 2020-08-15 | value: 11774.38
+key: 2020-08-18 | value: 12293.72
+key: 2020-08-21 | value: 11865.82
+key: 2020-08-24 | value: 11653.02
+key: 2020-08-27 | value: 11467.37
+key: 2020-08-30 | value: 11481.64
+key: 2020-09-02 | value: 11923.25
+key: 2020-09-05 | value: 10467.89
+key: 2020-09-08 | value: 10367.74
+key: 2020-09-11 | value: 10352.66
+key: 2020-09-14 | value: 10330.77
+key: 2020-09-17 | value: 10948.43
+key: 2020-09-20 | value: 11081.43
+key: 2020-09-23 | value: 10532.22
+key: 2020-09-26 | value: 10692.84
+key: 2020-09-29 | value: 10692.33
+key: 2020-10-02 | value: 10619.24
+key: 2020-10-05 | value: 10673.46
+key: 2020-10-08 | value: 10670.8
+key: 2020-10-11 | value: 11302.67
+key: 2020-10-14 | value: 11428.24
+key: 2020-10-17 | value: 11327.57
+key: 2020-10-20 | value: 11758.16
+key: 2020-10-23 | value: 12990.25
+key: 2020-10-25 | value: 13036.77
+key: 2020-10-28 | value: 13289
+key: 2020-10-31 | value: 13810.32
+key: 2020-11-03 | value: 14023.31
+key: 2020-11-06 | value: 15595.77
+key: 2020-11-09 | value: 15328.53
+key: 2020-11-12 | value: 16295.57
+key: 2020-11-15 | value: 15968.16
+key: 2020-11-18 | value: 17798.45
+key: 2020-11-21 | value: 18699.75
+key: 2020-11-24 | value: 19172.52
+key: 2020-11-27 | value: 17138.87
+key: 2020-11-30 | value: 19709.73
+key: 2020-12-03 | value: 19454.54
+key: 2020-12-06 | value: 19377.66
+key: 2020-12-09 | value: 18554.15
+key: 2020-12-12 | value: 18803.44
+key: 2020-12-15 | value: 19439.75
+key: 2020-12-18 | value: 23150.79
+key: 2020-12-21 | value: 22745.48
+key: 2020-12-24 | value: 23715.53
+key: 2020-12-27 | value: 26246.58
+key: 2020-12-30 | value: 28856.59
+key: 2021-01-02 | value: 32195.46
+key: 2021-01-05 | value: 34046.67
+key: 2021-01-08 | value: 40670.25
+key: 2021-01-11 | value: 35544.94
+key: 2021-01-14 | value: 39158.47
+key: 2021-01-17 | value: 35793.01
+key: 2021-01-20 | value: 35538.98
+key: 2021-01-23 | value: 32099.74
+key: 2021-01-26 | value: 32541.8
+key: 2021-01-29 | value: 34314.26
+key: 2021-02-01 | value: 33522.9
+key: 2021-02-04 | value: 37002.09
+key: 2021-02-07 | value: 38928.1
+key: 2021-02-10 | value: 44878.17
+key: 2021-02-13 | value: 47185.19
+key: 2021-02-16 | value: 49160.1
+key: 2021-02-19 | value: 55916.5
+key: 2021-02-22 | value: 54123.4
+key: 2021-02-25 | value: 46800.42
+key: 2021-02-28 | value: 45113.92
+key: 2021-03-03 | value: 50477.7
+key: 2021-03-06 | value: 48881.59
+key: 2021-03-09 | value: 54881.52
+key: 2021-03-12 | value: 57253.28
+key: 2021-03-15 | value: 55754.72
+key: 2021-03-18 | value: 57665.9
+key: 2021-03-21 | value: 57411.17
+key: 2021-03-24 | value: 52508.23
+key: 2021-03-27 | value: 55863.93
+key: 2021-03-31 | value: 58730.13
+key: 2021-04-03 | value: 59031.32
+key: 2021-04-06 | value: 59054.1
+key: 2021-04-09 | value: 58048.59
+key: 2021-04-12 | value: 59964.87
+key: 2021-04-15 | value: 62969.12
+key: 2021-04-18 | value: 60087.09
+key: 2021-04-21 | value: 56507.91
+key: 2021-04-24 | value: 51153.13
+key: 2021-04-27 | value: 54056.64
+key: 2021-04-30 | value: 53584.15
+key: 2021-05-03 | value: 56610.46
+key: 2021-05-06 | value: 57473.23
+key: 2021-05-09 | value: 58928.81
+key: 2021-05-12 | value: 56750
+key: 2021-05-15 | value: 49922.52
+key: 2021-05-18 | value: 43596.24
+key: 2021-05-21 | value: 40784.32
+key: 2021-05-24 | value: 34754.54
+key: 2021-05-27 | value: 39266.04
+key: 2021-05-30 | value: 34647.67
+key: 2021-06-02 | value: 36662.64
+key: 2021-06-05 | value: 36885.51
+key: 2021-06-08 | value: 33514.87
+key: 2021-06-11 | value: 36704.57
+key: 2021-06-14 | value: 39066.82
+key: 2021-06-17 | value: 38324.87
+key: 2021-06-20 | value: 35524.17
+key: 2021-06-23 | value: 32447.59
+key: 2021-06-26 | value: 31640.58
+key: 2021-06-29 | value: 34456.67
+key: 2021-07-02 | value: 33536.88
+key: 2021-07-05 | value: 35309.3
+key: 2021-07-08 | value: 33839.04
+key: 2021-07-11 | value: 33515.57
+key: 2021-07-14 | value: 32686.56
+key: 2021-07-17 | value: 31421.25
+key: 2021-07-20 | value: 30815.94
+key: 2021-07-23 | value: 32297.89
+key: 2021-07-26 | value: 35365.2
+key: 2021-07-29 | value: 40002.53
+key: 2021-08-01 | value: 41659.06
+key: 2021-08-04 | value: 38138
+key: 2021-08-07 | value: 42825.95
+key: 2021-08-10 | value: 46333.46
+key: 2021-08-13 | value: 44417.78
+key: 2021-08-16 | value: 47056.41
+key: 2021-08-19 | value: 44777.86
+key: 2021-08-22 | value: 48932.02
+key: 2021-08-25 | value: 47744.58
+key: 2021-08-28 | value: 49056.86
+key: 2021-08-31 | value: 47074.77
+key: 2021-09-03 | value: 49329.01
+key: 2021-09-06 | value: 51769.06
+key: 2021-09-09 | value: 46078.38
+key: 2021-09-12 | value: 45144.79
+key: 2021-09-15 | value: 47072.12
+key: 2021-09-18 | value: 47263.6
+key: 2021-09-21 | value: 42901.56
+key: 2021-09-24 | value: 44888.96
+key: 2021-09-27 | value: 43182.63
+key: 2021-09-30 | value: 41522.38
+key: 2021-10-03 | value: 47727.1
+key: 2021-10-06 | value: 51505.83
+key: 2021-10-09 | value: 53867.3
+key: 2021-10-12 | value: 57452.01
+key: 2021-10-15 | value: 57397.74
+key: 2021-10-18 | value: 61546.21
+key: 2021-10-21 | value: 66063.56
+key: 2021-10-24 | value: 61277.28
+key: 2021-10-27 | value: 60345.17
+key: 2021-10-30 | value: 62249.18
+key: 2021-11-01 | value: 61029.5
+key: 2021-11-04 | value: 61441.83
+key: 2021-11-07 | value: 63293.22
+key: 2021-11-10 | value: 64976.73
+key: 2021-11-13 | value: 64420.94
+key: 2021-11-16 | value: 60172.26
+key: 2021-11-19 | value: 58133.02
+key: 2021-11-22 | value: 56301.52
+key: 2021-11-25 | value: 58935.45
+key: 2021-11-28 | value: 57292.28
+key: 2021-12-01 | value: 57229.76
+key: 2021-12-04 | value: 49253.86
+key: 2021-12-07 | value: 50645.41
+key: 2021-12-10 | value: 47137.46
+key: 2021-12-13 | value: 46757.09
+key: 2021-12-16 | value: 47658.38
+key: 2021-12-19 | value: 46689.28
+key: 2021-12-22 | value: 48628.35
+key: 2021-12-25 | value: 50470.89
+key: 2021-12-28 | value: 47601.26
+key: 2021-12-31 | value: 46249.56
+key: 2022-01-03 | value: 46441.99
+key: 2022-01-06 | value: 43120.63
+key: 2022-01-09 | value: 41864.44
+key: 2022-01-12 | value: 43926
+key: 2022-01-15 | value: 43146.53
+key: 2022-01-18 | value: 42381.48
+key: 2022-01-21 | value: 36480.85
+key: 2022-01-24 | value: 36678.82
+key: 2022-01-27 | value: 37146.85
+key: 2022-01-30 | value: 37918.62
+key: 2022-02-02 | value: 36912.68
+key: 2022-02-05 | value: 41435.43
+key: 2022-02-08 | value: 44133.28
+key: 2022-02-11 | value: 42401.27
+key: 2022-02-14 | value: 42580.94
+key: 2022-02-17 | value: 40565.69
+key: 2022-02-20 | value: 38382.32
+key: 2022-02-23 | value: 37291.48
+key: 2022-02-26 | value: 39103.91
+key: 2022-03-01 | value: 44418.83
+key: 2022-03-04 | value: 39141.25
+key: 2022-03-07 | value: 38032.5
+key: 2022-03-10 | value: 39437.89
+key: 2022-03-13 | value: 37820.39
+key: 2022-03-16 | value: 41133.08
+key: 2022-03-19 | value: 42222.32
+key: 2022-03-22 | value: 42372.67
+key: 2022-03-25 | value: 44334.33
+key: 2022-03-29 | value: 47115.93
+key: 2009-1-2,value: 0
+key: 2009-1-5,value: 0
+key: 2009-1-8,value: 0
+key: 2009-1-11,value: 0
+key: 2009-1-14,value: 0
+key: 2009-1-17,value: 0
+key: 2009-1-20,value: 0
+key: 2009-1-23,value: 0
+key: 2009-1-26,value: 0
+key: 2009-1-29,value: 0
+key: 2009-2-1,value: 0
+key: 2009-2-4,value: 0
+key: 2009-2-7,value: 0
+key: 2009-2-10,value: 0
+key: 2009-2-13,value: 0
+key: 2009-2-16,value: 0
+key: 2009-2-19,value: 0
+key: 2009-2-22,value: 0
+key: 2009-2-25,value: 0
+key: 2009-2-28,value: 0
+key: 2009-3-3,value: 0
+key: 2009-3-6,value: 0
+key: 2009-3-9,value: 0
+key: 2009-3-12,value: 0
+key: 2009-3-15,value: 0
+key: 2009-3-18,value: 0
+key: 2009-3-21,value: 0
+key: 2009-3-24,value: 0
+key: 2009-3-27,value: 0
+key: 2009-3-31,value: 0
+key: 2009-4-3,value: 0
+key: 2009-4-6,value: 0
+key: 2009-4-9,value: 0
+key: 2009-4-12,value: 0
+key: 2009-4-15,value: 0
+key: 2009-4-18,value: 0
+key: 2009-4-21,value: 0
+key: 2009-4-24,value: 0
+key: 2009-4-27,value: 0
+key: 2009-4-30,value: 0
+key: 2009-5-3,value: 0
+key: 2009-5-6,value: 0
+key: 2009-5-9,value: 0
+key: 2009-5-12,value: 0
+key: 2009-5-15,value: 0
+key: 2009-5-18,value: 0
+key: 2009-5-21,value: 0
+key: 2009-5-24,value: 0
+key: 2009-5-27,value: 0
+key: 2009-5-30,value: 0
+key: 2009-6-2,value: 0
+key: 2009-6-5,value: 0
+key: 2009-6-8,value: 0
+key: 2009-6-11,value: 0
+key: 2009-6-14,value: 0
+key: 2009-6-17,value: 0
+key: 2009-6-20,value: 0
+key: 2009-6-23,value: 0
+key: 2009-6-26,value: 0
+key: 2009-6-29,value: 0
+key: 2009-7-2,value: 0
+key: 2009-7-5,value: 0
+key: 2009-7-8,value: 0
+key: 2009-7-11,value: 0
+key: 2009-7-14,value: 0
+key: 2009-7-17,value: 0
+key: 2009-7-20,value: 0
+key: 2009-7-23,value: 0
+key: 2009-7-26,value: 0
+key: 2009-7-29,value: 0
+key: 2009-8-1,value: 0
+key: 2009-8-4,value: 0
+key: 2009-8-7,value: 0
+key: 2009-8-10,value: 0
+key: 2009-8-13,value: 0
+key: 2009-8-16,value: 0
+key: 2009-8-19,value: 0
+key: 2009-8-22,value: 0
+key: 2009-8-25,value: 0
+key: 2009-8-28,value: 0
+key: 2009-8-31,value: 0
+key: 2009-9-3,value: 0
+key: 2009-9-6,value: 0
+key: 2009-9-9,value: 0
+key: 2009-9-12,value: 0
+key: 2009-9-15,value: 0
+key: 2009-9-18,value: 0
+key: 2009-9-21,value: 0
+key: 2009-9-24,value: 0
+key: 2009-9-27,value: 0
+key: 2009-9-30,value: 0
+key: 2009-10-3,value: 0
+key: 2009-10-6,value: 0
+key: 2009-10-9,value: 0
+key: 2009-10-12,value: 0
+key: 2009-10-15,value: 0
+key: 2009-10-18,value: 0
+key: 2009-10-21,value: 0
+key: 2009-10-24,value: 0
+key: 2009-10-26,value: 0
+key: 2009-10-29,value: 0
+key: 2009-11-1,value: 0
+key: 2009-11-4,value: 0
+key: 2009-11-7,value: 0
+key: 2009-11-10,value: 0
+key: 2009-11-13,value: 0
+key: 2009-11-16,value: 0
+key: 2009-11-19,value: 0
+key: 2009-11-22,value: 0
+key: 2009-11-25,value: 0
+key: 2009-11-28,value: 0
+key: 2009-12-1,value: 0
+key: 2009-12-4,value: 0
+key: 2009-12-7,value: 0
+key: 2009-12-10,value: 0
+key: 2009-12-13,value: 0
+key: 2009-12-16,value: 0
+key: 2009-12-19,value: 0
+key: 2009-12-22,value: 0
+key: 2009-12-25,value: 0
+key: 2009-12-28,value: 0
+key: 2009-12-31,value: 0
+key: 2010-1-3,value: 0
+key: 2010-1-6,value: 0
+key: 2010-1-9,value: 0
+key: 2010-1-12,value: 0
+key: 2010-1-15,value: 0
+key: 2010-1-18,value: 0
+key: 2010-1-21,value: 0
+key: 2010-1-24,value: 0
+key: 2010-1-27,value: 0
+key: 2010-1-30,value: 0
+key: 2010-2-2,value: 0
+key: 2010-2-5,value: 0
+key: 2010-2-8,value: 0
+key: 2010-2-11,value: 0
+key: 2010-2-14,value: 0
+key: 2010-2-17,value: 0
+key: 2010-2-20,value: 0
+key: 2010-2-23,value: 0
+key: 2010-2-26,value: 0
+key: 2010-3-1,value: 0
+key: 2010-3-4,value: 0
+key: 2010-3-7,value: 0
+key: 2010-3-10,value: 0
+key: 2010-3-13,value: 0
+key: 2010-3-16,value: 0
+key: 2010-3-19,value: 0
+key: 2010-3-22,value: 0
+key: 2010-3-25,value: 0
+key: 2010-3-29,value: 0
+key: 2010-4-1,value: 0
+key: 2010-4-4,value: 0
+key: 2010-4-7,value: 0
+key: 2010-4-10,value: 0
+key: 2010-4-13,value: 0
+key: 2010-4-16,value: 0
+key: 2010-4-19,value: 0
+key: 2010-4-22,value: 0
+key: 2010-4-25,value: 0
+key: 2010-4-28,value: 0
+key: 2010-5-1,value: 0
+key: 2010-5-4,value: 0
+key: 2010-5-7,value: 0
+key: 2010-5-10,value: 0
+key: 2010-5-13,value: 0
+key: 2010-5-16,value: 0
+key: 2010-5-19,value: 0
+key: 2010-5-22,value: 0
+key: 2010-5-25,value: 0
+key: 2010-5-28,value: 0
+key: 2010-5-31,value: 0
+key: 2010-6-3,value: 0
+key: 2010-6-6,value: 0
+key: 2010-6-9,value: 0
+key: 2010-6-12,value: 0
+key: 2010-6-15,value: 0
+key: 2010-6-18,value: 0
+key: 2010-6-21,value: 0
+key: 2010-6-24,value: 0
+key: 2010-6-27,value: 0
+key: 2010-6-30,value: 0
+key: 2010-7-3,value: 0
+key: 2010-7-6,value: 0
+key: 2010-7-9,value: 0
+key: 2010-7-12,value: 0
+key: 2010-7-15,value: 0
+key: 2010-7-18,value: 0
+key: 2010-7-21,value: 0
+key: 2010-7-24,value: 0
+key: 2010-7-27,value: 0
+key: 2010-7-30,value: 0
+key: 2010-8-2,value: 0
+key: 2010-8-5,value: 0
+key: 2010-8-8,value: 0
+key: 2010-8-11,value: 0
+key: 2010-8-14,value: 0
+key: 2010-8-17,value: 0
+key: 2010-8-20,value: 0.07
+key: 2010-8-23,value: 0.07
+key: 2010-8-26,value: 0.07
+key: 2010-8-29,value: 0.06
+key: 2010-9-1,value: 0.06
+key: 2010-9-4,value: 0.06
+key: 2010-9-7,value: 0.06
+key: 2010-9-10,value: 0.06
+key: 2010-9-13,value: 0.06
+key: 2010-9-16,value: 0.15
+key: 2010-9-19,value: 0.06
+key: 2010-9-22,value: 0.06
+key: 2010-9-25,value: 0.06
+key: 2010-9-28,value: 0.06
+key: 2010-10-1,value: 0.06
+key: 2010-10-4,value: 0.06
+key: 2010-10-7,value: 0.06
+key: 2010-10-10,value: 0.12
+key: 2010-10-13,value: 0.1
+key: 2010-10-16,value: 0.12
+key: 2010-10-19,value: 0.1
+key: 2010-10-22,value: 0.11
+key: 2010-10-25,value: 0.18
+key: 2010-10-28,value: 0.19
+key: 2010-10-31,value: 0.19
+key: 2010-11-2,value: 0.21
+key: 2010-11-5,value: 0.25
+key: 2010-11-8,value: 0.36
+key: 2010-11-11,value: 0.24
+key: 2010-11-14,value: 0.3
+key: 2010-11-17,value: 0.28
+key: 2010-11-20,value: 0.29
+key: 2010-11-23,value: 0.29
+key: 2010-11-26,value: 0.29
+key: 2010-11-29,value: 0.28
+key: 2010-12-2,value: 0.25
+key: 2010-12-5,value: 0.23
+key: 2010-12-8,value: 0.25
+key: 2010-12-11,value: 0.23
+key: 2010-12-14,value: 0.23
+key: 2010-12-17,value: 0.25
+key: 2010-12-20,value: 0.27
+key: 2010-12-23,value: 0.25
+key: 2010-12-26,value: 0.27
+key: 2010-12-29,value: 0.3
+key: 2011-1-2,value: 0.3
+key: 2011-1-4,value: 0.3
+key: 2011-1-7,value: 0.32
+key: 2011-1-10,value: 0.33
+key: 2011-1-13,value: 0.42
+key: 2011-1-16,value: 0.4
+key: 2011-1-19,value: 0.35
+key: 2011-1-22,value: 0.43
+key: 2011-1-25,value: 0.43
+key: 2011-1-28,value: 0.45
+key: 2011-1-31,value: 0.61
+key: 2011-2-3,value: 0.78
+key: 2011-2-6,value: 0.92
+key: 2011-2-9,value: 0.97
+key: 2011-2-12,value: 1.09
+key: 2011-2-15,value: 1.08
+key: 2011-2-18,value: 1.04
+key: 2011-2-21,value: 0.88
+key: 2011-2-24,value: 0.96
+key: 2011-2-27,value: 0.96
+key: 2011-3-2,value: 0.95
+key: 2011-3-5,value: 0.92
+key: 2011-3-8,value: 0.9
+key: 2011-3-11,value: 0.93
+key: 2011-3-14,value: 0.9
+key: 2011-3-17,value: 0.87
+key: 2011-3-20,value: 0.79
+key: 2011-3-23,value: 0.86
+key: 2011-3-26,value: 0.9
+key: 2011-3-30,value: 0.8
+key: 2011-4-2,value: 0.8
+key: 2011-4-5,value: 0.77
+key: 2011-4-8,value: 0.78
+key: 2011-4-11,value: 0.76
+key: 2011-4-14,value: 0.99
+key: 2011-4-17,value: 1.09
+key: 2011-4-20,value: 1.19
+key: 2011-4-23,value: 1.38
+key: 2011-4-26,value: 1.71
+key: 2011-4-29,value: 2.66
+key: 2011-5-2,value: 3.95
+key: 2011-5-5,value: 3.56
+key: 2011-5-8,value: 3.75
+key: 2011-5-11,value: 5.41
+key: 2011-5-14,value: 8.56
+key: 2011-5-17,value: 8.47
+key: 2011-5-20,value: 7.28
+key: 2011-5-23,value: 6.81
+key: 2011-5-26,value: 7.95
+key: 2011-5-29,value: 8.68
+key: 2011-6-1,value: 9.47
+key: 2011-6-4,value: 15.05
+key: 2011-6-7,value: 19.19
+key: 2011-6-10,value: 32.34
+key: 2011-6-13,value: 24.87
+key: 2011-6-16,value: 19.99
+key: 2011-6-19,value: 17.6
+key: 2011-6-22,value: 15.39
+key: 2011-6-25,value: 16.95
+key: 2011-6-28,value: 17.89
+key: 2011-7-1,value: 17.38
+key: 2011-7-4,value: 15.74
+key: 2011-7-7,value: 16.44
+key: 2011-7-10,value: 15.16
+key: 2011-7-13,value: 14.52
+key: 2011-7-16,value: 14.25
+key: 2011-7-19,value: 13.93
+key: 2011-7-22,value: 13.94
+key: 2011-7-25,value: 14.16
+key: 2011-7-28,value: 14.1
+key: 2011-7-31,value: 14.06
+key: 2011-8-3,value: 13.37
+key: 2011-8-6,value: 11.42
+key: 2011-8-9,value: 9.66
+key: 2011-8-12,value: 10.35
+key: 2011-8-15,value: 11.4
+key: 2011-8-18,value: 11.39
+key: 2011-8-21,value: 11.75
+key: 2011-8-24,value: 11.47
+key: 2011-8-27,value: 10.01
+key: 2011-8-30,value: 9.4
+key: 2011-9-2,value: 8.46
+key: 2011-9-5,value: 8.56
+key: 2011-9-8,value: 7.53
+key: 2011-9-11,value: 6.49
+key: 2011-9-14,value: 6.19
+key: 2011-9-17,value: 5.18
+key: 2011-9-20,value: 5.89
+key: 2011-9-23,value: 5.8
+key: 2011-9-26,value: 5.49
+key: 2011-9-29,value: 4.95
+key: 2011-10-2,value: 5.27
+key: 2011-10-5,value: 5.03
+key: 2011-10-8,value: 4.79
+key: 2011-10-11,value: 4.23
+key: 2011-10-14,value: 4.37
+key: 2011-10-17,value: 3.87
+key: 2011-10-20,value: 2.59
+key: 2011-10-23,value: 3.31
+key: 2011-10-26,value: 3
+key: 2011-10-29,value: 3.39
+key: 2011-10-31,value: 3.38
+key: 2011-11-3,value: 3.28
+key: 2011-11-6,value: 3.04
+key: 2011-11-9,value: 3.09
+key: 2011-11-12,value: 3.11
+key: 2011-11-15,value: 2.67
+key: 2011-11-18,value: 2.37
+key: 2011-11-21,value: 2.3
+key: 2011-11-24,value: 2.48
+key: 2011-11-27,value: 2.51
+key: 2011-11-30,value: 3
+key: 2011-12-3,value: 3.1
+key: 2011-12-6,value: 3.06
+key: 2011-12-9,value: 3.04
+key: 2011-12-12,value: 3.33
+key: 2011-12-15,value: 3.2
+key: 2011-12-18,value: 3.36
+key: 2011-12-21,value: 4.08
+key: 2011-12-24,value: 4.06
+key: 2011-12-27,value: 4.09
+key: 2011-12-30,value: 4.47
+key: 2012-1-2,value: 5.45
+key: 2012-1-5,value: 6.6
+key: 2012-1-8,value: 7.2
+key: 2012-1-11,value: 7.1
+key: 2012-1-14,value: 6.81
+key: 2012-1-17,value: 6.97
+key: 2012-1-20,value: 6.57
+key: 2012-1-23,value: 6.47
+key: 2012-1-26,value: 6.08
+key: 2012-1-29,value: 5.72
+key: 2012-2-1,value: 5.77
+key: 2012-2-4,value: 5.99
+key: 2012-2-7,value: 5.74
+key: 2012-2-10,value: 5.94
+key: 2012-2-13,value: 5.69
+key: 2012-2-16,value: 4.74
+key: 2012-2-19,value: 4.38
+key: 2012-2-22,value: 4.63
+key: 2012-2-25,value: 5.05
+key: 2012-2-28,value: 4.98
+key: 2012-3-2,value: 4.94
+key: 2012-3-5,value: 5.04
+key: 2012-3-8,value: 4.99
+key: 2012-3-11,value: 4.98
+key: 2012-3-14,value: 5.45
+key: 2012-3-17,value: 5.4
+key: 2012-3-20,value: 4.95
+key: 2012-3-23,value: 4.81
+key: 2012-3-27,value: 4.74
+key: 2012-3-30,value: 4.85
+key: 2012-4-2,value: 4.97
+key: 2012-4-5,value: 4.96
+key: 2012-4-8,value: 4.94
+key: 2012-4-11,value: 4.9
+key: 2012-4-14,value: 4.97
+key: 2012-4-17,value: 4.99
+key: 2012-4-20,value: 5.19
+key: 2012-4-23,value: 5.3
+key: 2012-4-26,value: 5.16
+key: 2012-4-29,value: 5.09
+key: 2012-5-2,value: 5.04
+key: 2012-5-5,value: 5.15
+key: 2012-5-8,value: 5.1
+key: 2012-5-11,value: 5.1
+key: 2012-5-14,value: 5.01
+key: 2012-5-17,value: 5.1
+key: 2012-5-20,value: 5.14
+key: 2012-5-23,value: 5.13
+key: 2012-5-26,value: 5.15
+key: 2012-5-29,value: 5.16
+key: 2012-6-1,value: 5.21
+key: 2012-6-4,value: 5.27
+key: 2012-6-7,value: 5.48
+key: 2012-6-10,value: 5.68
+key: 2012-6-13,value: 5.76
+key: 2012-6-16,value: 6.27
+key: 2012-6-19,value: 6.48
+key: 2012-6-22,value: 6.8
+key: 2012-6-25,value: 6.56
+key: 2012-6-28,value: 6.58
+key: 2012-7-1,value: 6.69
+key: 2012-7-4,value: 6.71
+key: 2012-7-7,value: 6.74
+key: 2012-7-10,value: 6.98
+key: 2012-7-13,value: 7.46
+key: 2012-7-16,value: 7.8
+key: 2012-7-19,value: 9.37
+key: 2012-7-22,value: 9.53
+key: 2012-7-25,value: 8.91
+key: 2012-7-28,value: 8.95
+key: 2012-7-31,value: 9.22
+key: 2012-8-3,value: 10.12
+key: 2012-8-6,value: 11.21
+key: 2012-8-9,value: 11.35
+key: 2012-8-12,value: 11.64
+key: 2012-8-15,value: 12.3
+key: 2012-8-18,value: 15.37
+key: 2012-8-21,value: 10.45
+key: 2012-8-24,value: 10.25
+key: 2012-8-27,value: 10.99
+key: 2012-8-30,value: 11.14
+key: 2012-9-2,value: 10.36
+key: 2012-9-5,value: 10.59
+key: 2012-9-8,value: 11.27
+key: 2012-9-11,value: 11.14
+key: 2012-9-14,value: 11.48
+key: 2012-9-17,value: 11.98
+key: 2012-9-20,value: 12.63
+key: 2012-9-23,value: 12.4
+key: 2012-9-26,value: 12.24
+key: 2012-9-29,value: 12.46
+key: 2012-10-2,value: 12.58
+key: 2012-10-5,value: 13.07
+key: 2012-10-8,value: 12.58
+key: 2012-10-11,value: 12.16
+key: 2012-10-14,value: 12.1
+key: 2012-10-17,value: 11.99
+key: 2012-10-20,value: 11.94
+key: 2012-10-23,value: 11.86
+key: 2012-10-26,value: 11.56
+key: 2012-10-28,value: 10.69
+key: 2012-10-31,value: 11.17
+key: 2012-11-3,value: 10.62
+key: 2012-11-6,value: 10.97
+key: 2012-11-9,value: 11.04
+key: 2012-11-12,value: 11.17
+key: 2012-11-15,value: 11.28
+key: 2012-11-18,value: 11.82
+key: 2012-11-21,value: 11.9
+key: 2012-11-24,value: 12.46
+key: 2012-11-27,value: 12.5
+key: 2012-11-30,value: 12.66
+key: 2012-12-3,value: 12.75
+key: 2012-12-6,value: 13.69
+key: 2012-12-9,value: 13.53
+key: 2012-12-12,value: 13.8
+key: 2012-12-15,value: 13.75
+key: 2012-12-18,value: 13.4
+key: 2012-12-21,value: 13.63
+key: 2012-12-24,value: 13.45
+key: 2012-12-27,value: 13.51
+key: 2012-12-30,value: 13.57
+key: 2013-1-2,value: 13.42
+key: 2013-1-5,value: 13.54
+key: 2013-1-8,value: 13.84
+key: 2013-1-11,value: 14.31
+key: 2013-1-14,value: 14.34
+key: 2013-1-17,value: 15.53
+key: 2013-1-20,value: 16.15
+key: 2013-1-23,value: 17.97
+key: 2013-1-26,value: 17.71
+key: 2013-1-29,value: 19.78
+key: 2013-2-1,value: 21.25
+key: 2013-2-4,value: 20.99
+key: 2013-2-7,value: 22.15
+key: 2013-2-10,value: 23.97
+key: 2013-2-13,value: 24.3
+key: 2013-2-16,value: 27.39
+key: 2013-2-19,value: 29.48
+key: 2013-2-22,value: 30.52
+key: 2013-2-25,value: 30.4
+key: 2013-2-28,value: 33.36
+key: 2013-3-3,value: 34.25
+key: 2013-3-6,value: 42
+key: 2013-3-9,value: 46.93
+key: 2013-3-12,value: 44.32
+key: 2013-3-15,value: 46.9
+key: 2013-3-18,value: 52.12
+key: 2013-3-21,value: 70.25
+key: 2013-3-24,value: 71.93
+key: 2013-3-27,value: 88.8
+key: 2013-3-30,value: 92.5
+key: 2013-4-3,value: 117.34
+key: 2013-4-6,value: 142.1
+key: 2013-4-9,value: 186.96
+key: 2013-4-12,value: 124.9
+key: 2013-4-15,value: 100
+key: 2013-4-18,value: 93.9
+key: 2013-4-21,value: 127.5
+key: 2013-4-24,value: 142.5
+key: 2013-4-27,value: 137
+key: 2013-4-30,value: 144.54
+key: 2013-5-3,value: 103.3
+key: 2013-5-6,value: 115.98
+key: 2013-5-9,value: 113.35
+key: 2013-5-12,value: 115.68
+key: 2013-5-15,value: 112
+key: 2013-5-18,value: 123.32
+key: 2013-5-21,value: 122.02
+key: 2013-5-24,value: 126.7
+key: 2013-5-27,value: 133.5
+key: 2013-5-30,value: 132.3
+key: 2013-6-2,value: 129.3
+key: 2013-6-5,value: 121.42
+key: 2013-6-8,value: 111.5
+key: 2013-6-11,value: 106.1
+key: 2013-6-14,value: 103.9
+key: 2013-6-17,value: 99.9
+key: 2013-6-20,value: 107.68
+key: 2013-6-23,value: 108.35
+key: 2013-6-26,value: 103.89
+key: 2013-6-29,value: 94.65
+key: 2013-7-2,value: 87
+key: 2013-7-5,value: 80.04
+key: 2013-7-8,value: 75
+key: 2013-7-11,value: 87.9
+key: 2013-7-14,value: 98
+key: 2013-7-17,value: 97.05
+key: 2013-7-20,value: 92
+key: 2013-7-23,value: 91.99
+key: 2013-7-26,value: 97
+key: 2013-7-29,value: 98.7
+key: 2013-8-1,value: 106.2
+key: 2013-8-4,value: 104.95
+key: 2013-8-7,value: 106.56
+key: 2013-8-10,value: 102.8
+key: 2013-8-13,value: 106.64
+key: 2013-8-16,value: 98.08
+key: 2013-8-19,value: 99.3
+key: 2013-8-22,value: 110.43
+key: 2013-8-25,value: 109.04
+key: 2013-8-28,value: 117.72
+key: 2013-8-31,value: 124.84
+key: 2013-9-3,value: 130.09
+key: 2013-9-6,value: 122.63
+key: 2013-9-9,value: 118.18
+key: 2013-9-12,value: 126.54
+key: 2013-9-15,value: 124.05
+key: 2013-9-18,value: 139.15
+key: 2013-9-21,value: 123.04
+key: 2013-9-24,value: 122.65
+key: 2013-9-27,value: 124.65
+key: 2013-9-30,value: 127.01
+key: 2013-10-3,value: 103.85
+key: 2013-10-6,value: 121.2
+key: 2013-10-9,value: 124.12
+key: 2013-10-12,value: 127.41
+key: 2013-10-15,value: 135.17
+key: 2013-10-18,value: 143.94
+key: 2013-10-21,value: 186.12
+key: 2013-10-24,value: 203.7
+key: 2013-10-27,value: 179.56
+key: 2013-10-29,value: 216
+key: 2013-11-1,value: 203
+key: 2013-11-4,value: 229.95
+key: 2013-11-7,value: 291.02
+key: 2013-11-10,value: 328
+key: 2013-11-13,value: 393
+key: 2013-11-16,value: 437.24
+key: 2013-11-19,value: 547
+key: 2013-11-22,value: 795
+key: 2013-11-25,value: 814.56
+key: 2013-11-28,value: 1014.1
+key: 2013-12-1,value: 955.01
+key: 2013-12-4,value: 1136.9
+key: 2013-12-7,value: 705.91
+key: 2013-12-10,value: 978.76
+key: 2013-12-13,value: 885
+key: 2013-12-16,value: 690
+key: 2013-12-19,value: 685.3
+key: 2013-12-22,value: 614.11
+key: 2013-12-25,value: 679.02
+key: 2013-12-28,value: 715
+key: 2013-12-31,value: 732
+key: 2014-1-3,value: 807.39
+key: 2014-1-6,value: 915.69
+key: 2014-1-9,value: 826.28
+key: 2014-1-12,value: 844.04
+key: 2014-1-15,value: 841.83
+key: 2014-1-18,value: 811.2
+key: 2014-1-21,value: 824.78
+key: 2014-1-24,value: 780.02
+key: 2014-1-27,value: 747.57
+key: 2014-1-30,value: 800
+key: 2014-2-2,value: 814.34
+key: 2014-2-5,value: 781
+key: 2014-2-8,value: 680.8
+key: 2014-2-11,value: 675.1
+key: 2014-2-14,value: 670.29
+key: 2014-2-17,value: 629.96
+key: 2014-2-20,value: 563
+key: 2014-2-23,value: 611.05
+key: 2014-2-26,value: 585.21
+key: 2014-3-1,value: 567.48
+key: 2014-3-4,value: 673.28
+key: 2014-3-7,value: 631.99
+key: 2014-3-10,value: 629.33
+key: 2014-3-13,value: 641.01
+key: 2014-3-16,value: 634.99
+key: 2014-3-19,value: 611.2
+key: 2014-3-22,value: 563.01
+key: 2014-3-25,value: 585.79
+key: 2014-3-28,value: 499.6
+key: 2014-4-1,value: 457.49
+key: 2014-4-4,value: 448.72
+key: 2014-4-7,value: 458
+key: 2014-4-10,value: 441.93
+key: 2014-4-13,value: 423.37
+key: 2014-4-16,value: 523
+key: 2014-4-19,value: 482.11
+key: 2014-4-22,value: 498.38
+key: 2014-4-25,value: 502.15
+key: 2014-4-28,value: 438.8
+key: 2014-5-1,value: 452.03
+key: 2014-5-4,value: 440
+key: 2014-5-7,value: 428.01
+key: 2014-5-10,value: 449
+key: 2014-5-13,value: 442.45
+key: 2014-5-16,value: 446.53
+key: 2014-5-19,value: 446.89
+key: 2014-5-22,value: 493.97
+key: 2014-5-25,value: 527.91
+key: 2014-5-28,value: 572.7
+key: 2014-5-31,value: 621.3
+key: 2014-6-3,value: 662
+key: 2014-6-6,value: 661.48
+key: 2014-6-9,value: 657.11
+key: 2014-6-12,value: 624.97
+key: 2014-6-15,value: 572.28
+key: 2014-6-18,value: 608
+key: 2014-6-21,value: 593.48
+key: 2014-6-24,value: 588.25
+key: 2014-6-27,value: 577.34
+key: 2014-6-30,value: 599.99
+key: 2014-7-3,value: 650.49
+key: 2014-7-6,value: 631
+key: 2014-7-9,value: 624.97
+key: 2014-7-12,value: 634
+key: 2014-7-15,value: 621.21
+key: 2014-7-18,value: 625.8
+key: 2014-7-21,value: 627
+key: 2014-7-24,value: 620.43
+key: 2014-7-27,value: 595.9
+key: 2014-7-30,value: 585.5
+key: 2014-8-2,value: 595.76
+key: 2014-8-5,value: 588.5
+key: 2014-8-8,value: 585.02
+key: 2014-8-11,value: 590.74
+key: 2014-8-14,value: 549.98
+key: 2014-8-17,value: 523.88
+key: 2014-8-20,value: 490
+key: 2014-8-23,value: 515.69
+key: 2014-8-26,value: 501.55
+key: 2014-8-29,value: 506.61
+key: 2014-9-1,value: 478.87
+key: 2014-9-4,value: 474.5
+key: 2014-9-7,value: 479.59
+key: 2014-9-10,value: 473.35
+key: 2014-9-13,value: 474.62
+key: 2014-9-16,value: 470.83
+key: 2014-9-19,value: 425.56
+key: 2014-9-22,value: 401.15
+key: 2014-9-25,value: 423.68
+key: 2014-9-28,value: 400.39
+key: 2014-10-1,value: 390.18
+key: 2014-10-4,value: 358.9
+key: 2014-10-7,value: 327.61
+key: 2014-10-10,value: 363.61
+key: 2014-10-13,value: 380.8
+key: 2014-10-16,value: 394.84
+key: 2014-10-19,value: 391
+key: 2014-10-22,value: 385.89
+key: 2014-10-25,value: 358.49
+key: 2014-10-27,value: 350.9
+key: 2014-10-30,value: 345.3
+key: 2014-11-2,value: 324.36
+key: 2014-11-5,value: 338.63
+key: 2014-11-8,value: 346.94
+key: 2014-11-11,value: 369.41
+key: 2014-11-14,value: 399.11
+key: 2014-11-17,value: 388.87
+key: 2014-11-20,value: 356.47
+key: 2014-11-23,value: 367.12
+key: 2014-11-26,value: 366.86
+key: 2014-11-29,value: 375.59
+key: 2014-12-2,value: 379.62
+key: 2014-12-5,value: 376
+key: 2014-12-8,value: 362.99
+key: 2014-12-11,value: 348.97
+key: 2014-12-14,value: 357.8
+key: 2014-12-17,value: 321.34
+key: 2014-12-20,value: 331.52
+key: 2014-12-23,value: 336.95
+key: 2014-12-26,value: 329.94
+key: 2014-12-29,value: 313.4
+key: 2015-1-1,value: 314.81
+key: 2015-1-4,value: 263.17
+key: 2015-1-7,value: 297.99
+key: 2015-1-10,value: 275.97
+key: 2015-1-13,value: 222
+key: 2015-1-16,value: 208.13
+key: 2015-1-19,value: 216.01
+key: 2015-1-22,value: 233.51
+key: 2015-1-25,value: 254.32
+key: 2015-1-28,value: 236.2
+key: 2015-1-31,value: 219.25
+key: 2015-2-3,value: 227.53
+key: 2015-2-6,value: 222.36
+key: 2015-2-9,value: 219.93
+key: 2015-2-12,value: 222.33
+key: 2015-2-15,value: 234.18
+key: 2015-2-18,value: 237.44
+key: 2015-2-21,value: 245.41
+key: 2015-2-24,value: 239.94
+key: 2015-2-27,value: 252.11
+key: 2015-3-2,value: 275.87
+key: 2015-3-5,value: 273.11
+key: 2015-3-8,value: 275
+key: 2015-3-11,value: 296.56
+key: 2015-3-14,value: 282.2
+key: 2015-3-17,value: 284.48
+key: 2015-3-20,value: 262.1
+key: 2015-3-23,value: 265.99
+key: 2015-3-26,value: 249.23
+key: 2015-3-30,value: 242.34
+key: 2015-4-2,value: 246.49
+key: 2015-4-5,value: 253.67
+key: 2015-4-8,value: 253.9
+key: 2015-4-11,value: 236
+key: 2015-4-14,value: 223.01
+key: 2015-4-17,value: 227.5
+key: 2015-4-20,value: 222.61
+key: 2015-4-23,value: 233.59
+key: 2015-4-26,value: 226.29
+key: 2015-4-29,value: 225.2
+key: 2015-5-2,value: 230.97
+key: 2015-5-5,value: 238.25
+key: 2015-5-8,value: 237.16
+key: 2015-5-11,value: 239.11
+key: 2015-5-14,value: 235.97
+key: 2015-5-17,value: 236.63
+key: 2015-5-20,value: 231.4
+key: 2015-5-23,value: 238.8
+key: 2015-5-26,value: 235.59
+key: 2015-5-29,value: 236.44
+key: 2015-6-1,value: 228.34
+key: 2015-6-4,value: 225.4
+key: 2015-6-7,value: 224.99
+key: 2015-6-10,value: 228.88
+key: 2015-6-13,value: 229.6
+key: 2015-6-16,value: 236
+key: 2015-6-19,value: 248.26
+key: 2015-6-22,value: 243.55
+key: 2015-6-25,value: 240.2
+key: 2015-6-28,value: 251.21
+key: 2015-7-1,value: 262.43
+key: 2015-7-4,value: 256.12
+key: 2015-7-7,value: 268.53
+key: 2015-7-10,value: 269
+key: 2015-7-13,value: 310.55
+key: 2015-7-16,value: 285.66
+key: 2015-7-19,value: 276.74
+key: 2015-7-22,value: 276.76
+key: 2015-7-25,value: 289
+key: 2015-7-28,value: 293.93
+key: 2015-7-31,value: 288.45
+key: 2015-8-3,value: 282.26
+key: 2015-8-6,value: 281
+key: 2015-8-9,value: 262.22
+key: 2015-8-12,value: 270.98
+key: 2015-8-15,value: 265.93
+key: 2015-8-18,value: 256.66
+key: 2015-8-21,value: 235.31
+key: 2015-8-24,value: 228.14
+key: 2015-8-27,value: 225.04
+key: 2015-8-30,value: 229.63
+key: 2015-9-2,value: 227.97
+key: 2015-9-5,value: 230.73
+key: 2015-9-8,value: 240.47
+key: 2015-9-11,value: 238.81
+key: 2015-9-14,value: 230
+key: 2015-9-17,value: 228.33
+key: 2015-9-20,value: 230.25
+key: 2015-9-23,value: 230.42
+key: 2015-9-26,value: 235.22
+key: 2015-9-29,value: 239.14
+key: 2015-10-2,value: 238.03
+key: 2015-10-5,value: 238.4
+key: 2015-10-8,value: 243.01
+key: 2015-10-11,value: 245.72
+key: 2015-10-14,value: 249.98
+key: 2015-10-17,value: 262.26
+key: 2015-10-20,value: 263.59
+key: 2015-10-23,value: 274.35
+key: 2015-10-25,value: 282.8
+key: 2015-10-28,value: 304.79
+key: 2015-10-31,value: 310.18
+key: 2015-11-3,value: 404.5
+key: 2015-11-6,value: 373.69
+key: 2015-11-9,value: 380.62
+key: 2015-11-12,value: 340.81
+key: 2015-11-15,value: 318.97
+key: 2015-11-18,value: 333.66
+key: 2015-11-21,value: 326.31
+key: 2015-11-24,value: 319.64
+key: 2015-11-27,value: 358
+key: 2015-11-30,value: 377.27
+key: 2015-12-3,value: 361.47
+key: 2015-12-6,value: 387.3
+key: 2015-12-9,value: 416.49
+key: 2015-12-12,value: 436.2
+key: 2015-12-15,value: 463.98
+key: 2015-12-18,value: 463
+key: 2015-12-21,value: 438.35
+key: 2015-12-24,value: 456
+key: 2015-12-27,value: 422.42
+key: 2015-12-30,value: 428.23
+key: 2016-1-2,value: 432.76
+key: 2016-1-5,value: 432.43
+key: 2016-1-8,value: 452.64
+key: 2016-1-11,value: 447.98
+key: 2016-1-14,value: 429.55
+key: 2016-1-17,value: 380.16
+key: 2016-1-20,value: 420.35
+key: 2016-1-23,value: 385.09
+key: 2016-1-26,value: 391.66
+key: 2016-1-29,value: 378.18
+key: 2016-2-1,value: 371.99
+key: 2016-2-4,value: 388
+key: 2016-2-7,value: 375
+key: 2016-2-10,value: 379.14
+key: 2016-2-13,value: 389.88
+key: 2016-2-16,value: 407
+key: 2016-2-19,value: 419.98
+key: 2016-2-22,value: 436.76
+key: 2016-2-25,value: 423.46
+key: 2016-2-28,value: 431.89
+key: 2016-3-2,value: 422.5
+key: 2016-3-5,value: 399.17
+key: 2016-3-8,value: 412.15
+key: 2016-3-11,value: 420.11
+key: 2016-3-14,value: 414.99
+key: 2016-3-17,value: 418.49
+key: 2016-3-20,value: 411.81
+key: 2016-3-23,value: 417.96
+key: 2016-3-26,value: 416.96
+key: 2016-3-30,value: 415.83
+key: 2016-4-2,value: 416.31
+key: 2016-4-5,value: 419.71
+key: 2016-4-8,value: 419.95
+key: 2016-4-11,value: 420.75
+key: 2016-4-14,value: 423.87
+key: 2016-4-17,value: 430.58
+key: 2016-4-20,value: 435.95
+key: 2016-4-23,value: 447.7
+key: 2016-4-26,value: 462.5
+key: 2016-4-29,value: 449.98
+key: 2016-5-2,value: 453
+key: 2016-5-5,value: 446.84
+key: 2016-5-8,value: 459.02
+key: 2016-5-11,value: 450.78
+key: 2016-5-14,value: 455.82
+key: 2016-5-17,value: 454
+key: 2016-5-20,value: 436.05
+key: 2016-5-23,value: 438.47
+key: 2016-5-26,value: 448.7
+key: 2016-5-29,value: 526.64
+key: 2016-6-1,value: 531.97
+key: 2016-6-4,value: 567.88
+key: 2016-6-7,value: 583.72
+key: 2016-6-10,value: 574.32
+key: 2016-6-13,value: 665.85
+key: 2016-6-16,value: 693.88
+key: 2016-6-19,value: 751.96
+key: 2016-6-22,value: 664.46
+key: 2016-6-25,value: 665
+key: 2016-6-28,value: 651.85
+key: 2016-7-1,value: 667.95
+key: 2016-7-4,value: 656.97
+key: 2016-7-7,value: 673.76
+key: 2016-7-10,value: 647.41
+key: 2016-7-13,value: 664.5
+key: 2016-7-16,value: 663.19
+key: 2016-7-19,value: 673.46
+key: 2016-7-22,value: 664
+key: 2016-7-25,value: 661.48
+key: 2016-7-28,value: 655.37
+key: 2016-7-31,value: 654.68
+key: 2016-8-3,value: 530.74
+key: 2016-8-6,value: 572.72
+key: 2016-8-9,value: 591.69
+key: 2016-8-12,value: 586.01
+key: 2016-8-15,value: 567.34
+key: 2016-8-18,value: 570.92
+key: 2016-8-21,value: 577.52
+key: 2016-8-24,value: 581.98
+key: 2016-8-27,value: 577.77
+key: 2016-8-30,value: 571.5
+key: 2016-9-2,value: 571
+key: 2016-9-5,value: 603.95
+key: 2016-9-8,value: 615.33
+key: 2016-9-11,value: 621.65
+key: 2016-9-14,value: 608.82
+key: 2016-9-17,value: 607.04
+key: 2016-9-20,value: 608.66
+key: 2016-9-23,value: 594.08
+key: 2016-9-26,value: 598.98
+key: 2016-9-29,value: 603.85
+key: 2016-10-2,value: 612.98
+key: 2016-10-5,value: 607.18
+key: 2016-10-8,value: 614.74
+key: 2016-10-11,value: 614.77
+key: 2016-10-14,value: 634.02
+key: 2016-10-17,value: 638.97
+key: 2016-10-20,value: 627.72
+key: 2016-10-23,value: 653.25
+key: 2016-10-26,value: 651.45
+key: 2016-10-29,value: 685.91
+key: 2016-10-31,value: 697.01
+key: 2016-11-3,value: 683.69
+key: 2016-11-6,value: 709.96
+key: 2016-11-9,value: 721.5
+key: 2016-11-12,value: 702.28
+key: 2016-11-15,value: 711.73
+key: 2016-11-18,value: 748.98
+key: 2016-11-21,value: 736.97
+key: 2016-11-24,value: 735.64
+key: 2016-11-27,value: 727.31
+key: 2016-11-30,value: 742.05
+key: 2016-12-3,value: 762.97
+key: 2016-12-6,value: 758.99
+key: 2016-12-9,value: 769.08
+key: 2016-12-12,value: 777.99
+key: 2016-12-15,value: 775.88
+key: 2016-12-18,value: 788.67
+key: 2016-12-21,value: 834.97
+key: 2016-12-24,value: 892.6
+key: 2016-12-27,value: 930.34
+key: 2016-12-30,value: 958.12
+key: 2017-1-2,value: 1013.42
+key: 2017-1-5,value: 999.65
+key: 2017-1-8,value: 910.49
+key: 2017-1-11,value: 780.92
+key: 2017-1-14,value: 819.55
+key: 2017-1-17,value: 906.6
+key: 2017-1-20,value: 895.64
+key: 2017-1-23,value: 919.97
+key: 2017-1-26,value: 915.05
+key: 2017-1-29,value: 912.19
+key: 2017-2-1,value: 983.42
+key: 2017-2-4,value: 1034.07
+key: 2017-2-7,value: 1052.84
+key: 2017-2-10,value: 997.59
+key: 2017-2-13,value: 1001.2
+key: 2017-2-16,value: 1035.2
+key: 2017-2-19,value: 1050.87
+key: 2017-2-22,value: 1130.01
+key: 2017-2-25,value: 1150.37
+key: 2017-2-28,value: 1190.89
+key: 2017-3-3,value: 1287
+key: 2017-3-6,value: 1279.5
+key: 2017-3-9,value: 1192.09
+key: 2017-3-12,value: 1227.68
+key: 2017-3-15,value: 1257
+key: 2017-3-18,value: 967.69
+key: 2017-3-21,value: 1113
+key: 2017-3-24,value: 927.93
+key: 2017-3-28,value: 1041.04
+key: 2017-3-31,value: 1034.74
+key: 2017-4-3,value: 1079.99
+key: 2017-4-6,value: 1133.53
+key: 2017-4-9,value: 1184.03
+key: 2017-4-12,value: 1219.09
+key: 2017-4-15,value: 1170.36
+key: 2017-4-18,value: 1176.97
+key: 2017-4-21,value: 1236.63
+key: 2017-4-24,value: 1240.84
+key: 2017-4-27,value: 1288.02
+key: 2017-4-30,value: 1333
+key: 2017-5-3,value: 1447.55
+key: 2017-5-6,value: 1518.75
+key: 2017-5-9,value: 1651.1
+key: 2017-5-12,value: 1829
+key: 2017-5-15,value: 1780
+key: 2017-5-18,value: 1783.98
+key: 2017-5-21,value: 2008.84
+key: 2017-5-24,value: 2256.32
+key: 2017-5-27,value: 2279.82
+key: 2017-5-30,value: 2290.02
+key: 2017-6-2,value: 2409.93
+key: 2017-6-5,value: 2529.53
+key: 2017-6-8,value: 2683.03
+key: 2017-6-11,value: 2898.63
+key: 2017-6-14,value: 2706
+key: 2017-6-17,value: 2477.94
+key: 2017-6-20,value: 2600
+key: 2017-6-23,value: 2713.48
+key: 2017-6-26,value: 2502.03
+key: 2017-6-29,value: 2558.3
+key: 2017-7-2,value: 2421.26
+key: 2017-7-5,value: 2598.89
+key: 2017-7-8,value: 2502.86
+key: 2017-7-11,value: 2327.09
+key: 2017-7-14,value: 2338.49
+key: 2017-7-17,value: 1910.96
+key: 2017-7-20,value: 2265.21
+key: 2017-7-23,value: 2825.51
+key: 2017-7-26,value: 2564.3
+key: 2017-7-29,value: 2784.8
+key: 2017-8-1,value: 2862.9
+key: 2017-8-4,value: 2790
+key: 2017-8-7,value: 3210.2
+key: 2017-8-10,value: 3340.28
+key: 2017-8-13,value: 3868.52
+key: 2017-8-16,value: 4179.97
+key: 2017-8-19,value: 4104.71
+key: 2017-8-22,value: 3986.28
+key: 2017-8-25,value: 4331.77
+key: 2017-8-28,value: 4339.05
+key: 2017-8-31,value: 4582.52
+key: 2017-9-3,value: 4585.57
+key: 2017-9-6,value: 4385.02
+key: 2017-9-9,value: 4312.26
+key: 2017-9-12,value: 4198.59
+key: 2017-9-15,value: 3216.43
+key: 2017-9-18,value: 3678.53
+key: 2017-9-21,value: 3894.48
+key: 2017-9-24,value: 3777.62
+key: 2017-9-27,value: 3881
+key: 2017-9-30,value: 4164.27
+key: 2017-10-3,value: 4394.07
+key: 2017-10-6,value: 4318.58
+key: 2017-10-9,value: 4605.66
+key: 2017-10-12,value: 4822.17
+key: 2017-10-15,value: 5825.99
+key: 2017-10-18,value: 5594.66
+key: 2017-10-21,value: 5986.44
+key: 2017-10-24,value: 5900.59
+key: 2017-10-27,value: 5889.82
+key: 2017-10-29,value: 6136.49
+key: 2017-11-1,value: 6751.98
+key: 2017-11-4,value: 7365.99
+key: 2017-11-7,value: 7128.64
+key: 2017-11-10,value: 6569.22
+key: 2017-11-13,value: 6493.63
+key: 2017-11-16,value: 7868.77
+key: 2017-11-19,value: 8049.72
+key: 2017-11-22,value: 8236.72
+key: 2017-11-25,value: 8768.8
+key: 2017-11-28,value: 9919
+key: 2017-12-1,value: 10879.9
+key: 2017-12-4,value: 11591.2
+key: 2017-12-7,value: 16860.9
+key: 2017-12-10,value: 15069
+key: 2017-12-13,value: 16252.3
+key: 2017-12-16,value: 19279.9
+key: 2017-12-19,value: 17382.9
+key: 2017-12-22,value: 13776.6
+key: 2017-12-25,value: 13740.9
+key: 2017-12-28,value: 14214
+key: 2017-12-31,value: 13796
+key: 2018-1-3,value: 15039.2
+key: 2018-1-6,value: 17156
+key: 2018-1-9,value: 14437.4
+key: 2018-1-12,value: 13791.2
+key: 2018-1-15,value: 13554.1
+key: 2018-1-18,value: 11174.8
+key: 2018-1-21,value: 11513.4
+key: 2018-1-24,value: 11392
+key: 2018-1-27,value: 11431.4
+key: 2018-1-30,value: 10082.5
+key: 2018-2-2,value: 8852.73
+key: 2018-2-5,value: 6925.46
+key: 2018-2-8,value: 8245.08
+key: 2018-2-11,value: 8068.02
+key: 2018-2-14,value: 9471.64
+key: 2018-2-17,value: 11085.8
+key: 2018-2-20,value: 11246
+key: 2018-2-23,value: 10171.3
+key: 2018-2-26,value: 10319.5
+key: 2018-3-1,value: 10931.1
+key: 2018-3-4,value: 11516.8
+key: 2018-3-7,value: 9920.46
+key: 2018-3-10,value: 8777.37
+key: 2018-3-13,value: 9153.54
+key: 2018-3-16,value: 8297.89
+key: 2018-3-19,value: 8605.64
+key: 2018-3-22,value: 8725.37
+key: 2018-3-26,value: 8457.96
+key: 2018-3-29,value: 7950.61
+key: 2018-4-1,value: 6937.56
+key: 2018-4-4,value: 7426.48
+key: 2018-4-7,value: 6634.68
+key: 2018-4-10,value: 6784.41
+key: 2018-4-13,value: 7941.46
+key: 2018-4-16,value: 8368.1
+key: 2018-4-19,value: 8175.96
+key: 2018-4-22,value: 8930.6
+key: 2018-4-25,value: 9658.11
+key: 2018-4-28,value: 8928.55
+key: 2018-5-1,value: 9239.55
+key: 2018-5-4,value: 9753.35
+key: 2018-5-7,value: 9631.44
+key: 2018-5-10,value: 9310.37
+key: 2018-5-13,value: 8463.52
+key: 2018-5-16,value: 8471.06
+key: 2018-5-19,value: 8239.08
+key: 2018-5-22,value: 8396.63
+key: 2018-5-25,value: 7576.78
+key: 2018-5-28,value: 7344.56
+key: 2018-5-31,value: 7386.72
+key: 2018-6-3,value: 7637.14
+key: 2018-6-6,value: 7619.43
+key: 2018-6-9,value: 7615.54
+key: 2018-6-12,value: 6879.31
+key: 2018-6-15,value: 6637.41
+key: 2018-6-18,value: 6445.79
+key: 2018-6-21,value: 6760.83
+key: 2018-6-24,value: 6170.46
+key: 2018-6-27,value: 6097.46
+key: 2018-6-30,value: 6223.28
+key: 2018-7-3,value: 6626.44
+key: 2018-7-6,value: 6555.51
+key: 2018-7-9,value: 6724.04
+key: 2018-7-12,value: 6403.18
+key: 2018-7-15,value: 6248.84
+key: 2018-7-18,value: 7321.62
+key: 2018-7-21,value: 7334.99
+key: 2018-7-24,value: 7715.1
+key: 2018-7-27,value: 7939.81
+key: 2018-7-30,value: 8220.91
+key: 2018-8-2,value: 7607.7
+key: 2018-8-5,value: 7011.28
+key: 2018-8-8,value: 6718.23
+key: 2018-8-11,value: 6138.96
+key: 2018-8-14,value: 6252.13
+key: 2018-8-17,value: 6312.75
+key: 2018-8-20,value: 6486.58
+key: 2018-8-23,value: 6354.57
+key: 2018-8-26,value: 6738.27
+key: 2018-8-29,value: 7078.19
+key: 2018-9-1,value: 7018.78
+key: 2018-9-4,value: 7265.08
+key: 2018-9-7,value: 6501.19
+key: 2018-9-10,value: 6240.98
+key: 2018-9-13,value: 6326.04
+key: 2018-9-16,value: 6522.39
+key: 2018-9-19,value: 6342.39
+key: 2018-9-22,value: 6756.12
+key: 2018-9-25,value: 6583.45
+key: 2018-9-28,value: 6686.08
+key: 2018-10-1,value: 6611.02
+key: 2018-10-4,value: 6483.73
+key: 2018-10-7,value: 6573.62
+key: 2018-10-10,value: 6626.85
+key: 2018-10-13,value: 6247
+key: 2018-10-16,value: 6599.17
+key: 2018-10-19,value: 6509.61
+key: 2018-10-22,value: 6504.78
+key: 2018-10-25,value: 6489.77
+key: 2018-10-28,value: 6457.21
+key: 2018-10-30,value: 6301.61
+key: 2018-11-2,value: 6390.42
+key: 2018-11-5,value: 6437.76
+key: 2018-11-8,value: 6444.97
+key: 2018-11-11,value: 6408.53
+key: 2018-11-14,value: 5756.77
+key: 2018-11-17,value: 5572.44
+key: 2018-11-20,value: 4491.98
+key: 2018-11-23,value: 4352.98
+key: 2018-11-26,value: 3793.35
+key: 2018-11-29,value: 4278.77
+key: 2018-12-2,value: 4140.6
+key: 2018-12-5,value: 3744.98
+key: 2018-12-8,value: 3453.66
+key: 2018-12-11,value: 3407.28
+key: 2018-12-14,value: 3242.42
+key: 2018-12-17,value: 3556.54
+key: 2018-12-20,value: 4135.19
+key: 2018-12-23,value: 3995.17
+key: 2018-12-26,value: 3848.21
+key: 2018-12-29,value: 3770.36
+key: 2019-1-1,value: 3855.88
+key: 2019-1-4,value: 3856.62
+key: 2019-1-7,value: 4032.25
+key: 2019-1-10,value: 3646.25
+key: 2019-1-13,value: 3531.96
+key: 2019-1-16,value: 3621.43
+key: 2019-1-19,value: 3703.98
+key: 2019-1-22,value: 3587.35
+key: 2019-1-25,value: 3577.79
+key: 2019-1-28,value: 3448.58
+key: 2019-1-31,value: 3444.81
+key: 2019-2-3,value: 3456.02
+key: 2019-2-6,value: 3405.7
+key: 2019-2-9,value: 3664.38
+key: 2019-2-12,value: 3632.42
+key: 2019-2-15,value: 3608.2
+key: 2019-2-18,value: 3910.8
+key: 2019-2-21,value: 3944.88
+key: 2019-2-24,value: 3766.89
+key: 2019-2-27,value: 3833.23
+key: 2019-3-2,value: 3831.44
+key: 2019-3-5,value: 3872.25
+key: 2019-3-8,value: 3875.96
+key: 2019-3-11,value: 3881.09
+key: 2019-3-14,value: 3885.21
+key: 2019-3-17,value: 3994.92
+key: 2019-3-20,value: 4056.4
+key: 2019-3-23,value: 4011.92
+key: 2019-3-26,value: 3947.74
+key: 2019-3-29,value: 4115.55
+key: 2019-4-2,value: 4152.53
+key: 2019-4-5,value: 4911.24
+key: 2019-4-8,value: 5189.39
+key: 2019-4-11,value: 5310.18
+key: 2019-4-14,value: 5064.62
+key: 2019-4-17,value: 5196.65
+key: 2019-4-20,value: 5277.04
+key: 2019-4-23,value: 5377.19
+key: 2019-4-26,value: 5195.61
+key: 2019-4-29,value: 5301.29
+key: 2019-5-2,value: 5326.67
+key: 2019-5-5,value: 5771.08
+key: 2019-5-8,value: 5755.72
+key: 2019-5-11,value: 6348.02
+key: 2019-5-14,value: 7823.11
+key: 2019-5-17,value: 7885.96
+key: 2019-5-20,value: 8193.7
+key: 2019-5-23,value: 7625.93
+key: 2019-5-26,value: 8071.45
+key: 2019-5-29,value: 8719.88
+key: 2019-6-1,value: 8553.81
+key: 2019-6-4,value: 8134.92
+key: 2019-6-7,value: 7803.23
+key: 2019-6-10,value: 7640.61
+key: 2019-6-13,value: 8173.06
+key: 2019-6-16,value: 8859.47
+key: 2019-6-19,value: 9076.18
+key: 2019-6-22,value: 10209.4
+key: 2019-6-25,value: 11017.5
+key: 2019-6-28,value: 11132.9
+key: 2019-7-1,value: 10737.7
+key: 2019-7-4,value: 11984.8
+key: 2019-7-7,value: 11232
+key: 2019-7-10,value: 12586.8
+key: 2019-7-13,value: 11804
+key: 2019-7-16,value: 10873.5
+key: 2019-7-19,value: 10638.6
+key: 2019-7-22,value: 10587.4
+key: 2019-7-25,value: 9772.17
+key: 2019-7-28,value: 9473.99
+key: 2019-7-31,value: 9589.13
+key: 2019-8-3,value: 10529.5
+key: 2019-8-6,value: 11788
+key: 2019-8-9,value: 11996.4
+key: 2019-8-12,value: 11566.8
+key: 2019-8-15,value: 10017
+key: 2019-8-18,value: 10214.5
+key: 2019-8-21,value: 10760.6
+key: 2019-8-24,value: 10405.8
+key: 2019-8-27,value: 10360.3
+key: 2019-8-30,value: 9484.55
+key: 2019-9-2,value: 9769.79
+key: 2019-9-5,value: 10584.2
+key: 2019-9-8,value: 10487.2
+key: 2019-9-11,value: 10101
+key: 2019-9-14,value: 10363.9
+key: 2019-9-17,value: 10265.6
+key: 2019-9-20,value: 10275.9
+key: 2019-9-23,value: 10033
+key: 2019-9-26,value: 8432.23
+key: 2019-9-29,value: 8225
+key: 2019-10-2,value: 8322.92
+key: 2019-10-5,value: 8155.48
+key: 2019-10-8,value: 8212.02
+key: 2019-10-11,value: 8586.9
+key: 2019-10-14,value: 8283.76
+key: 2019-10-17,value: 8002.51
+key: 2019-10-20,value: 7960.04
+key: 2019-10-23,value: 8026.76
+key: 2019-10-26,value: 8666.79
+key: 2019-10-28,value: 9218.76
+key: 2019-10-31,value: 9147.98
+key: 2019-11-3,value: 9206.16
+key: 2019-11-6,value: 9343.34
+key: 2019-11-9,value: 8809.41
+key: 2019-11-12,value: 8801.52
+key: 2019-11-15,value: 8457.69
+key: 2019-11-18,value: 8175.99
+key: 2019-11-21,value: 7617.07
+key: 2019-11-24,value: 6907.4
+key: 2019-11-27,value: 7523.83
+key: 2019-11-30,value: 7557.72
+key: 2019-12-3,value: 7296.77
+key: 2019-12-6,value: 7547.19
+key: 2019-12-9,value: 7337.42
+key: 2019-12-12,value: 7189.16
+key: 2019-12-15,value: 7111.14
+key: 2019-12-18,value: 7284.29
+key: 2019-12-21,value: 7143.2
+key: 2019-12-24,value: 7250.69
+key: 2019-12-27,value: 7243.93
+key: 2019-12-30,value: 7219.6
+key: 2020-1-2,value: 6944.33
+key: 2020-1-5,value: 7351.57
+key: 2020-1-8,value: 8042.65
+key: 2020-1-11,value: 8021.49
+key: 2020-1-14,value: 8842.42
+key: 2020-1-17,value: 8900.34
+key: 2020-1-20,value: 8626.47
+key: 2020-1-23,value: 8388.11
+key: 2020-1-26,value: 8588.42
+key: 2020-1-29,value: 9279.81
+key: 2020-2-1,value: 9378.09
+key: 2020-2-4,value: 9162.14
+key: 2020-2-7,value: 9807.54
+key: 2020-2-10,value: 9854.79
+key: 2020-2-13,value: 10242.4
+key: 2020-2-16,value: 9937.67
+key: 2020-2-19,value: 9604.72
+key: 2020-2-22,value: 9669.63
+key: 2020-2-25,value: 9309.15
+key: 2020-2-28,value: 8712.35
+key: 2020-3-2,value: 8912.82
+key: 2020-3-5,value: 9067.39
+key: 2020-3-8,value: 8039.38
+key: 2020-3-11,value: 7936.65
+key: 2020-3-14,value: 5166.26
+key: 2020-3-17,value: 5357.61
+key: 2020-3-20,value: 6226.44
+key: 2020-3-23,value: 6502.16
+key: 2020-3-26,value: 6763.75
+key: 2020-3-30,value: 5885.41
+key: 2020-4-2,value: 6652.87
+key: 2020-4-5,value: 6871.69
+key: 2020-4-8,value: 7205.55
+key: 2020-4-11,value: 6873.24
+key: 2020-4-14,value: 6857.66
+key: 2020-4-17,value: 7112.27
+key: 2020-4-20,value: 7130.04
+key: 2020-4-23,value: 7130.99
+key: 2020-4-26,value: 7549.52
+key: 2020-4-29,value: 7765.33
+key: 2020-5-2,value: 8824.66
+key: 2020-5-5,value: 8885.93
+key: 2020-5-8,value: 10002.5
+key: 2020-5-11,value: 8754.46
+key: 2020-5-14,value: 9305.93
+key: 2020-5-17,value: 9385.7
+key: 2020-5-20,value: 9785.74
+key: 2020-5-23,value: 9167.26
+key: 2020-5-26,value: 8899.66
+key: 2020-5-29,value: 9569.21
+key: 2020-6-1,value: 9450.84
+key: 2020-6-4,value: 9658.04
+key: 2020-6-7,value: 9670.43
+key: 2020-6-10,value: 9775.15
+key: 2020-6-13,value: 9459.97
+key: 2020-6-16,value: 9426.7
+key: 2020-6-19,value: 9380.03
+key: 2020-6-22,value: 9284.78
+key: 2020-6-25,value: 9276.58
+key: 2020-6-28,value: 9004.23
+key: 2020-7-1,value: 9133.97
+key: 2020-7-4,value: 9072.42
+key: 2020-7-7,value: 9348.91
+key: 2020-7-10,value: 9238.04
+key: 2020-7-13,value: 9295.9
+key: 2020-7-16,value: 9193.51
+key: 2020-7-19,value: 9174.71
+key: 2020-7-22,value: 9392.66
+key: 2020-7-25,value: 9551.28
+key: 2020-7-28,value: 11042.4
+key: 2020-7-31,value: 11114.9
+key: 2020-8-3,value: 11077.8
+key: 2020-8-6,value: 11750.3
+key: 2020-8-9,value: 11767.6
+key: 2020-8-12,value: 11392.4
+key: 2020-8-15,value: 11774.4
+key: 2020-8-18,value: 12293.7
+key: 2020-8-21,value: 11865.8
+key: 2020-8-24,value: 11653
+key: 2020-8-27,value: 11467.4
+key: 2020-8-30,value: 11481.6
+key: 2020-9-2,value: 11923.2
+key: 2020-9-5,value: 10467.9
+key: 2020-9-8,value: 10367.7
+key: 2020-9-11,value: 10352.7
+key: 2020-9-14,value: 10330.8
+key: 2020-9-17,value: 10948.4
+key: 2020-9-20,value: 11081.4
+key: 2020-9-23,value: 10532.2
+key: 2020-9-26,value: 10692.8
+key: 2020-9-29,value: 10692.3
+key: 2020-10-2,value: 10619.2
+key: 2020-10-5,value: 10673.5
+key: 2020-10-8,value: 10670.8
+key: 2020-10-11,value: 11302.7
+key: 2020-10-14,value: 11428.2
+key: 2020-10-17,value: 11327.6
+key: 2020-10-20,value: 11758.2
+key: 2020-10-23,value: 12990.2
+key: 2020-10-25,value: 13036.8
+key: 2020-10-28,value: 13289
+key: 2020-10-31,value: 13810.3
+key: 2020-11-3,value: 14023.3
+key: 2020-11-6,value: 15595.8
+key: 2020-11-9,value: 15328.5
+key: 2020-11-12,value: 16295.6
+key: 2020-11-15,value: 15968.2
+key: 2020-11-18,value: 17798.5
+key: 2020-11-21,value: 18699.8
+key: 2020-11-24,value: 19172.5
+key: 2020-11-27,value: 17138.9
+key: 2020-11-30,value: 19709.7
+key: 2020-12-3,value: 19454.5
+key: 2020-12-6,value: 19377.7
+key: 2020-12-9,value: 18554.2
+key: 2020-12-12,value: 18803.4
+key: 2020-12-15,value: 19439.8
+key: 2020-12-18,value: 23150.8
+key: 2020-12-21,value: 22745.5
+key: 2020-12-24,value: 23715.5
+key: 2020-12-27,value: 26246.6
+key: 2020-12-30,value: 28856.6
+key: 2021-1-2,value: 32195.5
+key: 2021-1-5,value: 34046.7
+key: 2021-1-8,value: 40670.2
+key: 2021-1-11,value: 35544.9
+key: 2021-1-14,value: 39158.5
+key: 2021-1-17,value: 35793
+key: 2021-1-20,value: 35539
+key: 2021-1-23,value: 32099.7
+key: 2021-1-26,value: 32541.8
+key: 2021-1-29,value: 34314.3
+key: 2021-2-1,value: 33522.9
+key: 2021-2-4,value: 37002.1
+key: 2021-2-7,value: 38928.1
+key: 2021-2-10,value: 44878.2
+key: 2021-2-13,value: 47185.2
+key: 2021-2-16,value: 49160.1
+key: 2021-2-19,value: 55916.5
+key: 2021-2-22,value: 54123.4
+key: 2021-2-25,value: 46800.4
+key: 2021-2-28,value: 45113.9
+key: 2021-3-3,value: 50477.7
+key: 2021-3-6,value: 48881.6
+key: 2021-3-9,value: 54881.5
+key: 2021-3-12,value: 57253.3
+key: 2021-3-15,value: 55754.7
+key: 2021-3-18,value: 57665.9
+key: 2021-3-21,value: 57411.2
+key: 2021-3-24,value: 52508.2
+key: 2021-3-27,value: 55863.9
+key: 2021-3-31,value: 58730.1
+key: 2021-4-3,value: 59031.3
+key: 2021-4-6,value: 59054.1
+key: 2021-4-9,value: 58048.6
+key: 2021-4-12,value: 59964.9
+key: 2021-4-15,value: 62969.1
+key: 2021-4-18,value: 60087.1
+key: 2021-4-21,value: 56507.9
+key: 2021-4-24,value: 51153.1
+key: 2021-4-27,value: 54056.6
+key: 2021-4-30,value: 53584.2
+key: 2021-5-3,value: 56610.5
+key: 2021-5-6,value: 57473.2
+key: 2021-5-9,value: 58928.8
+key: 2021-5-12,value: 56750
+key: 2021-5-15,value: 49922.5
+key: 2021-5-18,value: 43596.2
+key: 2021-5-21,value: 40784.3
+key: 2021-5-24,value: 34754.5
+key: 2021-5-27,value: 39266
+key: 2021-5-30,value: 34647.7
+key: 2021-6-2,value: 36662.6
+key: 2021-6-5,value: 36885.5
+key: 2021-6-8,value: 33514.9
+key: 2021-6-11,value: 36704.6
+key: 2021-6-14,value: 39066.8
+key: 2021-6-17,value: 38324.9
+key: 2021-6-20,value: 35524.2
+key: 2021-6-23,value: 32447.6
+key: 2021-6-26,value: 31640.6
+key: 2021-6-29,value: 34456.7
+key: 2021-7-2,value: 33536.9
+key: 2021-7-5,value: 35309.3
+key: 2021-7-8,value: 33839
+key: 2021-7-11,value: 33515.6
+key: 2021-7-14,value: 32686.6
+key: 2021-7-17,value: 31421.2
+key: 2021-7-20,value: 30815.9
+key: 2021-7-23,value: 32297.9
+key: 2021-7-26,value: 35365.2
+key: 2021-7-29,value: 40002.5
+key: 2021-8-1,value: 41659.1
+key: 2021-8-4,value: 38138
+key: 2021-8-7,value: 42825.9
+key: 2021-8-10,value: 46333.5
+key: 2021-8-13,value: 44417.8
+key: 2021-8-16,value: 47056.4
+key: 2021-8-19,value: 44777.9
+key: 2021-8-22,value: 48932
+key: 2021-8-25,value: 47744.6
+key: 2021-8-28,value: 49056.9
+key: 2021-8-31,value: 47074.8
+key: 2021-9-3,value: 49329
+key: 2021-9-6,value: 51769.1
+key: 2021-9-9,value: 46078.4
+key: 2021-9-12,value: 45144.8
+key: 2021-9-15,value: 47072.1
+key: 2021-9-18,value: 47263.6
+key: 2021-9-21,value: 42901.6
+key: 2021-9-24,value: 44889
+key: 2021-9-27,value: 43182.6
+key: 2021-9-30,value: 41522.4
+key: 2021-10-3,value: 47727.1
+key: 2021-10-6,value: 51505.8
+key: 2021-10-9,value: 53867.3
+key: 2021-10-12,value: 57452
+key: 2021-10-15,value: 57397.7
+key: 2021-10-18,value: 61546.2
+key: 2021-10-21,value: 66063.6
+key: 2021-10-24,value: 61277.3
+key: 2021-10-27,value: 60345.2
+key: 2021-10-30,value: 62249.2
+key: 2021-11-1,value: 61029.5
+key: 2021-11-4,value: 61441.8
+key: 2021-11-7,value: 63293.2
+key: 2021-11-10,value: 64976.7
+key: 2021-11-13,value: 64420.9
+key: 2021-11-16,value: 60172.3
+key: 2021-11-19,value: 58133
+key: 2021-11-22,value: 56301.5
+key: 2021-11-25,value: 58935.4
+key: 2021-11-28,value: 57292.3
+key: 2021-12-1,value: 57229.8
+key: 2021-12-4,value: 49253.9
+key: 2021-12-7,value: 50645.4
+key: 2021-12-10,value: 47137.5
+key: 2021-12-13,value: 46757.1
+key: 2021-12-16,value: 47658.4
+key: 2021-12-19,value: 46689.3
+key: 2021-12-22,value: 48628.3
+key: 2021-12-25,value: 50470.9
+key: 2021-12-28,value: 47601.3
+key: 2021-12-31,value: 46249.6
+key: 2022-1-3,value: 46442
+key: 2022-1-6,value: 43120.6
+key: 2022-1-9,value: 41864.4
+key: 2022-1-12,value: 43926
+key: 2022-1-15,value: 43146.5
+key: 2022-1-18,value: 42381.5
+key: 2022-1-21,value: 36480.8
+key: 2022-1-24,value: 36678.8
+key: 2022-1-27,value: 37146.8
+key: 2022-1-30,value: 37918.6
+key: 2022-2-2,value: 36912.7
+key: 2022-2-5,value: 41435.4
+key: 2022-2-8,value: 44133.3
+key: 2022-2-11,value: 42401.3
+key: 2022-2-14,value: 42580.9
+key: 2022-2-17,value: 40565.7
+key: 2022-2-20,value: 38382.3
+key: 2022-2-23,value: 37291.5
+key: 2022-2-26,value: 39103.9
+key: 2022-3-1,value: 44418.8
+key: 2022-3-4,value: 39141.2
+key: 2022-3-7,value: 38032.5
+key: 2022-3-10,value: 39437.9
+key: 2022-3-13,value: 37820.4
+key: 2022-3-16,value: 41133.1
+key: 2022-3-19,value: 42222.3
+key: 2022-3-22,value: 42372.7
+key: 2022-3-25,value: 44334.3
+key: 2022-3-29,value: 47115.9
+TEEEEEEST
