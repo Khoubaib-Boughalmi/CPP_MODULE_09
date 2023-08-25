@@ -216,7 +216,7 @@ void parseInput(std::string line, std::map<s_date, double> &fMap, char sep) {
         if(validateData(uMap) && validateDate(uMap) && validateValues(uMap, sep == '|' ? 1 : 0))
         {
             populateFInputMap(it->first, it->second, fMap);
-            std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
+            // std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
         }
     }
 }
@@ -304,6 +304,5 @@ int main(int argc, char **argv)
     {
             std::cout << "key: " << it->first.year << "-" << it->first.month << "-" << it->first.day << ",value: " << it->second << std::endl;
     }
-    std::cout << "TEEEEEEST" << std::endl;
     return (0);
 }
