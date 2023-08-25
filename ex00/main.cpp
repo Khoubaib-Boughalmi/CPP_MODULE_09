@@ -1,5 +1,7 @@
 #include "BitcoinExchange.h"
 
+std::map<s_date, double>fDataMap;
+
 std::string strTrim(char * passedStr) {
     size_t start; 
     size_t end;
@@ -183,7 +185,40 @@ double pulateValue(std::string value) {
     return valueVal;
 }
 
-void populateFInputMap(std::string date, std::string value, std::map<s_date, double> &fInputMap) {
+int confirmDate(s_date inputDate, s_date dataDate) {
+    if (inputDate.year == dataDate.year && \
+        inputDate.month == dataDate.month && \
+        inputDate.day == dataDate.day)
+        return (1);
+    return (0);
+}
+
+void BitcoinExchange(s_date date, double value) {
+    (void)date;
+    (void)value;
+    std::map<s_date, double>::iterator it;
+    it = fDataMap.begin();
+    int found = 0;
+    for (it = fDataMap.begin(); it != fDataMap.end(); it++)
+    {
+        if(confirmDate(date, it->first))
+        {
+            found = 1;
+            break;
+        }
+    }
+    if(found)
+        std::cout << "FOUNDDDDDD!!!!!" << std::endl;
+    else
+        std::cout << "FUUUUUUUUUCK" << std::endl;
+}
+
+void calculateExchangeRateFun(s_date date, double value) {
+    std::cout << "well well well: " << date.year << " " << value << std::endl;
+    BitcoinExchange(date, value);
+}
+
+void populateFInputMap(std::string date, std::string value, std::map<s_date, double> &fInputMap, bool calculateExchangeRate) {
     (void)value;
     int counter = 0;
     std::istringstream iss(date);
@@ -205,6 +240,8 @@ void populateFInputMap(std::string date, std::string value, std::map<s_date, dou
         counter++;
     }
     fInputMap[dt] = pulateValue(value);
+    if(calculateExchangeRate)
+        calculateExchangeRateFun(dt, fInputMap[dt]);
 }
 
 void parseInput(std::string line, std::map<s_date, double> &fMap, char sep) {
@@ -215,7 +252,7 @@ void parseInput(std::string line, std::map<s_date, double> &fMap, char sep) {
     {
         if(validateData(uMap) && validateDate(uMap) && validateValues(uMap, sep == '|' ? 1 : 0))
         {
-            populateFInputMap(it->first, it->second, fMap);
+            populateFInputMap(it->first, it->second, fMap, sep == '|' ? 1 : 0);
             // std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
         }
     }
@@ -242,44 +279,27 @@ int parseFirstLine(std::string str, const char *val1, const char *val2, char sep
     return (1);
 }
 
+// void BitcoinExchange(std::map<s_date, double> fInputMap, std::map<s_date, double> fDataMap) {
+//     (void)fDataMap;
+
+//     std::map<s_date, double>::iterator it;
+//     for (it = fInputMap.begin(); it != fInputMap.end(); it++)
+//     {
+//         std::cout << "here: " << it->first.year << " " << it->second << std::endl;
+//     }
+    
+// }
+
 int main(int argc, char **argv)
 {
     (void)argv;
     std::map<s_date, double>fInputMap;
-    std::map<s_date, double>fDataMap;
-
+    std::map<s_date, double>::iterator it;
     if(argc != 2) {
         std::cout << "Error: could not open file." << std::endl;
         return (1);
     }
-    //MAKE SURE THIS CHANGES TO argv[1]
-    std::ifstream inputFile("input.txt");
-    if(!inputFile.is_open())
-    {
-        std::cout << "Error: could not open file." << std::endl;
-        return (1);
-    }
-    std::string line;
     int firstLine = 1;
-    while (std::getline(inputFile, line)) {
-        if(firstLine) {
-            firstLine = 0;
-            if(!parseFirstLine(line, "date", "value", '|')) {
-                std::cout << "failed first line\n";
-                return (1);
-            }
-        }
-        else {
-            parseInput(line, fInputMap, '|');
-        }
-    }
-    std::cout << "-------------------------\n";
-    std::map<s_date, double>::iterator it;
-    for (it = fInputMap.begin();  it != fInputMap.end(); it++)
-    {
-            std::cout << "key: " << it->first.year << "-" << it->first.month << "-" << it->first.day << " | value: " << it->second << std::endl;
-    }
-    std::cout << "-------------------------\n";
     std::ifstream dataFile("data.csv");
     if(!dataFile.is_open())
     {
@@ -300,9 +320,28 @@ int main(int argc, char **argv)
             parseInput(dataLine, fDataMap, ',');
         }
     }
-    for (it = fDataMap.begin();  it != fDataMap.end(); it++)
+    std::cout << "-------------------------\n";
+
+    //MAKE SURE THIS CHANGES TO argv[1]
+    std::ifstream inputFile("input.txt");
+    if(!inputFile.is_open())
     {
-            std::cout << "key: " << it->first.year << "-" << it->first.month << "-" << it->first.day << ",value: " << it->second << std::endl;
+        std::cout << "Error: could not open file." << std::endl;
+        return (1);
     }
+    std::string line;
+    while (std::getline(inputFile, line)) {
+        if(firstLine) {
+            firstLine = 0;
+            if(!parseFirstLine(line, "date", "value", '|')) {
+                std::cout << "failed first line\n";
+                return (1);
+            }
+        }
+        else {
+            parseInput(line, fInputMap, '|');
+        }
+    }
+    // BitcoinExchange(fInputMap, fDataMap);
     return (0);
 }
