@@ -1,7 +1,5 @@
 #include "BitcoinExchange.h"
 
-std::map<s_date, double>fInputMap;
-
 std::string strTrim(char * passedStr) {
     size_t start; 
     size_t end;
@@ -185,7 +183,7 @@ double pulateValue(std::string value) {
     return valueVal;
 }
 
-void populateFInputMap(std::string date, std::string value) {
+void populateFInputMap(std::string date, std::string value, std::map<s_date, double> &fInputMap) {
     (void)value;
     int counter = 0;
     std::istringstream iss(date);
@@ -209,7 +207,7 @@ void populateFInputMap(std::string date, std::string value) {
     fInputMap[dt] = pulateValue(value);
 }
 
-void parseInput(std::string line) {
+void parseInput(std::string line, std::map<s_date, double> &fInputMap) {
     std::map<std::string, std::string>uMap;
     parseSingleLine(uMap, line);
     std::map<std::string, std::string>::iterator it;
@@ -217,7 +215,7 @@ void parseInput(std::string line) {
     {
         if(validateData(uMap) && validateDate(uMap) && validateValues(uMap))
         {
-            populateFInputMap(it->first, it->second);
+            populateFInputMap(it->first, it->second, fInputMap);
             std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
         }
     }
@@ -246,6 +244,8 @@ int parseFirstLine(std::string str) {
 int main(int argc, char **argv)
 {
     (void)argv;
+    std::map<s_date, double>fInputMap;
+
     if(argc != 2) {
         std::cout << "Error: could not open file." << std::endl;
         return (1);
@@ -264,7 +264,7 @@ int main(int argc, char **argv)
             }
         }
         else {
-            parseInput(line);
+            parseInput(line, fInputMap);
         }
     }
     std::cout << "-------------------------\n";
@@ -273,5 +273,6 @@ int main(int argc, char **argv)
     {
             std::cout << "key: " << it->first.year << "-" << it->first.month << "-" << it->first.day << " | value: " << it->second << std::endl;
     }
+    std::cout << "-------------------------\n";
     return (0);
 }
