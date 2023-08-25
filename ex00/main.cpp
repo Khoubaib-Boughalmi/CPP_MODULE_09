@@ -193,6 +193,12 @@ int confirmDate(s_date inputDate, s_date dataDate) {
     return (0);
 }
 
+void closestBitcoinExchange(s_date date, double value) {
+    (void)date;
+    (void)value;
+}
+
+
 void BitcoinExchange(s_date date, double value) {
     (void)date;
     (void)value;
@@ -208,13 +214,12 @@ void BitcoinExchange(s_date date, double value) {
         }
     }
     if(found)
-        std::cout << "FOUNDDDDDD!!!!!" << std::endl;
+        std::cout << date.year << "-" << date.month << "-" << date.day << " ==> " << value << " = " << it->second * value << std::endl;
     else
-        std::cout << "FUUUUUUUUUCK" << std::endl;
+        closestBitcoinExchange(date, value);
 }
 
 void calculateExchangeRateFun(s_date date, double value) {
-    std::cout << "well well well: " << date.year << " " << value << std::endl;
     BitcoinExchange(date, value);
 }
 
