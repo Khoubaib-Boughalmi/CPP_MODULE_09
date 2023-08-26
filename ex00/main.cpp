@@ -199,13 +199,21 @@ void closestBitcoinExchange(std::string date, double value) {
     std::map<std::string, double>::iterator prevIt;
     std::map<std::string, double>::iterator currIt;
     currIt = fDataMap.begin();
-    for (; currIt != fDataMap.end(); currIt++)
-    {
-        if(currIt->first > date)
-            break;
-        prevIt = currIt;
+    if(currIt != fDataMap.end()) {
+
+        if(date < currIt->first)
+            std::cout << date << " ==> " << value << " = " << currIt->second * value << std::endl;
+        else
+        {
+            for (; currIt != fDataMap.end(); currIt++)
+            {
+                if(currIt->first > date)
+                    break;
+                prevIt = currIt;
+            }
+            std::cout << date << " ==> " << value << " = " << prevIt->second * value << std::endl;
+        }
     }
-    std::cout << date << " ==> " << value << " = " << prevIt->second * value << std::endl;
 }
 
 
@@ -240,19 +248,25 @@ void populateFInputMap(std::string date, std::string value, std::map<std::string
         calculateExchangeRateFun(date, fInputMap[date]);
 }
 
-void parseInput(std::string line, std::map<std::string, double> &fMap, char sep) {
+int parseInput(std::string line, std::map<std::string, double> &fMap, char sep) {
+    int counter  = 0;
     std::map<std::string, std::string>uMap;
     parseSingleLine(uMap, line, sep);
     std::map<std::string, std::string>::iterator it;
     for (it = uMap.begin();  it != uMap.end(); it++)
     {
         if(validateData(uMap) && validateDate(uMap) && validateValues(uMap, sep == '|' ? 1 : 0))
+        {
             populateFInputMap(it->first, it->second, fMap, sep == '|' ? 1 : 0);
+            counter++;
+        }
     }
+    if(sep == ',' && !counter)
+        return (0);
+    return (1);
 }
 
 int parseFirstLine(std::string str, const char *val1, const char *val2, char sep) {
-    (void)sep;
     int counter = 0;
     std::istringstream iss(str);
     std::string token;
@@ -264,11 +278,11 @@ int parseFirstLine(std::string str, const char *val1, const char *val2, char sep
             case 1:
                 if (strcmp(strTrim(const_cast<char *>(token.c_str())).c_str(), val2)) return (0);
                 break;
-            default:
-                return (0);
         }
         counter++;
     }
+    if(!counter)
+        return (0);
     return (1);
 }
 
@@ -286,6 +300,7 @@ int parseFirstLine(std::string str, const char *val1, const char *val2, char sep
 int main(int argc, char **argv)
 {
     (void)argv;
+    int counter = 0;
     std::map<std::string, double>fInputMap;
     std::map<std::string, double>::iterator it;
     if(argc != 2) {
@@ -299,9 +314,9 @@ int main(int argc, char **argv)
         std::cout << "Error: could not open file." << std::endl;
         return (1);
     }
-    firstLine = 1;
     std::string dataLine;
     while (std::getline(dataFile, dataLine)) {
+        counter++;
         if(firstLine) {
             firstLine = 0;
             if(!parseFirstLine(dataLine, "date", "exchange_rate", ',')) {
@@ -310,20 +325,30 @@ int main(int argc, char **argv)
             }
         }
         else {
-            parseInput(dataLine, fDataMap, ',');
+            if(!parseInput(dataLine, fDataMap, ','))
+            {
+                std::cout << "data.csv has to contain at least one line \n";
+                return (1);
+            }                   
         }
     }
-    std::cout << "-------------------------\n";
-
-    //MAKE SURE THIS CHANGES TO argv[1]
-    std::ifstream inputFile("input.txt");
+    if(counter < 2)
+    {
+        std::cout << "Please provide meaningful data inside data.csv" << std::endl;
+        return (1);
+    }
+    // //MAKE SURE THIS CHANGES TO argv[1]
+    std::ifstream inputFile(argv[1]);
     if(!inputFile.is_open())
     {
         std::cout << "Error: could not open file." << std::endl;
         return (1);
     }
     std::string line;
+    counter = 0;
+    firstLine = 1;
     while (std::getline(inputFile, line)) {
+        counter++;
         if(firstLine) {
             firstLine = 0;
             if(!parseFirstLine(line, "date", "value", '|')) {
@@ -335,13 +360,12 @@ int main(int argc, char **argv)
             parseInput(line, fInputMap, '|');
         }
     }
+    if(counter < 2)
+    {
+        std::cout << "Please provide meaningful data inside " << argv[1] << std::endl;
+        return (1);
+    }
 
-    // for (it = fInputMap.begin(); it != fInputMap.end(); it++)
-    // {
-    //     std::cout << "TEST: " << it->first << " | " << it->second << std::endl;
-    // }
-    
-    // BitcoinExchange(fInputMap, fDataMap);
     return (0);
 }
 /*
