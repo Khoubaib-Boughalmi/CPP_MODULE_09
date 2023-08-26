@@ -193,9 +193,19 @@ int confirmDate(s_date inputDate, s_date dataDate) {
     return (0);
 }
 
-void closestBitcoinExchange(s_date date, double value) {
+void closestBitcoinExchange(std::string date, double value) {
     (void)date;
     (void)value;
+    std::map<std::string, double>::iterator prevIt;
+    std::map<std::string, double>::iterator currIt;
+    currIt = fDataMap.begin();
+    for (; currIt != fDataMap.end(); currIt++)
+    {
+        if(currIt->first > date)
+            break;
+        prevIt = currIt;
+    }
+    std::cout << date << " ==> " << value << " = " << prevIt->second * value << std::endl;
 }
 
 
@@ -214,8 +224,7 @@ void BitcoinExchange(std::string date, double value) {
     if(found)
         std::cout << date << " ==> " << value << " = " << it->second * value << std::endl;
     else
-        std::cout << "couldn't find erxact match for: "<< date << std::endl;
-        // closestBitcoinExchange(date, value);
+        closestBitcoinExchange(date, value);
 }
 
 void calculateExchangeRateFun(std::string date, double value) {
@@ -327,11 +336,22 @@ int main(int argc, char **argv)
         }
     }
 
-    for (it = fInputMap.begin(); it != fInputMap.end(); it++)
-    {
-        std::cout << "TEST: " << it->first << " | " << it->second << std::endl;
-    }
+    // for (it = fInputMap.begin(); it != fInputMap.end(); it++)
+    // {
+    //     std::cout << "TEST: " << it->first << " | " << it->second << std::endl;
+    // }
     
     // BitcoinExchange(fInputMap, fDataMap);
     return (0);
 }
+/*
+    2011-01-03 => 3 = 0.9
+    2011-01-03 => 2 = 0.6
+    2011-01-03 => 1 = 0.3
+    2011-01-03 => 1.2 = 0.36
+    2011-01-09 => 1 = 0.32
+    Error: not a positive number.
+    Error: bad input => 2001-42-42
+    2012-01-11 => 1 = 7.1
+    Error: too large a number
+*/
