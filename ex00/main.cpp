@@ -123,7 +123,10 @@ int validateDate(std::map<std::string, std::string> &uMap) {
     it = uMap.begin();
     std::string date = it->first;
     if (checkNumberOccurrences(date, '-') != 2)
+    {
+        std::cout << "Error: Date formar is incorrect" << std::endl;
         return (0);
+    }
     char *token = std::strtok(const_cast<char *>(date.c_str()), "-");
     while (token)
     {
@@ -137,12 +140,12 @@ int validateDate(std::map<std::string, std::string> &uMap) {
             case 2:
                 if (!checkDay(token)){ std::cout << "Error: Day value is incorrect" << std::endl; return (0);}
                 break;
-            default:
-                return (0);
         }
         token = std::strtok(NULL, "-");
         counter++;
     }
+    if(counter != 3)
+    { std::cout << "Error: Date formar is incorrect" << std::endl; return (0);}
     return (1);
 }
 
@@ -151,17 +154,23 @@ int validateValues(std::map<std::string, std::string> &uMap, bool isInputData) {
     std::map<std::string, std::string>::iterator it;
     it = uMap.begin();
     // std::cout << "last :" << it->second << std::endl;
-    double dayVal;
+    double dVal;
     char *ptr;
 
     value = strTrim(const_cast<char *>(it->second.c_str()));
-    dayVal = std::strtod(value.c_str(), &ptr);
+
+    if(value.length() == 0)
+    {
+        std::cout << "Error: No value provided" << std::endl;
+        return (0);
+    }
+    dVal = std::strtod(value.c_str(), &ptr);
     if(*ptr != '\0')
     {
         std::cout << "Error: Value is incorrect" << std::endl;
         return (0);
     }
-    if(isInputData && (dayVal < 0 || dayVal > 1000))
+    if(isInputData && (dVal < 0 || dVal > 1000))
     {
         std::cout << "Error: Value is too large or too small" << std::endl;
         return (0);
