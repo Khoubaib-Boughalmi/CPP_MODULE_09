@@ -1,6 +1,6 @@
 #include "BitcoinExchange.h"
 
-std::map<s_date, double>fDataMap;
+std::map<std::string, double>fDataMap;
 
 std::string strTrim(char * passedStr) {
     size_t start; 
@@ -199,67 +199,46 @@ void closestBitcoinExchange(s_date date, double value) {
 }
 
 
-void BitcoinExchange(s_date date, double value) {
-    (void)date;
-    (void)value;
-    std::map<s_date, double>::iterator it;
+void BitcoinExchange(std::string date, double value) {
+    std::map<std::string, double>::iterator it;
     it = fDataMap.begin();
     int found = 0;
     for (it = fDataMap.begin(); it != fDataMap.end(); it++)
     {
-        if(confirmDate(date, it->first))
+        if(date == it->first)
         {
             found = 1;
             break;
         }
     }
     if(found)
-        std::cout << date.year << "-" << date.month << "-" << date.day << " ==> " << value << " = " << it->second * value << std::endl;
+        std::cout << date << " ==> " << value << " = " << it->second * value << std::endl;
     else
-        closestBitcoinExchange(date, value);
+        std::cout << "couldn't find erxact match for: "<< date << std::endl;
+        // closestBitcoinExchange(date, value);
 }
 
-void calculateExchangeRateFun(s_date date, double value) {
+void calculateExchangeRateFun(std::string date, double value) {
     BitcoinExchange(date, value);
 }
 
-void populateFInputMap(std::string date, std::string value, std::map<s_date, double> &fInputMap, bool calculateExchangeRate) {
-    (void)value;
-    int counter = 0;
+void populateFInputMap(std::string date, std::string value, std::map<std::string, double> &fInputMap, bool calculateExchangeRate) {
     std::istringstream iss(date);
     std::string token;
-    s_date dt;
-    while (std::getline(iss, token, '-'))
-    {
-        switch (counter) {
-            case 0:
-                dt.year = populateYear(token);
-                break ;
-            case 1:
-                dt.month = populateYear(token);
-                break;
-            case 2:
-                dt.day = populateYear(token);
-                break;
-        }
-        counter++;
-    }
-    fInputMap[dt] = pulateValue(value);
+    date = strTrim(const_cast<char *>(date.c_str()));
+    fInputMap[date] = pulateValue(value);
     if(calculateExchangeRate)
-        calculateExchangeRateFun(dt, fInputMap[dt]);
+        calculateExchangeRateFun(date, fInputMap[date]);
 }
 
-void parseInput(std::string line, std::map<s_date, double> &fMap, char sep) {
+void parseInput(std::string line, std::map<std::string, double> &fMap, char sep) {
     std::map<std::string, std::string>uMap;
     parseSingleLine(uMap, line, sep);
     std::map<std::string, std::string>::iterator it;
     for (it = uMap.begin();  it != uMap.end(); it++)
     {
         if(validateData(uMap) && validateDate(uMap) && validateValues(uMap, sep == '|' ? 1 : 0))
-        {
             populateFInputMap(it->first, it->second, fMap, sep == '|' ? 1 : 0);
-            // std::cout << "key: " << it->first << " | value: " << it->second << std::endl;
-        }
     }
 }
 
@@ -298,8 +277,8 @@ int parseFirstLine(std::string str, const char *val1, const char *val2, char sep
 int main(int argc, char **argv)
 {
     (void)argv;
-    std::map<s_date, double>fInputMap;
-    std::map<s_date, double>::iterator it;
+    std::map<std::string, double>fInputMap;
+    std::map<std::string, double>::iterator it;
     if(argc != 2) {
         std::cout << "Error: could not open file." << std::endl;
         return (1);
@@ -347,6 +326,12 @@ int main(int argc, char **argv)
             parseInput(line, fInputMap, '|');
         }
     }
+
+    for (it = fInputMap.begin(); it != fInputMap.end(); it++)
+    {
+        std::cout << "TEST: " << it->first << " | " << it->second << std::endl;
+    }
+    
     // BitcoinExchange(fInputMap, fDataMap);
     return (0);
 }
