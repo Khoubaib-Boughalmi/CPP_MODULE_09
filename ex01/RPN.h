@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <stack>
+#include <cctype>
+extern std::stack<int> rpnStack;
 
 // 1 2 * 2 / 2 + 5 * 6 - 1 3 * - 4 5 * * 8 / 
 // ((((((((((1 * 2) / 2) + 2) * 5) - 6) * 1) - 3) * 4) * 5) / 8) == 15
