@@ -29,6 +29,11 @@ void doCalculation(char op) {
     int secondNumber;
     int resNumber;
 
+    if(rpnStack.size() < 2)
+    {
+        std::cout << "Error" << std::endl;
+        exit(1);
+    }
     firstNumber = rpnStack.top();
     rpnStack.pop();
     secondNumber = rpnStack.top();
@@ -89,6 +94,11 @@ int main(int argc, char **argv)
         return (1);
     }
     doTheMagic(argv[1]);
-    std::cout << rpnStack.top() << std::endl;
+    if(rpnStack.size() != 1)
+    {
+        std::cout << "Error" << std::endl;
+        return (1);
+    }
+    std::cout << "Result: " <<  rpnStack.top() << std::endl;
     return (0);
 }
