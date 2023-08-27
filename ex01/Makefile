@@ -3,7 +3,7 @@ CC= c++
 CFLAGS= -std=c++98 -Wall -Wextra -Werror
 
 SRCS =	main.cpp \
-		BitcoinExchange.cpp
+		RPN.cpp
 
 %.o:%.cpp
 	${CC} ${CFLAGS} -c $^ -o $@
