@@ -2,6 +2,24 @@
 #include <vector>
 #include <stdlib.h>
 
+void insertionSort(std::vector<int> &arr, int size) {
+    int hole;
+    int val;
+    int i = 1;
+    while (i < size)
+    {
+        val = arr[i];
+        hole = i;
+        while (hole > 0 && arr[hole - 1] > val)
+        {
+            arr[hole] = arr[hole - 1];
+            hole--;
+        }
+        arr[hole] = val;
+        i++;
+    }
+}
+
 int *twoWayMergeSort(int *arr1,int *arr2, int size1, int size2) {
     int i = 0;
     int j = 0;
@@ -65,7 +83,8 @@ int main()
     int arr[] = {2,8,15,18,5,9,12,17,19,25,30};
     for (size_t i = 0; i < 11; i++)
         vec.push_back(arr[i]);    
-    mergeSort(vec, 0, 10);
+    // mergeSort(vec, 0, 10);
+    insertionSort(vec, 11);
     int i = 0;
     while (i < 11)
         printf("%d ", vec[i++]);
