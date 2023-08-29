@@ -1,6 +1,8 @@
-#include <stdio.h>
-#include <vector>
-#include <stdlib.h>
+#include "PmergeMe.hpp"
+
+std::vector<int> vec;
+std::list<int> lst;
+
 
 void insertionSort(std::vector<int> &arr, int size) {
     int hole;
@@ -20,26 +22,6 @@ void insertionSort(std::vector<int> &arr, int size) {
     }
 }
 
-int *twoWayMergeSort(int *arr1,int *arr2, int size1, int size2) {
-    int i = 0;
-    int j = 0;
-    int k = 0;
-    int *mergedArr = (int *)malloc(sizeof(int) * (size2 + size2));
-
-    while (i < size1 && j < size2)
-    {
-         if(arr1[i] < arr2[j])
-            mergedArr[k++] = arr1[i++];
-        else
-            mergedArr[k++] = arr2[j++];
-    }
-    for (; i < size1; i++)
-        mergedArr[k++] = arr1[i];
-    for (; j < size2; j++)
-        mergedArr[k++] = arr2[j];
-    return mergedArr;
-}
-
 void merge(std::vector<int> &arr, int left, int middle, int right) {
     int n1 = middle - left + 1;
     int n2 = right - middle;
@@ -56,7 +38,7 @@ void merge(std::vector<int> &arr, int left, int middle, int right) {
     int k = left;
     while (i < n1 && j < n2)
     {
-         if(leftHandSideArr[i] < rightHandSideArr[j])
+         if(leftHandSideArr[i] <= rightHandSideArr[j])
             arr[k++] = leftHandSideArr[i++];
         else
             arr[k++] = rightHandSideArr[j++];
@@ -77,16 +59,57 @@ void mergeSort(std::vector<int> &arr, int left, int right) {
     } 
 }
 
-int main()
+int validateInput(char *input) {
+    size_t i = 0;
+    while (input[i] && (input[i] == ' ' || input[i] == '\t' || isdigit(input[i])))
+        i++;
+    if(input[i])
+        return (0);
+    return (1);
+}
+
+
+int parseInput(char *input) {
+    std::string strVal;
+    long val;
+    while (*input) {
+        while (*input == ' ' || *input == '\t') 
+            input++;
+        if(*input && isdigit(*input)) {
+            strVal = "";
+            while (*input && isdigit(*input)) 
+            {
+                strVal += *input;
+                input++;
+            }
+            val = strtol(strVal.c_str(), NULL, 10);
+            if(val > INT_MAX)
+                return (0);
+            vec.push_back(val);
+            lst.push_back(val);
+        }
+        input++;
+    }
+    return (1);
+}
+
+int main(int argc, char **argv)
 {
-    std::vector<int> vec;
-    int arr[] = {2,8,15,18,5,9,12,17,19,25,30};
-    for (size_t i = 0; i < 11; i++)
-        vec.push_back(arr[i]);    
-    // mergeSort(vec, 0, 10);
-    insertionSort(vec, 11);
+    if(argc != 2)
+    {
+        std::cout << "Problem with input" << std::endl;
+        return (1);
+    }
+    if(!validateInput(argv[1]) || !parseInput(argv[1]))
+    {
+        std::cout << "Problem with input" << std::endl;
+        return (1);
+    }
+   
+    // mergeSort(vec, 0, vec.size() - 1);
+    insertionSort(vec, 5);
     int i = 0;
-    while (i < 11)
+    while (i < 5)
         printf("%d ", vec[i++]);
     return (0);
 }
