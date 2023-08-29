@@ -49,8 +49,57 @@ void mergeVec(std::vector<int> &arr, int left, int middle, int right) {
         arr[k++] = rightHandSideArr[j];
 }
 
-void mergeLst(std::list<int> &arr, int left, int middle, int right) {
+void mergeLst(std::list<int> &lst, int left, int middle, int right) {
+    (void)left;
+    (void)right;
+    (void)middle;
+    std::vector<int> arr;
+    std::list<int>::iterator it;
+    int start = 0;
+
+    for (it = lst.begin(); it != lst.end(); it++){
+        if(start >= left)
+            break;
+        start++;
+    }
+    for (; it != lst.end(); it++){
+        if(start == right)
+            break;
+        arr.push_back(*it);
+        it++;
+        start++;
+    }
+    std::cout << "Arr: ";
+    for (size_t i = 0; i < arr.size() ; i++){
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
     
+    int n1 = middle - left + 1;
+    int n2 = right - middle;
+
+    std::vector<int> leftHandSideArr(n1);
+    std::vector<int> rightHandSideArr(n2);
+    for (int i = 0; i < n1; i++)
+        leftHandSideArr[i] = arr[left + i];
+    for (int j = 0; j < n2; j++)
+        rightHandSideArr[j] = arr[middle + j + 1];
+    
+    int i = 0;
+    int j = 0;
+    int k = left;
+    while (i < n1 && j < n2)
+    {
+         if(leftHandSideArr[i] <= rightHandSideArr[j])
+            arr[k++] = leftHandSideArr[i++];
+        else
+            arr[k++] = rightHandSideArr[j++];
+    }
+    for (; i < n1; i++)
+        arr[k++] = leftHandSideArr[i];
+    for (; j < n2; j++)
+        arr[k++] = rightHandSideArr[j];
+
 }
 
 void mergeSortVec(std::vector<int> &arr, int left, int right) {
@@ -120,8 +169,8 @@ int main(int argc, char **argv)
     }
    
     // mergeSort(vec, 0, vec.size() - 1);
-    mergeSortVec(vec, 0, vec.size() - 1);
-    // mergeSortLst(lst, 0, lst.size() - 1);
+    // mergeSortVec(vec, 0, vec.size() - 1);
+    mergeSortLst(lst, 0, lst.size());
     // insertionSort(vec, 5);
     int i = 0;
     while (i < 5)
