@@ -22,7 +22,7 @@ void insertionSort(std::vector<int> &arr, int size) {
     }
 }
 
-void merge(std::vector<int> &arr, int left, int middle, int right) {
+void mergeVec(std::vector<int> &arr, int left, int middle, int right) {
     int n1 = middle - left + 1;
     int n2 = right - middle;
 
@@ -49,13 +49,27 @@ void merge(std::vector<int> &arr, int left, int middle, int right) {
         arr[k++] = rightHandSideArr[j];
 }
 
-void mergeSort(std::vector<int> &arr, int left, int right) {
+void mergeLst(std::list<int> &arr, int left, int middle, int right) {
+    
+}
+
+void mergeSortVec(std::vector<int> &arr, int left, int right) {
     int middle;
     if(left < right) {
         middle = left + (right - left) / 2;
-        mergeSort(arr, left, middle);
-        mergeSort(arr, middle + 1, right);
-        merge(arr, left, middle, right);
+        mergeSortVec(arr, left, middle);
+        mergeSortVec(arr, middle + 1, right);
+        mergeVec(arr, left, middle, right);
+    } 
+}
+
+void mergeSortLst(std::list<int> &arr, int left, int right) {
+    int middle;
+    if(left < right) {
+        middle = left + (right - left) / 2;
+        mergeSortLst(arr, left, middle);
+        mergeSortLst(arr, middle + 1, right);
+        mergeLst(arr, left, middle, right);
     } 
 }
 
@@ -67,7 +81,6 @@ int validateInput(char *input) {
         return (0);
     return (1);
 }
-
 
 int parseInput(char *input) {
     std::string strVal;
@@ -107,7 +120,9 @@ int main(int argc, char **argv)
     }
    
     // mergeSort(vec, 0, vec.size() - 1);
-    insertionSort(vec, 5);
+    mergeSortVec(vec, 0, vec.size() - 1);
+    // mergeSortLst(lst, 0, lst.size() - 1);
+    // insertionSort(vec, 5);
     int i = 0;
     while (i < 5)
         printf("%d ", vec[i++]);
