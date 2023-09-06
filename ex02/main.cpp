@@ -1,105 +1,6 @@
 #include "PmergeMe.hpp"
 
-std::vector<int> vec;
-std::list<int> lst;
-
-
-void insertionSort(std::vector<int> &arr, int size) {
-    int hole;
-    int val;
-    int i = 1;
-    while (i < size)
-    {
-        val = arr[i];
-        hole = i;
-        while (hole > 0 && arr[hole - 1] > val)
-        {
-            arr[hole] = arr[hole - 1];
-            hole--;
-        }
-        arr[hole] = val;
-        i++;
-    }
-}
-
-void mergeVec(std::vector<int> &arr, int left, int middle, int right) {
-    int n1 = middle - left + 1;
-    int n2 = right - middle;
-
-    std::vector<int> leftHandSideArr(n1);
-    std::vector<int> rightHandSideArr(n2);
-    for (int i = 0; i < n1; i++)
-        leftHandSideArr[i] = arr[left + i];
-    for (int j = 0; j < n2; j++)
-        rightHandSideArr[j] = arr[middle + j + 1];
-    
-    int i = 0;
-    int j = 0;
-    int k = left;
-    while (i < n1 && j < n2)
-    {
-         if(leftHandSideArr[i] <= rightHandSideArr[j])
-            arr[k++] = leftHandSideArr[i++];
-        else
-            arr[k++] = rightHandSideArr[j++];
-    }
-    for (; i < n1; i++)
-        arr[k++] = leftHandSideArr[i];
-    for (; j < n2; j++)
-        arr[k++] = rightHandSideArr[j];
-}
-
-void mergeLst(std::list<int>::iterator left, std::list<int>::iterator middle, std::list<int>::iterator right) {
-    std::list<int> leftList(left, middle);
-    std::list<int> rightList(middle , right);
-
-    std::list<int>::iterator leftIter = leftList.begin();
-    std::list<int>::iterator rightIter = rightList.begin();
-    std::list<int>::iterator resultIter = left;
-
-    while (leftIter != leftList.end() && rightIter != rightList.end())
-    {
-        if(*leftIter < *rightIter) {
-            *resultIter = *leftIter;
-            ++leftIter;
-        }
-        else
-        {
-            *resultIter = *rightIter;
-            ++rightIter;
-        }
-        ++resultIter;
-    }
-    for (; leftIter != leftList.end(); ++leftIter) {
-        *resultIter = *leftIter;
-        ++resultIter;
-    }
-    for (; rightIter != rightList.end(); ++rightIter) {
-        *resultIter = *rightIter;
-        ++resultIter;
-    }
-}
-
-void mergeSortVec(std::vector<int> &arr, int left, int right) {
-    int middle;
-    if(left < right) {
-        middle = left + (right - left) / 2;
-        mergeSortVec(arr, left, middle);
-        mergeSortVec(arr, middle + 1, right);
-        mergeVec(arr, left, middle, right);
-    } 
-}
-
-void mergeSortLst(std::list<int> &lst, std::list<int>::iterator left,std::list<int>::iterator right) {
-    std::list<int>::iterator middle = left;
-    if(std::distance(left, right) > 1)
-    {
-        std::advance(middle, std::distance(left, right) / 2);
-        mergeSortLst(lst, left, middle);
-        mergeSortLst(lst, middle, right);
-        mergeLst(left, middle, right);
-    }
-}
+struct s_struct g_struct;
 
 int validateInput(char *input) {
     size_t i = 0;
@@ -111,59 +12,77 @@ int validateInput(char *input) {
 }
 
 int parseInput(char *input) {
-    std::string strVal;
     long val;
+    std::string strVal;
+
+    g_struct.size = 0;
     while (*input) {
         while (*input == ' ' || *input == '\t') 
             input++;
         if(*input && isdigit(*input)) {
+            g_struct.size++;
             strVal = "";
-            while (*input != '\0' && isdigit(*input)) 
-            {
+            while (*input != '\0' && isdigit(*input)) {
                 strVal += *input;
                 input++;
             }
             val = strtol(strVal.c_str(), NULL, 10);
             if(val > INT_MAX)
                 return (0);
-            vec.push_back(val);
-            lst.push_back(val);
-            }
+            g_struct.initialInputVec.push_back(val);
+        }
     }
     return (1);
 }
 
+void populatePairVec(void) {
+    if(g_struct.initialInputVec.size() % 2)
+    {
+        g_struct.straggler = g_struct.initialInputVec[g_struct.initialInputVec.size() - 1];
+        g_struct.initialInputVec.pop_back();
+    }
+    for (size_t i = 0; i < g_struct.initialInputVec.size(); i+=2)
+        g_struct.pairVec.push_back(std::make_pair(g_struct.initialInputVec[i], g_struct.initialInputVec[i+1]));       
+}
+
+void sortPairs(std::vector< std::pair<int, int> >::iterator it, std::vector< std::pair<int, int> >::iterator end) {
+    int tmp;
+    if(it == end)
+        return ;
+    if(it->first > it->second)
+    {
+        tmp = it->first;
+        it->first = it->second;
+        it->second = tmp;
+    }
+    sortPairs(++it, end);
+}
+
+void displayPairs() {
+    for (size_t i = 0; i < g_struct.pairVec.size(); i++)
+    {
+        std::cout << g_struct.pairVec[i].first << " " << g_struct.pairVec[i].second << std::endl; 
+    }
+    
+}
 int main(int argc, char **argv)
 {
-    if(argc != 2)
-    {
+    if(argc != 2) {
         std::cout << "Problem with input" << std::endl;
         return (1);
     }
-    if(!validateInput(argv[1]) || !parseInput(argv[1]))
-    {
+    if(!validateInput(argv[1]) || !parseInput(argv[1])) {
         std::cout << "Problem with input" << std::endl;
         return (1);
     }
-   
-    // mergeSort(vec, 0, vec.size() - 1);
-    for (std::list<int>::iterator it = lst.begin(); it != lst.end(); ++it) {
-        std::cout << *it << " ";
-    }
-    std::cout << "\n";
-    mergeSortVec(vec, 0, vec.size() - 1);
-    std::cout << "Sorted Vec: ";
-    for (size_t i = 0; i < vec.size(); i++)
-    {
-        std::cout << vec[i] << " " ;
-    }
-    std::cout << "\n";    
-    // std::list<int>::iterator it = lst.begin();
-    std::cout << "Sorted Vec: ";
-    mergeSortLst(lst, lst.begin(), lst.end());
-    // insertionSort(vec, 5);
-    for (std::list<int>::iterator it = lst.begin(); it != lst.end(); ++it) {
-        std::cout << *it << " ";
-    }
+    if(g_struct.initialInputVec.size() < 2)
+        return (0); //display this vec;
+    populatePairVec(); // create a vector of pairs
+    std::vector< std::pair<int, int> >::iterator pairVecIterator;
+    std::vector< std::pair<int, int> >::iterator pairVecEndIterator;
+    pairVecIterator = g_struct.pairVec.begin();
+    pairVecEndIterator = g_struct.pairVec.end();
+    sortPairs(pairVecIterator, pairVecEndIterator);
+    displayPairs();
     return (0);
 }

@@ -2,13 +2,16 @@
 #define PMERGEME_HPP
 
 #include <vector>
-#include <list>
+#include <utility>
 #include <cstdio>
 #include <climits>
 #include <algorithm>
 #include <iostream>
 
-extern std::vector<int> vec;
-extern std::list<int> lst;
-
+struct s_struct {
+    int size;
+    std::vector<int> initialInputVec;
+    std::vector< std::pair<int, int> > pairVec;
+    int straggler;
+};
 #endif
