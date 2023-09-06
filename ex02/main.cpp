@@ -58,6 +58,31 @@ void sortPairs(std::vector< std::pair<int, int> >::iterator it, std::vector< std
     sortPairs(++it, end);
 }
 
+void insertionSort() {
+    size_t i = 1;
+    size_t hole = 0;
+    int intArr[9] = {3, 1, 2, 4, 0, 7, 2, 5, 6};
+    std::vector<int>vecArr;
+    for (size_t i = 0; i < 9; i++)
+        vecArr.push_back(intArr[i]);    
+    int tmp;
+    while (i < vecArr.size())
+    {
+        hole = i;
+        tmp = vecArr[i];
+        while (i > 0 && tmp < vecArr[i - 1])
+        {
+            vecArr[i] = vecArr[i - 1];
+            i--;
+        }
+        vecArr[i] = tmp;
+        i = hole + 1;
+    }
+    for (size_t i = 0; i < 9; i++)
+       std::cout << vecArr[i] << " ";
+
+}
+
 void displayPairs() {
     for (size_t i = 0; i < g_struct.pairVec.size(); i++)
     {
@@ -84,5 +109,6 @@ int main(int argc, char **argv)
     pairVecEndIterator = g_struct.pairVec.end();
     sortPairs(pairVecIterator, pairVecEndIterator);
     displayPairs();
+    insertionSort();
     return (0);
 }
