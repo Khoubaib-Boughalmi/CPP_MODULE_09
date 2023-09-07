@@ -58,13 +58,13 @@ void sortPairs(std::vector< std::pair<int, int> >::iterator it, std::vector< std
     sortPairs(++it, end);
 }
 
-void recursiveInsertionSort(std::vector<int> &vecArr, int n) {
+void recursiveInsertionSort(std::vector< std::pair<int, int> > &vecArr, unsigned int n) {
     if(n <= 1)
         return ;
     recursiveInsertionSort(vecArr, n - 1);
-    int lastEelement = vecArr[n - 1];
+    std::pair<int, int> lastEelement = vecArr[n - 1];
     int j = n - 2;
-    while(j >= 0 && vecArr[j] > lastEelement) {
+    while(j >= 0 && vecArr[j].second > lastEelement.second) {
         vecArr[j + 1] = vecArr[j];
         j--;
     }
@@ -118,15 +118,8 @@ int main(int argc, char **argv)
     pairVecEndIterator = g_struct.pairVec.end();
     sortPairs(pairVecIterator, pairVecEndIterator);
     displayPairs();
-
-
-    int intArr[10] = {3, 1, 2, 4, 0, 9, 7, 2, 5, 6};
-    std::vector<int>vecArr;
-    for (size_t i = 0; i < 10; i++)
-        vecArr.push_back(intArr[i]);    
-
-    recursiveInsertionSort(vecArr, 10);
-    for (size_t i = 0; i < 10; i++)
-        std::cout << vecArr[i] << " ";
+    recursiveInsertionSort(g_struct.pairVec, g_struct.pairVec.size());
+    std::cout << "--------------------\n";
+    displayPairs();
     return (0);
 }
