@@ -58,13 +58,22 @@ void sortPairs(std::vector< std::pair<int, int> >::iterator it, std::vector< std
     sortPairs(++it, end);
 }
 
-void insertionSort() {
+void recursiveInsertionSort(std::vector<int> &vecArr, int n) {
+    if(n <= 1)
+        return ;
+    recursiveInsertionSort(vecArr, n - 1);
+    int lastEelement = vecArr[n - 1];
+    int j = n - 2;
+    while(j >= 0 && vecArr[j] > lastEelement) {
+        vecArr[j + 1] = vecArr[j];
+        j--;
+    }
+    vecArr[j + 1] = lastEelement;
+}
+
+void insertionSort(std::vector<int> &vecArr) {
     size_t i = 1;
     size_t hole = 0;
-    int intArr[9] = {3, 1, 2, 4, 0, 7, 2, 5, 6};
-    std::vector<int>vecArr;
-    for (size_t i = 0; i < 9; i++)
-        vecArr.push_back(intArr[i]);    
     int tmp;
     while (i < vecArr.size())
     {
@@ -78,7 +87,7 @@ void insertionSort() {
         vecArr[i] = tmp;
         i = hole + 1;
     }
-    for (size_t i = 0; i < 9; i++)
+    for (size_t i = 0; i < 10; i++)
        std::cout << vecArr[i] << " ";
 
 }
@@ -109,6 +118,15 @@ int main(int argc, char **argv)
     pairVecEndIterator = g_struct.pairVec.end();
     sortPairs(pairVecIterator, pairVecEndIterator);
     displayPairs();
-    insertionSort();
+
+
+    int intArr[10] = {3, 1, 2, 4, 0, 9, 7, 2, 5, 6};
+    std::vector<int>vecArr;
+    for (size_t i = 0; i < 10; i++)
+        vecArr.push_back(intArr[i]);    
+
+    recursiveInsertionSort(vecArr, 10);
+    for (size_t i = 0; i < 10; i++)
+        std::cout << vecArr[i] << " ";
     return (0);
 }
