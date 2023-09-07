@@ -97,8 +97,16 @@ void displayPairs() {
     {
         std::cout << g_struct.pairVec[i].first << " " << g_struct.pairVec[i].second << std::endl; 
     }
-    
 }
+
+void populateMainAndPend(void) {
+    for (size_t i = 0; i < g_struct.pairVec.size(); i++) //i think i should check for odd pairs not sure
+    {
+        g_struct.pend.push_back(g_struct.pairVec[i].first);
+        g_struct.main.push_back(g_struct.pairVec[i].second);
+    }
+}
+
 int main(int argc, char **argv)
 {
     if(argc != 2) {
@@ -121,5 +129,11 @@ int main(int argc, char **argv)
     recursiveInsertionSort(g_struct.pairVec, g_struct.pairVec.size());
     std::cout << "--------------------\n";
     displayPairs();
+    populateMainAndPend();
+    for (size_t i = 0; i < g_struct.main.size(); i++)
+    {
+        std::cout << g_struct.main[i] << " ";
+    }
+    
     return (0);
 }
