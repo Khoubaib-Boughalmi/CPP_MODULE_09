@@ -10,7 +10,7 @@
 
 struct s_struct {
     int size;
-    int straggler;
+    int stranggler;
     std::vector<int> initialInputVec;
     std::vector< std::pair<int, int> > pairVec;
     std::vector <int> main;

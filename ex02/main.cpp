@@ -38,7 +38,7 @@ int parseInput(char *input) {
 void populatePairVec(void) {
     if(g_struct.initialInputVec.size() % 2)
     {
-        g_struct.straggler = g_struct.initialInputVec[g_struct.initialInputVec.size() - 1];
+        g_struct.stranggler = g_struct.initialInputVec[g_struct.initialInputVec.size() - 1];
         g_struct.initialInputVec.pop_back();
     }
     for (size_t i = 0; i < g_struct.initialInputVec.size(); i+=2)
@@ -107,6 +107,18 @@ void populateMainAndPend(void) {
     }
 }
 
+void mergeinsert(void) {
+    std::vector <int>::iterator it;
+    for (size_t i = 0; i < g_struct.pend.size(); i++)
+    {
+        it = std::upper_bound(g_struct.main.begin(), g_struct.main.end(), g_struct.pend[i]);
+        if(it == g_struct.main.begin())
+            g_struct.main.insert(g_struct.main.begin(), g_struct.pend[i]);
+        else
+            g_struct.main.insert(it, g_struct.pend[i]);
+    }
+}
+
 int main(int argc, char **argv)
 {
     if(argc != 2) {
@@ -125,15 +137,14 @@ int main(int argc, char **argv)
     pairVecIterator = g_struct.pairVec.begin();
     pairVecEndIterator = g_struct.pairVec.end();
     sortPairs(pairVecIterator, pairVecEndIterator);
-    displayPairs();
+    // displayPairs();
     recursiveInsertionSort(g_struct.pairVec, g_struct.pairVec.size());
-    std::cout << "--------------------\n";
-    displayPairs();
     populateMainAndPend();
+    std::cout << "--------------------\n";
+    mergeinsert();
     for (size_t i = 0; i < g_struct.main.size(); i++)
     {
         std::cout << g_struct.main[i] << " ";
     }
-    
     return (0);
 }
