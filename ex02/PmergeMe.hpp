@@ -2,6 +2,7 @@
 #define PMERGEME_HPP
 
 #include <vector>
+#include <list>
 #include <utility>
 #include <cstdio>
 #include <climits>
