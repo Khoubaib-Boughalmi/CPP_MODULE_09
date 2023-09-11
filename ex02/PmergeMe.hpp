@@ -14,6 +14,7 @@ struct s_struct {
     std::vector<int> initialInputVec;
     std::vector< std::pair<int, int> > pairVec;
     std::vector <int> main;
+    std::vector <int>::iterator *itArr; // MAKE SURE TO FREE THIS AT THE END
     std::vector <int> pend;
 };
 #endif

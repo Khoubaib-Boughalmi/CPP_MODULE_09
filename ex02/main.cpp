@@ -2,6 +2,15 @@
 
 struct s_struct g_struct;
 
+int jacobsthal(int n) {
+    if (n == 0)
+        return 0;
+    else if (n == 1)
+        return 1;
+    else
+        return jacobsthal(n - 1) + 2 * jacobsthal(n - 2);
+}
+
 int validateInput(char *input) {
     size_t i = 0;
     while (input[i] && (input[i] == ' ' || input[i] == '\t' || isdigit(input[i])))
@@ -107,7 +116,7 @@ void populateMainAndPend(void) {
     }
 }
 
-void mergeinsert(void) {
+void oldmergeinsert(void) {
     std::vector <int>::iterator it;
     for (size_t i = 0; i < g_struct.pend.size(); i++)
     {
@@ -117,6 +126,48 @@ void mergeinsert(void) {
         else
             g_struct.main.insert(it, g_struct.pend[i]);
     }
+}
+
+void mergeInsertSortFirstTwoElements() {
+    std::vector <int>::iterator itStart;
+    std::vector <int>::iterator itEnd;
+    std::vector <int>::iterator it;
+    //insert first pend in main
+    g_struct.main.insert(g_struct.main.begin(), g_struct.pend[0]);
+    // insert second pend in main
+    itStart = g_struct.main.begin();
+    itEnd = itStart;
+    std::advance(itEnd, 2);
+    it = std::upper_bound(itStart, itEnd, g_struct.pend[1]);
+    g_struct.main.insert(it, g_struct.pend[1]);
+}
+
+void mergeInsertSort(void) {
+    std::vector <int>::iterator itUpperBound;
+    std::vector <int>::iterator tmpStop;
+    std::vector <int>::iterator itStop = g_struct.main.begin();
+    // int currentJSIndex = 3;
+    std::advance(itStop, 4);
+    mergeInsertSortFirstTwoElements();
+    for (size_t i = 2; i < g_struct.pend.size(); i++)
+    {
+        itUpperBound = std::upper_bound(g_struct.main.begin(), itStop, g_struct.pend[i]);
+        std::cout << "Val: " << g_struct.pend[i] <<  " Upper: " << *itUpperBound << " " << std::endl;
+        g_struct.main.insert(itUpperBound, g_struct.pend[i]);
+        std::cout << "stop: " << *itStop << std::endl;
+        if(itStop + 2 < g_struct.pend.end())
+            itStop += 2;
+        else
+            itStop++;
+    }
+    
+}
+
+void createIteratorVec(void) {
+    g_struct.itArr = new std::vector <int>::iterator[g_struct.main.size()];
+    std::vector <int>::iterator it = g_struct.main.begin();
+    for (size_t i = 0; i < g_struct.main.size(); i++)
+        g_struct.itArr[i] = it++;    
 }
 
 int main(int argc, char **argv)
@@ -130,18 +181,19 @@ int main(int argc, char **argv)
         return (1);
     }
     if(g_struct.initialInputVec.size() < 2)
-        return (0); //display this vec;
-    populatePairVec(); // create a vector of pairs
+        return (0);
+    populatePairVec();
     std::vector< std::pair<int, int> >::iterator pairVecIterator;
     std::vector< std::pair<int, int> >::iterator pairVecEndIterator;
     pairVecIterator = g_struct.pairVec.begin();
     pairVecEndIterator = g_struct.pairVec.end();
     sortPairs(pairVecIterator, pairVecEndIterator);
-    // displayPairs();
     recursiveInsertionSort(g_struct.pairVec, g_struct.pairVec.size());
+    displayPairs();
     populateMainAndPend();
+    createIteratorVec();
     std::cout << "--------------------\n";
-    mergeinsert();
+    mergeInsertSort();
     for (size_t i = 0; i < g_struct.main.size(); i++)
     {
         std::cout << g_struct.main[i] << " ";
