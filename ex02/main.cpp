@@ -117,8 +117,6 @@ void populateMainAndPend(void) {
 }
 
 void mergeinsert(void) {
-    int arr[] = {0, 3, 5, 11};
-
     std::vector <int>::iterator it;
     for (size_t i = 0; i < g_struct.pend.size(); i++)
     {
@@ -153,16 +151,9 @@ void mergeInsertSort(void) {
     mergeInsertSortFirstTwoElements();
     for (size_t i = 2; i < g_struct.pend.size(); i++)
     {
-        itUpperBound = std::upper_bound(g_struct.main.begin(), itStop, g_struct.pend[i]);
-        std::cout << "Val: " << g_struct.pend[i] <<  " Upper: " << *itUpperBound << " " << std::endl;
+        itUpperBound = std::upper_bound(g_struct.main.begin(), g_struct.main.end(), g_struct.pend[i]);
         g_struct.main.insert(itUpperBound, g_struct.pend[i]);
-        std::cout << "stop: " << *itStop << std::endl;
-        if(itStop + 2 < g_struct.pend.end())
-            itStop += 2;
-        else
-            itStop++;
     }
-    
 }
 
 void createIteratorVec(void) {
@@ -191,8 +182,8 @@ int main(int argc, char **argv)
     pairVecEndIterator = g_struct.pairVec.end();
     sortPairs(pairVecIterator, pairVecEndIterator);
     recursiveInsertionSort(g_struct.pairVec, g_struct.pairVec.size());
-    displayPairs();
     populateMainAndPend();
+    displayPairs();
     createIteratorVec();
     std::cout << "--------------------\n";
     mergeInsertSort();
