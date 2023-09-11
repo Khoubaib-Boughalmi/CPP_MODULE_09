@@ -116,7 +116,9 @@ void populateMainAndPend(void) {
     }
 }
 
-void oldmergeinsert(void) {
+void mergeinsert(void) {
+    int arr[] = {0, 3, 5, 11};
+
     std::vector <int>::iterator it;
     for (size_t i = 0; i < g_struct.pend.size(); i++)
     {
