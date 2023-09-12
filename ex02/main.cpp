@@ -108,7 +108,7 @@ void displayPairs() {
     }
 }
 
-void populateMainAndPend(void) {
+void populateMainAndPendVec(void) {
     for (size_t i = 0; i < g_struct.pairVec.size(); i++) //i think i should check for odd pairs not sure
     {
         g_struct.pend.push_back(g_struct.pairVec[i].first);
@@ -156,13 +156,6 @@ void mergeInsertSort(void) {
     }
 }
 
-void createIteratorVec(void) {
-    g_struct.itArr = new std::vector <int>::iterator[g_struct.main.size()];
-    std::vector <int>::iterator it = g_struct.main.begin();
-    for (size_t i = 0; i < g_struct.main.size(); i++)
-        g_struct.itArr[i] = it++;    
-}
-
 int main(int argc, char **argv)
 {
     if(argc != 2) {
@@ -182,9 +175,8 @@ int main(int argc, char **argv)
     pairVecEndIterator = g_struct.pairVec.end();
     sortPairs(pairVecIterator, pairVecEndIterator);
     recursiveInsertionSort(g_struct.pairVec, g_struct.pairVec.size());
-    populateMainAndPend();
+    populateMainAndPendVec();
     displayPairs();
-    createIteratorVec();
     std::cout << "--------------------\n";
     mergeInsertSort();
     for (size_t i = 0; i < g_struct.main.size(); i++)

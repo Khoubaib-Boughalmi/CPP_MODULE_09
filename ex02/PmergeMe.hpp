@@ -18,4 +18,14 @@ struct s_struct {
     std::vector <int>::iterator *itArr; // MAKE SURE TO FREE THIS AT THE END
     std::vector <int> pend;
 };
+
+struct l_struct {
+    int size;
+    int stranggler;
+    std::list<int> initialInputVec;
+    std::list< std::pair<int, int> > pairVec;
+    std::list <int> main;
+    std::list <int>::iterator *itArr; // MAKE SURE TO FREE THIS AT THE END
+    std::list <int> pend;
+};
 #endif
