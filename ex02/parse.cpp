@@ -13,12 +13,12 @@ int parseInput(char *input) {
     long val;
     std::string strVal;
 
-    g_struct.size = 0;
+    g_vec_struct.size = 0;
     while (*input) {
         while (*input == ' ' || *input == '\t') 
             input++;
         if(*input && isdigit(*input)) {
-            g_struct.size++;
+            g_vec_struct.size++;
             strVal = "";
             while (*input != '\0' && isdigit(*input)) {
                 strVal += *input;
@@ -27,7 +27,8 @@ int parseInput(char *input) {
             val = strtol(strVal.c_str(), NULL, 10);
             if(val > INT_MAX)
                 return (0);
-            g_struct.initialInputVec.push_back(val);
+            g_vec_struct.initialInputVec.push_back(val);
+            g_list_struct.initialInputList.push_back(val);
         }
     }
     return (1);
