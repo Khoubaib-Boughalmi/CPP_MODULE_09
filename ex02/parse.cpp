@@ -28,7 +28,10 @@ int parseInput(char *input) {
             if(val > INT_MAX)
                 return (0);
             g_vec_struct.initialInputVec.push_back(val);
+            g_list_struct.initialInput_list.push_back(val);
         }
     }
+    g_list_struct.stranggler = -1;
+    g_vec_struct.stranggler = -1;
     return (1);
 }

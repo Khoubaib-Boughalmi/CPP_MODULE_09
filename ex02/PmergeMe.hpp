@@ -24,7 +24,7 @@ extern struct l_struct g_list_struct;
 
 struct l_struct {
     int size;
-    int stranggler = -1;
+    int stranggler;
     std::list<int> initialInput_list;
     std::list< std::pair<int, int> > pair_list;
     std::list <int> main;

@@ -1,6 +1,7 @@
 #include "PmergeMe.hpp"
 
 struct s_struct g_vec_struct;
+struct l_struct g_list_struct;
 
 int jacobsthal(int n) {
     if (n == 0)
@@ -123,6 +124,15 @@ void mergeInsertSort_vec(void) {
     }
 }
 
+void insertStranggler_vec() {
+    if(g_vec_struct.stranggler >= 0)
+    {
+        std::vector<int>::iterator it;
+        it = std::upper_bound(g_vec_struct.main.begin(), g_vec_struct.main.end(), g_vec_struct.stranggler);
+        g_vec_struct.main.insert(it, g_vec_struct.stranggler);
+    }
+}
+
 int main(int argc, char **argv)
 {
     if(argc != 2) {
@@ -146,6 +156,7 @@ int main(int argc, char **argv)
     displayPairs_vec();
     std::cout << "--------------------\n";
     mergeInsertSort_vec();
+    insertStranggler_vec();
     for (size_t i = 0; i < g_vec_struct.main.size(); i++)
         std::cout << g_vec_struct.main[i] << " ";
     return (0);
