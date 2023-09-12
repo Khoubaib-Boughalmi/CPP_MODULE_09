@@ -38,7 +38,7 @@ void recursiveInsertionSort(std::list<std::pair<int, int> >& myList, std::list<s
 void populateMainAndPendList(void) {
     std::list<std::pair<int, int> >::iterator it;
     it = g_struct.pairVec.begin();
-    for (it; it != g_struct.pairVec.end(); ++it) {
+    for (; it != g_struct.pairVec.end(); ++it) {
         g_struct.pend.push_back(it->first);
         g_struct.main.push_back(it->second);
     }
@@ -72,11 +72,11 @@ void mergeInsertSort(void) {
 }
 
 int main() {
-    g_struct.pairVec.push_back(std::make_pair(2, 7));
-    g_struct.pairVec.push_back(std::make_pair(3, 1));
-    g_struct.pairVec.push_back(std::make_pair(1, 4));
-    g_struct.pairVec.push_back(std::make_pair(2, 0));
-    g_struct.pairVec.push_back(std::make_pair(4, 5));
+    g_struct.pairVec.push_back(std::make_pair(7, 0));
+    // g_struct.pairVec.push_back(std::make_pair(3, 1));
+    // g_struct.pairVec.push_back(std::make_pair(8, 4));
+    // g_struct.pairVec.push_back(std::make_pair(6, 0));
+    // g_struct.pairVec.push_back(std::make_pair(10, 5));
     
     std::cout << "Original List:" << std::endl;
     std::list<std::pair<int, int> >::iterator it;
@@ -91,7 +91,7 @@ int main() {
     }
     std::cout << "\n";
     populateMainAndPendList();
-
+    mergeInsertSort();
     std::list<int>::iterator lIt;
     for (lIt = g_struct.main.begin(); lIt != g_struct.main.end(); ++lIt) {
         std::cout << "(" << *lIt << ") ";

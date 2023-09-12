@@ -1,7 +1,5 @@
 #include "PmergeMe.hpp"
 
-struct s_struct g_struct;
-
 int jacobsthal(int n) {
     if (n == 0)
         return 0;
@@ -9,39 +7,6 @@ int jacobsthal(int n) {
         return 1;
     else
         return jacobsthal(n - 1) + 2 * jacobsthal(n - 2);
-}
-
-int validateInput(char *input) {
-    size_t i = 0;
-    while (input[i] && (input[i] == ' ' || input[i] == '\t' || isdigit(input[i])))
-        i++;
-    if(input[i])
-        return (0);
-    return (1);
-}
-
-int parseInput(char *input) {
-    long val;
-    std::string strVal;
-
-    g_struct.size = 0;
-    while (*input) {
-        while (*input == ' ' || *input == '\t') 
-            input++;
-        if(*input && isdigit(*input)) {
-            g_struct.size++;
-            strVal = "";
-            while (*input != '\0' && isdigit(*input)) {
-                strVal += *input;
-                input++;
-            }
-            val = strtol(strVal.c_str(), NULL, 10);
-            if(val > INT_MAX)
-                return (0);
-            g_struct.initialInputVec.push_back(val);
-        }
-    }
-    return (1);
 }
 
 void populatePairVec(void) {
@@ -180,8 +145,6 @@ int main(int argc, char **argv)
     std::cout << "--------------------\n";
     mergeInsertSort();
     for (size_t i = 0; i < g_struct.main.size(); i++)
-    {
         std::cout << g_struct.main[i] << " ";
-    }
     return (0);
 }

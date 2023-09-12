@@ -19,6 +19,8 @@ struct s_struct {
     std::vector <int> pend;
 };
 
+extern struct s_struct g_struct;
+
 struct l_struct {
     int size;
     int stranggler;
@@ -28,4 +30,8 @@ struct l_struct {
     std::list <int>::iterator *itArr; // MAKE SURE TO FREE THIS AT THE END
     std::list <int> pend;
 };
+
+int validateInput(char *input);
+int parseInput(char *input);
+
 #endif
