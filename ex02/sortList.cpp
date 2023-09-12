@@ -108,7 +108,7 @@ void mergeInsertSort_list(void) {
 void populatePair_list() {
     if(g_list_struct.initialInput_list.size() % 2)
     {
-        g_list_struct.stranggler = *(g_list_struct.initialInput_list.end()--);
+        g_list_struct.stranggler = *(std::prev(g_list_struct.initialInput_list.end()));
         g_list_struct.initialInput_list.pop_back();
     }
     std::list< int >::iterator it = g_list_struct.initialInput_list.begin();
@@ -125,14 +125,21 @@ void displayPairs_list(void) {
     }
 }
 
+void insertStranggler_list() {
+    if(g_list_struct.stranggler >= 0)
+    {
+        std::list<int>::iterator it;
+        it = std::upper_bound(g_list_struct.main.begin(), g_list_struct.main.end(), g_list_struct.stranggler);
+        g_list_struct.main.insert(it, g_list_struct.stranggler);
+    }
+}
 
-int main(int argc, char **argv) {
-    // g_list_struct.pair_list.push_back(std::make_pair(7, 0));
-    // g_list_struct.pair_list.push_back(std::make_pair(3, 1));
-    // g_list_struct.pair_list.push_back(std::make_pair(8, 4));
-    // g_list_struct.pair_list.push_back(std::make_pair(6, 2));
-    // g_list_struct.pair_list.push_back(std::make_pair(9, 5));
-    
+
+int main(int argc, char **argv) {    
+    if(argc != 2) {
+        std::cout << "Problem with input" << std::endl;
+        return (1);
+    }
     if(!validateInput(argv[1]) || !parseInput(argv[1])) {
         std::cout << "Problem with input" << std::endl;
         return (1);
@@ -143,7 +150,6 @@ int main(int argc, char **argv) {
     {
         std::cout << *itTemp << " ";
     }
-    
     populatePair_list();
     displayPairs_list();
     std::cout << "Original List:" << std::endl;
@@ -160,6 +166,7 @@ int main(int argc, char **argv) {
     std::cout << "\n";
     populateMainAndPend_list();
     mergeInsertSort_list();
+    insertStranggler_list();
     std::list<int>::iterator lIt;
     for (lIt = g_list_struct.main.begin(); lIt != g_list_struct.main.end(); ++lIt) {
         std::cout << "(" << *lIt << ") ";

@@ -19,12 +19,12 @@ struct s_struct {
     std::vector <int> pend;
 };
 
-extern struct s_struct g_struct;
+extern struct s_struct g_vec_struct;
 extern struct l_struct g_list_struct;
 
 struct l_struct {
     int size;
-    int stranggler;
+    int stranggler = -1;
     std::list<int> initialInput_list;
     std::list< std::pair<int, int> > pair_list;
     std::list <int> main;
