@@ -1,44 +1,4 @@
-#include <iostream>
-#include <list>
 #include "PmergeMe.hpp"
-
-struct l_struct g_list_struct;
-
-int validateInput(char *input) {
-    size_t i = 0;
-    while (input[i] && (input[i] == ' ' || input[i] == '\t' || isdigit(input[i])))
-        i++;
-    if(input[i])
-        return (0);
-    return (1);
-}
-
-int parseInput(char *input) {
-    long val;
-    std::string strVal;
-
-    // g_vec_struct.size = 0;
-    while (*input) {
-        while (*input == ' ' || *input == '\t') 
-            input++;
-        if(*input && isdigit(*input)) {
-            // g_vec_struct.size++;
-            strVal = "";
-            while (*input != '\0' && isdigit(*input)) {
-                strVal += *input;
-                input++;
-            }
-            val = strtol(strVal.c_str(), NULL, 10);
-            if(val > INT_MAX)
-                return (0);
-            // g_vec_struct.initialInputVec.push_back(val);
-            g_list_struct.initialInput_list.push_back(val);
-        }
-    }
-    g_list_struct.stranggler = -1;
-    // g_vec_struct.stranggler = -1;
-    return (1);
-}
 
 // Function to insert an element at the correct position in the list
 void insert_list(std::list<std::pair<int, int> >& myList, std::list<std::pair<int, int> >::iterator itr) {
@@ -97,7 +57,6 @@ void mergeInsertSort_list(void) {
     std::list <int>::iterator pendIt = g_list_struct.pend.begin();
     std::list <int>::iterator tmpStop;
     std::list <int>::iterator itUpperBound;
-    std::list <int>::iterator itStop = g_list_struct.main.begin();
 
     for (size_t i = 0; i < g_list_struct.pend.size(); i++)
     {
@@ -115,7 +74,7 @@ void populatePair_list() {
     }
     std::list< int >::iterator it = g_list_struct.initialInput_list.begin();
     for (; it != g_list_struct.initialInput_list.end(); it++)
-        g_list_struct.pair_list.push_back(std::make_pair(*it, *(++it)));       
+        g_list_struct.pair_list.push_back(std::make_pair(*it, *(it++))); //differs from linux to mac   
 }
 
 void displayPairs_list(void) {
@@ -134,44 +93,4 @@ void insertStranggler_list() {
         it = std::upper_bound(g_list_struct.main.begin(), g_list_struct.main.end(), g_list_struct.stranggler);
         g_list_struct.main.insert(it, g_list_struct.stranggler);
     }
-}
-
-
-int main(int argc, char **argv) {    
-    if(argc != 2) {
-        std::cout << "Problem with input" << std::endl;
-        return (1);
-    }
-    if(!validateInput(argv[1]) || !parseInput(argv[1])) {
-        std::cout << "Problem with input" << std::endl;
-        return (1);
-    }
-    std::list<int>::iterator itTemp = g_list_struct.initialInput_list.begin();
-    std::cout << "INITAIL: ";
-    for (;itTemp != g_list_struct.initialInput_list.end(); itTemp++)
-    {
-        std::cout << *itTemp << " ";
-    }
-    populatePair_list();
-    displayPairs_list();
-    std::cout << "Original List:" << std::endl;
-    std::list<std::pair<int, int> >::iterator it;
-    for (it = g_list_struct.pair_list.begin(); it != g_list_struct.pair_list.end(); ++it) {
-        std::cout << "(" << it->first << ", " << it->second << ") ";
-    }
-    sortPairs_list();
-    recursiveInsertionSort_list(g_list_struct.pair_list, std::prev(g_list_struct.pair_list.end()));
-    std::cout << "\nSorted List based on the second element (with tie-breaker on first element):" << std::endl;
-    for (it = g_list_struct.pair_list.begin(); it != g_list_struct.pair_list.end(); ++it) {
-        std::cout << "(" << it->first << ", " << it->second << ") ";
-    }
-    std::cout << "\n";
-    populateMainAndPend_list();
-    mergeInsertSort_list();
-    insertStranggler_list();
-    std::list<int>::iterator lIt;
-    for (lIt = g_list_struct.main.begin(); lIt != g_list_struct.main.end(); ++lIt) {
-        std::cout << "(" << *lIt << ") ";
-    }
-    return 0;
 }

@@ -13,35 +13,23 @@ void assembleVectorLogic() {
     sortPairs_vec(pairVecIterator, pairVecEndIterator);
     recursiveInsertionSort_vec(g_vec_struct.pairVec, g_vec_struct.pairVec.size());
     populateMainAndPend_vec();
-    displayPairs_vec();
-    std::cout << "--------------------\n";
     mergeInsertSort_vec();
     insertStranggler_vec();
     for (size_t i = 0; i < g_vec_struct.main.size(); i++)
         std::cout << g_vec_struct.main[i] << " ";
+    std::cout << std::endl;
 }
 
 void assembleListLogic() {
     populatePair_list();
-    displayPairs_list();
-    std::cout << "Original List:" << std::endl;
-    std::list<std::pair<int, int> >::iterator it;
-    for (it = g_list_struct.pair_list.begin(); it != g_list_struct.pair_list.end(); ++it) {
-        std::cout << "(" << it->first << ", " << it->second << ") ";
-    }
     sortPairs_list();
     recursiveInsertionSort_list(g_list_struct.pair_list, std::prev(g_list_struct.pair_list.end()));
-    std::cout << "\nSorted List based on the second element (with tie-breaker on first element):" << std::endl;
-    for (it = g_list_struct.pair_list.begin(); it != g_list_struct.pair_list.end(); ++it) {
-        std::cout << "(" << it->first << ", " << it->second << ") ";
-    }
-    std::cout << "\n";
     populateMainAndPend_list();
     mergeInsertSort_list();
     insertStranggler_list();
     std::list<int>::iterator lIt;
     for (lIt = g_list_struct.main.begin(); lIt != g_list_struct.main.end(); ++lIt) {
-        std::cout << "(" << *lIt << ") ";
+        std::cout << *lIt << " ";
     }
 }
 
