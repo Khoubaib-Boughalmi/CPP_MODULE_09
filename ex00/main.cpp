@@ -1,4 +1,4 @@
-#include "BitcoinExchange.h"
+#include "BitcoinExchange.hpp"
 
 std::map<std::string, double>fDataMap;
 
