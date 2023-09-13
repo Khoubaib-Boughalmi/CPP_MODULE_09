@@ -4,6 +4,8 @@ CFLAGS= -std=c++98 -Wall -Wextra -Werror
 
 SRCS =	main.cpp \
 		parse.cpp \
+		sortVector.cpp \
+		sortList.cpp \
 		PmergeMe.cpp
 
 %.o:%.cpp

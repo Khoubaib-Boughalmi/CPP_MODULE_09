@@ -36,7 +36,7 @@ int parseInput(char *input) {
         }
     }
     g_list_struct.stranggler = -1;
-    g_vec_struct.stranggler = -1;
+    // g_vec_struct.stranggler = -1;
     return (1);
 }
 
@@ -115,7 +115,7 @@ void populatePair_list() {
     }
     std::list< int >::iterator it = g_list_struct.initialInput_list.begin();
     for (; it != g_list_struct.initialInput_list.end(); it++)
-        g_list_struct.pair_list.push_back(std::make_pair(*it, *(it++)));       
+        g_list_struct.pair_list.push_back(std::make_pair(*it, *(++it)));       
 }
 
 void displayPairs_list(void) {
