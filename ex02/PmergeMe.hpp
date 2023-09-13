@@ -8,6 +8,7 @@
 #include <climits>
 #include <algorithm>
 #include <iostream>
+#include <ctime>
 
 struct s_struct {
     int size;
