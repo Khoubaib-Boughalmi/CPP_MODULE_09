@@ -111,13 +111,24 @@ void mergeInsertSort_vec(void) {
     std::vector <int>::iterator itUpperBound;
     std::vector <int>::iterator tmpStop;
     std::vector <int>::iterator itStop = g_vec_struct.main.begin();
-    // int currentJSIndex = 3;
-    std::advance(itStop, 4);
-    mergeInsertSortFirstTwoElements_vec();
-    for (size_t i = 2; i < g_vec_struct.pend.size(); i++)
+    if(g_vec_struct.initialInputVec.size() > 2)
     {
-        itUpperBound = std::upper_bound(g_vec_struct.main.begin(), g_vec_struct.main.end(), g_vec_struct.pend[i]);
-        g_vec_struct.main.insert(itUpperBound, g_vec_struct.pend[i]);
+        std::advance(itStop, 4);
+        mergeInsertSortFirstTwoElements_vec();
+        for (size_t i = 2; i < g_vec_struct.pend.size(); i++)
+        {
+            itUpperBound = std::upper_bound(g_vec_struct.main.begin(), g_vec_struct.main.end(), g_vec_struct.pend[i]);
+            g_vec_struct.main.insert(itUpperBound, g_vec_struct.pend[i]);
+        }
+    }
+    else
+    {
+        for (size_t i = 0; i < g_vec_struct.pend.size(); i++)
+        {
+            itUpperBound = std::upper_bound(g_vec_struct.main.begin(), g_vec_struct.main.end(), g_vec_struct.pend[i]);
+            g_vec_struct.main.insert(itUpperBound, g_vec_struct.pend[i]);
+        }
+
     }
 }
 

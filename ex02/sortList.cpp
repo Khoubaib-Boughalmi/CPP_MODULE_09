@@ -15,19 +15,14 @@ void insert_list(std::list<std::pair<int, int> >& myList, std::list<std::pair<in
     }
 }
 
-//  Recursive Insertion Sort function
 void recursiveInsertionSort_list(std::list<std::pair<int, int> >& myList, std::list<std::pair<int, int> >::iterator current) {
     if (current == myList.begin()) {
-        return;  // Base case: If we have reached the beginning of the list, we are done.
+        return;
     }
 
     std::list<std::pair<int, int> >::iterator prev = current;
     --prev;
-
-    // Sort the rest of the list recursively
     recursiveInsertionSort_list(myList, prev);
-
-    // Insert the current element at the correct position
     insert_list(myList, current);
 }
 
