@@ -69,7 +69,7 @@ void populatePair_list() {
     }
     std::list< int >::iterator it = g_list_struct.initialInput_list.begin();
     for (; it != g_list_struct.initialInput_list.end(); it++)
-        g_list_struct.pair_list.push_back(std::make_pair(*it, *(it++))); //differs from linux to mac   
+        g_list_struct.pair_list.push_back(std::make_pair(*it, *(++it))); //differs from linux to mac   
 }
 
 void displayPairs_list(void) {
