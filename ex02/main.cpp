@@ -57,17 +57,22 @@ void assembleListLogic() {
 
 int main(int argc, char **argv)
 {
+    std::string input;
     if(argc < 2) {
         std::cout << "Problem with input" << std::endl;
-        std::cout << "DASDASDASDASDASD" << std::endl;
         return (1);
     }
-    if(!validateInput(argv[1]) || !parseInput(argv[1])) {
+    for (int i = 1; i < argc; i++)
+        input = input + argv[i] + " ";  
+    if(!validateInput(const_cast<char *>(input.c_str())) || !parseInput(const_cast<char *>(input.c_str()))) {
         std::cout << "Problem with input" << std::endl;
         return (1);
     }
-    // if(g_vec_struct.initialInputVec.size() < 2)
-    //     return (0);
+    if(g_vec_struct.initialInputVec.size() < 2)
+    {
+        std::cout << "Can't sort a single number" << std::endl;
+        return (0);
+    }
     assembleVectorLogic();
     assembleListLogic();
     return (0);
